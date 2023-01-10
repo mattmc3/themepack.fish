@@ -5,7 +5,7 @@
 
 ## Description
 
-In its [3.4 release](fish_3_4), The Fish shell defined a new way of handling themes. Setting themes has always been available via the `fish_config` web interface, but now there is a robust command line interface as well as the ability to easily define your own themes with `.theme` files. Many great Fish theme plugins have taken awhile to catch up to this new method. This Theme Pack pulls together some of the best [Fish themes](gh-topic-fish-theme] into one place and gives you acceess to all the goodies that come now with using `.theme` files.
+In its [3.4 release][fish_3_4], The Fish shell defined a new way of handling themes. Setting themes has always been available via the `fish_config` web interface, but now there is a robust command line interface as well as the ability to easily define your own themes with `.theme` files. Many great Fish theme plugins have taken awhile to catch up to this new method. This Theme Pack pulls together some of the best [Fish themes][gh-topic-fish-theme] into one place and gives you acceess to all the goodies that come now with using `.theme` files.
 
 Setting up themes this way gives support for [the built-in theme configuration commands](fish_config].
 
@@ -17,7 +17,7 @@ themepak.fish is not meant to house every theme. Its intent is to expand the sel
 
 ## Installation
 
-The recommended way to install themepack.fish is with [Fisher](fisher], the popular Fish plugin manager.
+The recommended way to install themepack.fish is with [Fisher][fisher], the popular Fish plugin manager.
 
 ```fish
 fisher install mattmc3/themepack.fish
@@ -49,8 +49,8 @@ A proper Fish theme plugin meets these simple criteria. The theme:
 - is defined using Fish `.theme` files and works with `fish_config`
 - can co-exist with other themes (ie: **NO** _only-set-this-theme_ scripts in `conf.d`)
 - is maintained, and defines nearly all modern Fish color variables
-- is properly installable with a theme-aware plugin manager (eg: [Fisher](fisher])
-- is properly labeled for discoverability (ie: using GitHub's [fish-theme topic](gh-topic-fish-theme])
+- is properly installable with a theme-aware plugin manager (eg: [Fisher][fisher])
+- is properly labeled for discoverability (ie: using GitHub's [fish-theme topic][gh-topic-fish-theme])
 
 
 ## Adding themepack.fish themes
@@ -63,8 +63,8 @@ In an effort to not bloat this project with too many themes, only a limited numb
 
 ### Themes included in this themepack.fish:
 
-- [Lighthaus](lighthaus]
-- [TokyoNight](tokyonight]
+- [Lighthaus][lighthaus]
+- [TokyoNight][tokyonight]
 
 ### Other great themes
 
@@ -72,31 +72,31 @@ In an effort to not bloat this project with too many themes, only a limited numb
 
 ### Themes included with Fish
 
-- [fish default](fish_incl_themes)
-- [ayu Dark](fish_incl_themes)
-- [ayu Light](fish_incl_themes)
-- [ayu Mirage](fish_incl_themes)
-- [Base16 Default Dark](fish_incl_themes)
-- [Base16 Default Light](fish_incl_themes)
-- [Base16 Eighties](fish_incl_themes)
-- [Bay Cruise](fish_incl_themes)
-- [Cool Beans](fish_incl_themes)
-- [Dracula](fish_incl_themes)
-- [Fairground](fish_incl_themes)
-- [Just a Touch](fish_incl_themes)
-- [Lava](fish_incl_themes)
-- [Mono Lace](fish_incl_themes)
-- [Mono Smoke](fish_incl_themes)
-- [(Almost) No Colors](fish_incl_themes)
-- [Nord](fish_incl_themes)
-- [Old School](fish_incl_themes)
-- [Seaweed](fish_incl_themes)
-- [Snow Day](fish_incl_themes)
-- [Solarized Dark](fish_incl_themes)
-- [Solarized Light](fish_incl_themes)
-- [Tomorrow Night Bright](fish_incl_themes)
-- [Tomorrow Night](fish_incl_themes)
-- [Tomorrow](fish_incl_themes)
+- [fish default][fish_incl_themes]
+- [ayu Dark][fish_incl_themes]
+- [ayu Light][fish_incl_themes]
+- [ayu Mirage][fish_incl_themes]
+- [Base16 Default Dark][fish_incl_themes]
+- [Base16 Default Light][fish_incl_themes]
+- [Base16 Eighties][fish_incl_themes]
+- [Bay Cruise][fish_incl_themes]
+- [Cool Beans][fish_incl_themes]
+- [Dracula][fish_incl_themes]
+- [Fairground][fish_incl_themes]
+- [Just a Touch][fish_incl_themes]
+- [Lava][fish_incl_themes]
+- [Mono Lace][fish_incl_themes]
+- [Mono Smoke][fish_incl_themes]
+- [(Almost) No Colors][fish_incl_themes]
+- [Nord][fish_incl_themes]
+- [Old School][fish_incl_themes]
+- [Seaweed][fish_incl_themes]
+- [Snow Day][fish_incl_themes]
+- [Solarized Dark][fish_incl_themes]
+- [Solarized Light][fish_incl_themes]
+- [Tomorrow Night Bright][fish_incl_themes]
+- [Tomorrow Night][fish_incl_themes]
+- [Tomorrow][fish_incl_themes]
 
 
 [fish_config]:          https://fishshell.com/docs/current/cmds/fish_config.html
