@@ -1,5 +1,6 @@
 # name: 'TokyoNight - Night'
 # preferred_background: 1a1b26
+# upstream url: https://github.com/folke/tokyonight.nvim
 
 # color-palette {
 #  background: #1a1b26;
