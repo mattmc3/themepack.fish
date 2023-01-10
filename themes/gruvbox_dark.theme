@@ -17,7 +17,7 @@
 
 fish_color_autosuggestion d3869b
 fish_color_cancel -r
-fish_color_command 8ec07c
+fish_color_command fb4934
 fish_color_comment 7c6f64
 fish_color_cwd b8bb26
 fish_color_cwd_root fb4934
@@ -27,13 +27,13 @@ fish_color_escape 83a598
 fish_color_history_current --bold
 fish_color_host normal
 fish_color_host_remote fabd2f
-fish_color_keyword 83a598
+fish_color_keyword fb4934
 fish_color_match --background=83a598
 fish_color_normal ebdbb2
-fish_color_operator b8bb26
-fish_color_option 8ec07c
-fish_color_param d3869b
-fish_color_quote fabd2f
+fish_color_operator 8ec07c
+fish_color_option d3869b
+fish_color_param ebdbb2
+fish_color_quote b8bb26
 fish_color_redirection ebdbb2
 fish_color_search_match --background=504945
 fish_color_selection --background=504945
