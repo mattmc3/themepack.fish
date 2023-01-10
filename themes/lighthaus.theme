@@ -1,5 +1,5 @@
 # name: 'Lighthaus'
-# preferred_background: 18191E
+# preferred_background: 18191e
 
 # Lighthaus Color theme for Fish Shell
 # GIT: https://github.com/lighthaus-theme/fish
@@ -11,59 +11,60 @@
 # Copyright © 2021-Present Vasundhara Sharma
 
 # LIGHTHAUS COLORS
-#
-# black     18191E
-# brblack   8E8D8D
-# red       FC2929
-# brred     FF5050
-# green     44B273
-# brgreen   50C16E
-# orange    E25600
-# brorange  ED722E
-# blue      1D918B
-# brblue    47A8A1
-# purple    D16BB7
-# brpurple  D68EB2
-# cyan      00BFA4
-# brcyan    5AD1AA
-# white     CCCCCC
-# brwhite   FFFADE
-# fg        FFEE79
-# sel_fg    FF4D00
-# sel_bg    090B26
-# bold      FFFF00
+# color-palette {
+#   black:    #18191e;
+#   brblack:  #8e8d8d;
+#   red:      #fc2929;
+#   brred:    #ff5050;
+#   green:    #44b273;
+#   brgreen:  #50c16e;
+#   orange:   #e25600;
+#   brorange: #ed722e;
+#   blue:     #1d918b;
+#   brblue:   #47a8a1;
+#   purple:   #d16bb7;
+#   brpurple: #d68eb2;
+#   cyan:     #00bfa4;
+#   brcyan:   #5ad1aa;
+#   white:    #cccccc;
+#   brwhite:  #fffade;
+#   fg:       #ffee79;
+#   sel_fg:   #ff4d00;
+#   sel_bg:   #090b26;
+#   bold:     #ffff00;
+# }
 
-fish_color_normal FFEE79
-fish_color_command 50C16E
-fish_color_quote 5AD1AA
-fish_color_redirection FFEE79
-fish_color_end ED722E
-fish_color_error FC2929
-fish_color_param ED722E
-fish_color_comment CCCCCC
-fish_color_match E25600
-fish_color_search_match FFFF00
-fish_color_operator 00BFA4
-fish_color_escape 47A8A1
-fish_color_cwd 5AD1AA
-fish_color_autosuggestion 8E8D8D
-fish_color_user 50C16E
-fish_color_host 47A8A1
-fish_color_cancel FF5050
-fish_color_cwd_root FC2929
+fish_color_normal ffee79
+fish_color_command 50c16e
+fish_color_quote 5ad1aa
+fish_color_redirection ffee79
+fish_color_end ed722e
+fish_color_error fc2929
+fish_color_param ed722e
+fish_color_comment cccccc
+fish_color_match e25600
+fish_color_search_match ffff00
+fish_color_operator 00bfa4
+fish_color_escape 47a8a1
+fish_color_cwd 5ad1aa
+fish_color_autosuggestion 8e8d8d
+fish_color_user 50c16e
+fish_color_host 47a8a1
+fish_color_cancel ff5050
+fish_color_cwd_root fc2929
 fish_color_history_current --bold
-fish_color_host_remote E25600
-fish_color_keyword 1D918B
-fish_color_option 00BFA4
-fish_color_selection CCCCCC --bold --background=8E8D8D
-fish_color_status FC2929
+fish_color_host_remote e25600
+fish_color_keyword 1d918b
+fish_color_option 00bfa4
+fish_color_selection cccccc --bold --background=8e8d8d
+fish_color_status fc2929
 fish_color_valid_path --underline
 
-fish_pager_color_prefix 47A8A1
-fish_pager_color_completion 5AD1AA
-fish_pager_color_description CCCCCC
-fish_pager_color_progress 8E8D8D
-fish_pager_color_secondary 8E8D8D
+fish_pager_color_prefix 47a8a1
+fish_pager_color_completion 5ad1aa
+fish_pager_color_description cccccc
+fish_pager_color_progress 8e8d8d
+fish_pager_color_secondary 8e8d8d
 fish_pager_color_background
 fish_pager_color_secondary_background
 fish_pager_color_secondary_completion
