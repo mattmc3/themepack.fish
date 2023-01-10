@@ -1,17 +1,19 @@
-# name: 'gruvbox'
+# name: 'gruvbox dark'
 # preferred_background: 282828
 
-# Gruvbox Color Palette
-# foreground  ebdbb2
-# selection   504945
-# comment     7c6f64
-# red         fb4934
-# orange      fe8019
-# yellow      fabd2f
-# green       b8bb26
-# purple      d3869b
-# cyan        8ec07c
-# blue        83a598
+# color-palette {
+#   background: #282828;
+#   foreground: #ebdbb2;
+#   selection:  #504945;
+#   comment:    #7c6f64;
+#   red:        #fb4934;
+#   orange:     #fe8019;
+#   yellow:     #fabd2f;
+#   green:      #b8bb26;
+#   purple:     #d3869b;
+#   cyan:       #8ec07c;
+#   blue:       #83a598;
+# }
 
 fish_color_autosuggestion d3869b
 fish_color_cancel -r
