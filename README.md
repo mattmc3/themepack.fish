@@ -102,7 +102,7 @@ In an effort to not bloat this project with too many themes, only a limited numb
 [fish_config]:          https://fishshell.com/docs/current/cmds/fish_config.html
 [fish_3_4]:             https://github.com/fish-shell/fish-shell/releases/tag/3.4.0
 [fisher]:               https://github.com/jorgebucaran/fisher
-[gh]-topic-fish-theme:  https://github.com/topics/fish-theme
+[gh-topic-fish-theme]:  https://github.com/topics/fish-theme
 [dracula]:              https://github.com/dracula/fish
 [lighthaus]:            https://github.com/lighthaus-theme/fish
 [tokyonight]:           https://github.com/folke/tokyonight.nvim
