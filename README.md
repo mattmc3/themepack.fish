@@ -28,7 +28,7 @@ fisher install mattmc3/themepack.fish
 Once you have installed themepack.fish, you should see the new themes when you run the `fish_config` web interface. You can also select the theme via the command line interface (CLI).
 
 ```fish
-fish_config theme choose Dracula
+fish_config theme choose gruvbox
 ```
 
 If you don't see the themes when you run `fish_config` make sure you have `XDG_CONFIG_HOME` properly set and exported.
@@ -63,6 +63,7 @@ In an effort to not bloat this project with too many themes, only a limited numb
 
 ### Themes included in this themepack.fish:
 
+- [gruvbox][gruvbox]
 - [Lighthaus][lighthaus]
 - [TokyoNight][tokyonight]
 
@@ -103,7 +104,7 @@ In an effort to not bloat this project with too many themes, only a limited numb
 [fish_3_4]:             https://github.com/fish-shell/fish-shell/releases/tag/3.4.0
 [fisher]:               https://github.com/jorgebucaran/fisher
 [gh-topic-fish-theme]:  https://github.com/topics/fish-theme
-[dracula]:              https://github.com/dracula/fish
+[gruvbox]:              https://github.com/morhetz/gruvbox
 [lighthaus]:            https://github.com/lighthaus-theme/fish
 [tokyonight]:           https://github.com/folke/tokyonight.nvim
 [fish_incl_themes]:     https://github.com/fish-shell/fish-shell/tree/master/share/tools/web_config/themes
