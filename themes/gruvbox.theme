@@ -1,10 +1,10 @@
-# name: 'Gruvbox'
-# preferred_background: black
+# name: 'gruvbox'
+# preferred_background: 282828
 
 # Gruvbox Color Palette
 # foreground  ebdbb2
 # selection   504945
-# comment     8f3f71
+# comment     7c6f64
 # red         fb4934
 # orange      fe8019
 # yellow      fabd2f
@@ -13,10 +13,10 @@
 # cyan        8ec07c
 # blue        83a598
 
-fish_color_autosuggestion 8f3f71
+fish_color_autosuggestion d3869b
 fish_color_cancel -r
 fish_color_command 8ec07c
-fish_color_comment 8f3f71
+fish_color_comment 7c6f64
 fish_color_cwd b8bb26
 fish_color_cwd_root fb4934
 fish_color_end fe8019
@@ -40,9 +40,9 @@ fish_color_user b8bb26
 fish_color_valid_path --underline
 fish_pager_color_background
 fish_pager_color_completion ebdbb2
-fish_pager_color_description 8f3f71
+fish_pager_color_description d3869b
 fish_pager_color_prefix 8ec07c
-fish_pager_color_progress 8f3f71
+fish_pager_color_progress d3869b
 fish_pager_color_secondary_background
 fish_pager_color_secondary_completion
 fish_pager_color_secondary_description
