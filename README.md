@@ -61,7 +61,7 @@ In an effort to not bloat this project with too many themes, only a limited numb
 
 ## Discover great Fish themes
 
-### Themes included in this themepack.fish:
+### Themes included in themepack.fish:
 
 - [gruvbox][gruvbox]
 - [Lighthaus][lighthaus]
