@@ -1,0 +1,26 @@
+{
+  // comment!
+  "tokyonight_night": {
+    "name": "TokyoNight - Dark",
+    "url": "https://github.com/folke/tokyonight.nvim",
+    "fg": "#c0caf5",
+    "bg": "#1a1b26", // comment!
+    "selection": "#33467c",
+    "black": "#15161e",
+    "red": "#f7768e",
+    "green": "#9ece6a",
+    "yellow": "#e0af68",
+    "blue": "#7aa2f7",
+    "magenta": "#bb9af7",
+    "cyan": "#7dcfff",
+    "white": "#a9b1d6",
+    "brblack": "#414868",
+    "brred": "#f7768e",
+    "brgreen": "#9ece6a",
+    "bryello": "#e0af68",
+    "brblue": "#7aa2f7",
+    "brmagenta": "#bb9af7",
+    "brcyan": "#7dcfff",
+    "brwhite": "#c0caf5"
+  }
+}
