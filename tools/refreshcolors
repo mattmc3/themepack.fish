@@ -1,0 +1,24 @@
+#!/usr/bin/env fish
+
+# setup
+set -l prjroot (path dirname (status dirname))
+set -l iterm2_dir $prjroot/.cache/iterm2
+
+if not test -d $iterm2_dir
+    git clone --depth 1 --quiet https://github.com/mbadolato/iTerm2-Color-Schemes $iterm2_dir 2>/dev/null
+fi
+
+# copy the color schemes we want
+set dark_color_schemes \
+  DoomOne \
+  Jellybeans \
+  Molokai
+
+
+# use jq to combine many color scheme files into one json file we can now use
+set -l jsonfile $prjroot/tools/color_schemes.json
+rm $jsonfile &>/dev/null
+jq -s 'map( { (.name): . } ) | add' $iterm2_dir/windowsterminal/*.json >$jsonfile
+
+# cleanup
+test -d $iterm2_dir && rm -rf $iterm2_dir

@@ -1,0 +1,52 @@
+{
+  "themes": {
+    "gruvbox": {
+      "name": "gruvbox",
+      "url": "https://github.com/morhetz/gruvbox",
+      "type": "dark",
+      "fg": "#ebdbb2",
+      "bg": "#282828",
+      "selection": "#504945",
+      "black": "#282828",
+      "red": "#cc241d",
+      "green": "#98971a",
+      "yellow": "#d79921",
+      "blue": "#458588",
+      "magenta": "#b16286",
+      "cyan": "#689d6a",
+      "white": "#a89984",
+      "brblack": "#1d2021",
+      "brred": "#fb4934",
+      "brgreen": "#b8bb26",
+      "bryello": "#fabd2f",
+      "brblue": "#89a598",
+      "brmagenta": "#d3869b",
+      "brcyan": "#8ec07c",
+      "brwhite": "#928374"
+    },
+    "tokyonight_night": {
+      "name": "TokyoNight - Dark",
+      "url": "https://github.com/folke/tokyonight.nvim",
+      "type": "dark",
+      "fg": "#c0caf5",
+      "bg": "#1a1b26",
+      "selection": "#33467c",
+      "black": "#15161e",
+      "red": "#f7768e",
+      "green": "#9ece6a",
+      "yellow": "#e0af68",
+      "blue": "#7aa2f7",
+      "magenta": "#bb9af7",
+      "cyan": "#7dcfff",
+      "white": "#a9b1d6",
+      "brblack": "#414868",
+      "brred": "#f7768e",
+      "brgreen": "#9ece6a",
+      "bryello": "#e0af68",
+      "brblue": "#7aa2f7",
+      "brmagenta": "#bb9af7",
+      "brcyan": "#7dcfff",
+      "brwhite": "#c0caf5"
+    }
+  }
+}

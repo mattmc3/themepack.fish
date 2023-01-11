@@ -1,0 +1,21 @@
+#!/usr/bin/env fish
+
+# setup
+set -l prjroot (path dirname (status dirname))
+set -l iterm2_dir (mktemp -d -t gencolors)
+git clone --depth 1 --quiet https://github.com/mbadolato/iTerm2-Color-Schemes $iterm2_dir 2>/dev/null
+
+# use jq to combine many color scheme files into one json file we can now use
+set -l jsonfile $prjroot/tools/color_schemes.json
+rm $jsonfile &>/dev/null
+jq -s 'map( { (.name): . } ) | add' $iterm2_dir/windowsterminal/*.json >$jsonfile
+
+# cleanup
+test -d $iterm2_dir && rm -rf $iterm2_dir
+
+# def detect_dark_theme(self, hex):
+#         r = (hex >> 16) & 0xff
+#         g = (hex >>  8) & 0xff
+#         b = (hex >>  0) & 0xff
+
+#         return 0.2126 * r + 0.7152 * g + 0.0722 * b < 40

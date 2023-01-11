@@ -1,0 +1,14 @@
+{
+  "Gruvbox Light": {
+    "theme_name": "Gruvbox Light",
+    "theme_file": "gruvbox_light.theme",
+    "type": "light",
+    "url": "https://github.com/morhetz/gruvbox"
+  },
+  "GruvboxDark": {
+    "theme_name": "Gruvbox Dark",
+    "theme_file": "gruvbox_dark.theme",
+    "type": "dark",
+    "url": "https://github.com/morhetz/gruvbox"
+  }
+}
