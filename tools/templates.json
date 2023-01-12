@@ -5,7 +5,7 @@
     "fish_color_command": "$cyan",
     "fish_color_comment": "$comment",
     "fish_color_cwd": "$green",
-    "fish_color_cwd_root": "red",
+    "fish_color_cwd_root": "$red",
     "fish_color_end": "$yellow",
     "fish_color_error": "$red",
     "fish_color_escape": "$magenta",
