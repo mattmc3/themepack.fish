@@ -1,0 +1,41 @@
+#!/usr/bin/env fish
+
+function _tpak_refresh_iterm2
+    # setup
+    set -l prjroot (path dirname (status dirname))
+    set -l iterm2_dir (mktemp -d -t tpak)
+    git clone --depth 1 --quiet https://github.com/mbadolato/iTerm2-Color-Schemes $iterm2_dir 2>/dev/null
+
+    # use jq to combine many color scheme files into one json file we can now use
+    set -l jsonfile $prjroot/tools/iterm2_colorschemes.json
+    rm $jsonfile &>/dev/null
+    jq -s '.' $iterm2_dir/windowsterminal/*.json >$jsonfile
+
+    # cleanup
+    test -d $iterm2_dir && rm -rf $iterm2_dir
+end
+
+function is_dark_theme --argument-names color
+    # https://github.com/mbadolato/iTerm2-Color-Schemes/blob/a914b8aaada2e66b28647d82f937cb807b5dab6f/tools/converter.py#L94-L99\
+    set color (string upper $color | string replace '#' '')
+    set -l hexcolor \
+        (string sub -s 1 -l 2 $color) \
+        (string sub -s 3 -l 2 $color) \
+        (string sub -s 5 -l 2 $color)
+
+    set r (echo "ibase=16; $hexcolor[1]" | bc)
+    set g (echo "ibase=16; $hexcolor[2]" | bc)
+    set b (echo "ibase=16; $hexcolor[3]" | bc)
+
+    test (math 0.2126 x $r + 0.7152 x $g + 0.0722 x $b) -lt 40
+end
+
+function _tpak
+    switch $argv[1]
+        case refresh-iterm2
+            _tpak_refresh_iterm2 $argv[2..]
+        case *
+            echo >&2 "Unrecognized command '$argv[1]'" && return 1
+    end
+end
+_tpak $argv
