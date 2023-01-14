@@ -1,35 +1,59 @@
 #!/usr/bin/env fish
 
 set -g PRJDIR (path dirname (path resolve (status dirname)))
-set -g COLOR_SCHEMES_JSON $PRJDIR/tools/data/iterm2_colorschemes.json
+set -q XDG_CACHE_HOME || set XDG_CACHE_HOME $HOME/.cache
+set -g CACHEDIR $XDG_CACHE_HOME/themepack.fish
+set -g TPAK_TEMP (mktemp -d -t tpak)
 
-function _tpak_refresh_iterm2
+function gen_all_color_schemes
     # pre-reqs
-    if not type jq &>/dev/null
-        echo >&2 "tpak: Required tool not found 'jq'."
+    git_iterm2cs
+    if not type yq &>/dev/null
+        echo >&2 "tpak: Required tool not found 'yq'."
         return 1
     end
 
-    # setup
-    set -l iterm2_dir (mktemp -d -t tpak)
-    git clone --depth 1 --quiet https://github.com/mbadolato/iTerm2-Color-Schemes $iterm2_dir 2>/dev/null
-
-    # use jq to combine many color scheme files into one json file we can now use
-    rm $COLOR_SCHEMES_JSON &>/dev/null
-    jq -s '.' $iterm2_dir/windowsterminal/*.json >$COLOR_SCHEMES_JSON
-
-    # cleanup
-    test -d $iterm2_dir && rm -rf $iterm2_dir
+    set -l file
+    for file in $CACHEDIR/iTerm2-Color-Schemes/alacritty/*.yml
+        gen_color_scheme_from_yaml $file
+    end
 end
 
-function _gen_colorschemes
-    #set -l iterm_scheme_names (jq '.[] | .name' $COLOR_SCHEMES_JSON)
-    # jq 'map( .magenta = .purple | .brightMagenta = .brightPurple | .comment = .cursorColor | del(.purple,.brightPurple,.cursorColor))' ./data/test.json
+function gen_color_scheme_from_yaml -a ymlfile
+    set -l datadir $PRJDIR/tools/color_schemes; mkdir -p $datadir
+    set -l TPAK_TEMP (mktemp -d -t tpak)
+    set -l theme_name (path basename (path change-extension '' $ymlfile))
+    set -l theme_json_file $datadir/(to_snake_case $theme_name).json
+    set -l bg (yq '.[] | .primary | .background' $ymlfile)
+    set -l url (yq '.url' $theme_json_file 2>/dev/null)
+    test "$url" = null && set url ''
+    set -l header \
+        "name: '$theme_name'" \
+        "type: '"(determine_theme_type $bg)"'" \
+        "url: '$url'"
+
+    # Let the user know where we're at
+    echo "Generating $theme_name..."
+
+    # peel off and transform the yaml parts
+    printf "%s\n" $header >$TPAK_TEMP/$theme_name.0.yml
+    yq '.[] | .primary' $ymlfile >$TPAK_TEMP/$theme_name.1.yml
+    yq '.[] | .normal' $ymlfile >$TPAK_TEMP/$theme_name.2.yml
+    yq '.[] | .bright | with_entries(.key |= "br" + .)' $ymlfile >$TPAK_TEMP/$theme_name.3.yml
+    yq '.[] | .cursor | .color = .cursor | del(.cursor) | with_entries(.key |= "cursor_" + .)' $ymlfile >$TPAK_TEMP/$theme_name.4.yml
+    yq '.[] | .selection | with_entries(.key |= "selection_" + .)' $ymlfile >$TPAK_TEMP/$theme_name.5.yml
+
+    # avengers, assemble!
+    yq eval-all -o=json '. as $item ireduce ({}; . * $item )' $TPAK_TEMP/$theme_name.*.yml >$theme_json_file
 end
 
-function _tpak_list_iterm2_colorschemes
-    for file in (jq -r '.[] | .name' $COLOR_SCHEMES_JSON)
-        to_snake_case $file
+function git_iterm2cs
+    mkdir -p $CACHEDIR
+    set -l iterm2dir $CACHEDIR/iTerm2-Color-Schemes
+    if test -d $iterm2dir
+        git -C $iterm2dir pull --quiet
+    else
+        git clone --depth 1 --quiet https://github.com/mbadolato/iTerm2-Color-Schemes $iterm2dir 2>/dev/null
     end
 end
 
@@ -44,7 +68,7 @@ function to_snake_case -a str
     string lower
 end
 
-function is_dark_theme --argument-names color
+function determine_theme_type --argument-names color
     # https://github.com/mbadolato/iTerm2-Color-Schemes/blob/a914b8aaada2e66b28647d82f937cb807b5dab6f/tools/converter.py#L94-L99\
     set color (string upper $color | string replace '#' '')
     set -l hexcolor \
@@ -56,19 +80,24 @@ function is_dark_theme --argument-names color
     set g (echo "ibase=16; $hexcolor[2]" | bc)
     set b (echo "ibase=16; $hexcolor[3]" | bc)
 
-    test (math 0.2126 x $r + 0.7152 x $g + 0.0722 x $b) -lt 40
+    if test (math 0.2126 x $r + 0.7152 x $g + 0.0722 x $b) -lt 40
+        echo "dark"
+    else
+        echo "light"
+    end
 end
 
-function _tpak
+function tpak_main
     switch $argv[1]
-        case refresh-iterm2
-            _tpak_refresh_iterm2 $argv[2..]
-        case list-iterm2-color-schemes
-            _tpak_list_iterm2_colorschemes $argv[2..]
+        case generate-color-schemes
+            gen_all_color_schemes $argv[2..]
         case foo
-            _gen_colorschemes $argv[2..]
+            gen_all_color_schemes $argv[2..]
         case *
             echo >&2 "Unrecognized command '$argv[1]'" && return 1
     end
 end
-_tpak $argv
+tpak_main $argv
+
+# clean up
+test -d $TPAK_TEMP && rm -rf $TPAK_TEMP
