@@ -1,7 +1,7 @@
 {
   "name": "tokyonight-day",
   "type": "light",
-  "url": "",
+  "url": "https://github.com/folke/tokyonight.nvim",
   "background": "#e1e2e7",
   "foreground": "#3760bf",
   "black": "#e9e9ed",

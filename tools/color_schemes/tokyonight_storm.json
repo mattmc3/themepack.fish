@@ -1,7 +1,7 @@
 {
   "name": "tokyonight-storm",
   "type": "light",
-  "url": "",
+  "url": "https://github.com/folke/tokyonight.nvim",
   "background": "#24283b",
   "foreground": "#c0caf5",
   "black": "#1d202f",
