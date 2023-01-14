@@ -1,18 +1,47 @@
 #!/usr/bin/env fish
 
+set -g PRJDIR (path dirname (path resolve (status dirname)))
+set -g COLOR_SCHEMES_JSON $PRJDIR/tools/data/iterm2_colorschemes.json
+
 function _tpak_refresh_iterm2
+    # pre-reqs
+    if not type jq &>/dev/null
+        echo >&2 "tpak: Required tool not found 'jq'."
+        return 1
+    end
+
     # setup
-    set -l prjroot (path dirname (status dirname))
     set -l iterm2_dir (mktemp -d -t tpak)
     git clone --depth 1 --quiet https://github.com/mbadolato/iTerm2-Color-Schemes $iterm2_dir 2>/dev/null
 
     # use jq to combine many color scheme files into one json file we can now use
-    set -l jsonfile $prjroot/tools/iterm2_colorschemes.json
-    rm $jsonfile &>/dev/null
-    jq -s '.' $iterm2_dir/windowsterminal/*.json >$jsonfile
+    rm $COLOR_SCHEMES_JSON &>/dev/null
+    jq -s '.' $iterm2_dir/windowsterminal/*.json >$COLOR_SCHEMES_JSON
 
     # cleanup
     test -d $iterm2_dir && rm -rf $iterm2_dir
+end
+
+function _gen_colorschemes
+    #set -l iterm_scheme_names (jq '.[] | .name' $COLOR_SCHEMES_JSON)
+    # jq 'map( .magenta = .purple | .brightMagenta = .brightPurple | .comment = .cursorColor | del(.purple,.brightPurple,.cursorColor))' ./data/test.json
+end
+
+function _tpak_list_iterm2_colorschemes
+    for file in (jq -r '.[] | .name' $COLOR_SCHEMES_JSON)
+        to_snake_case $file
+    end
+end
+
+function to_snake_case -a str
+    # 'Abc DefGhi-(Dark)' -> 'abc_def_ghi_dark'
+    string replace -ra 'HaX0R_.+' '\L$0' $str |
+    string replace -ra '([a-z0-9])([A-Z])' '$1_$2'|
+    string replace -ra '[\s\-\(\)\.]+' '_' |
+    string replace -ra '__+' '_' |
+    string replace -ra '^_' '' |
+    string replace -ra '_$' '' |
+    string lower
 end
 
 function is_dark_theme --argument-names color
@@ -34,6 +63,10 @@ function _tpak
     switch $argv[1]
         case refresh-iterm2
             _tpak_refresh_iterm2 $argv[2..]
+        case list-iterm2-color-schemes
+            _tpak_list_iterm2_colorschemes $argv[2..]
+        case foo
+            _gen_colorschemes $argv[2..]
         case *
             echo >&2 "Unrecognized command '$argv[1]'" && return 1
     end
