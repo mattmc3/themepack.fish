@@ -1,7 +1,6 @@
 {
   "name": "ayu_light",
   "type": "light",
-  "url": "",
   "background": "#fafafa",
   "foreground": "#5c6773",
   "black": "#000000",

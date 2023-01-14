@@ -1,7 +1,6 @@
 {
   "name": "BlulocoLight",
   "type": "light",
-  "url": "",
   "background": "#f9f9f9",
   "foreground": "#373a41",
   "black": "#373a41",

@@ -1,7 +1,6 @@
 {
   "name": "Builtin Solarized Light",
   "type": "light",
-  "url": "",
   "background": "#fdf6e3",
   "foreground": "#657b83",
   "black": "#073642",

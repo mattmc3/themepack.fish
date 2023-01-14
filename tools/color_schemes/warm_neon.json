@@ -1,7 +1,6 @@
 {
   "name": "WarmNeon",
   "type": "light",
-  "url": "",
   "background": "#404040",
   "foreground": "#afdab6",
   "black": "#000000",

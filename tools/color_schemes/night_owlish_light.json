@@ -1,7 +1,6 @@
 {
   "name": "Night Owlish Light",
   "type": "light",
-  "url": "",
   "background": "#ffffff",
   "foreground": "#403f53",
   "black": "#011627",

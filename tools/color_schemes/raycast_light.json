@@ -1,7 +1,6 @@
 {
   "name": "Raycast_Light",
   "type": "light",
-  "url": "",
   "background": "#ffffff",
   "foreground": "#000000",
   "black": "#000000",

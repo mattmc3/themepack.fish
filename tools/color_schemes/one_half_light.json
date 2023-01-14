@@ -1,7 +1,6 @@
 {
   "name": "OneHalfLight",
   "type": "light",
-  "url": "",
   "background": "#fafafa",
   "foreground": "#383a42",
   "black": "#383a42",

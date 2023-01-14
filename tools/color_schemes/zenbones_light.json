@@ -1,7 +1,6 @@
 {
   "name": "zenbones_light",
   "type": "light",
-  "url": "",
   "background": "#f0edec",
   "foreground": "#2c363c",
   "black": "#f0edec",

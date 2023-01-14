@@ -26,11 +26,13 @@ function gen_color_scheme_from_yaml -a ymlfile
     set -l theme_json_file $datadir/(to_snake_case $theme_name).json
     set -l bg (yq '.[] | .primary | .background' $ymlfile)
     set -l url (yq '.url' $theme_json_file 2>/dev/null)
-    test "$url" = null && set url ''
     set -l header \
         "name: '$theme_name'" \
-        "type: '"(determine_theme_type $bg)"'" \
-        "url: '$url'"
+        "type: '"(determine_theme_type $bg)"'"
+
+    if not string match -q -r '^(null|)$' $url
+        set header $header "url: '$url'"
+    end
 
     # Let the user know where we're at
     echo "Generating $theme_name..."

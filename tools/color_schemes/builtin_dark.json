@@ -1,7 +1,6 @@
 {
   "name": "Builtin Dark",
   "type": "dark",
-  "url": "",
   "background": "#000000",
   "foreground": "#bbbbbb",
   "black": "#000000",
