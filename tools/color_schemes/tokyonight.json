@@ -2,6 +2,7 @@
   "name": "tokyonight",
   "type": "dark",
   "url": "https://github.com/folke/tokyonight.nvim",
+  "comment": "#565f89",
   "background": "#1a1b26",
   "foreground": "#c0caf5",
   "black": "#15161e",

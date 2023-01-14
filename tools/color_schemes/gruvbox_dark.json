@@ -2,6 +2,7 @@
   "name": "GruvboxDark",
   "type": "light",
   "url": "https://github.com/morhetz/gruvbox",
+  "comment": "#7c6f64",
   "background": "#282828",
   "foreground": "#ebdbb2",
   "black": "#282828",
