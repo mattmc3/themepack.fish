@@ -7,14 +7,19 @@ set -g TPAK_TEMP (mktemp -d -t tpak)
 
 function gen_all_color_schemes
     # pre-reqs
-    git_iterm2cs
     if not type yq &>/dev/null
         echo >&2 "tpak: Required tool not found 'yq'."
         return 1
     end
+    git_alacritty_repos
+
+    # Collect color scheme yaml files
+    mkdir -p $TPAK_TEMP/alacritty_yaml
+    cp $CACHEDIR/iTerm2-Color-Schemes/alacritty/*.yml $TPAK_TEMP/alacritty_yaml
+    cp $CACHEDIR/lighthaus/src/lighthaus.yml $TPAK_TEMP/alacritty_yaml
 
     set -l file
-    for file in $CACHEDIR/iTerm2-Color-Schemes/alacritty/*.yml
+    for file in $TPAK_TEMP/alacritty_yaml/*.yml
         gen_color_scheme_from_yaml $file
     end
 end
@@ -66,13 +71,22 @@ function gen_color_scheme_from_yaml -a ymlfile
     test -d $workdir && rm -rf $workdir
 end
 
-function git_iterm2cs
+function git_alacritty_repos
     mkdir -p $CACHEDIR
-    set -l iterm2dir $CACHEDIR/iTerm2-Color-Schemes
-    if test -d $iterm2dir
-        git -C $iterm2dir pull --quiet
-    else
-        git clone --depth 1 --quiet https://github.com/mbadolato/iTerm2-Color-Schemes $iterm2dir 2>/dev/null
+    set -l repos \
+        mbadolato/iTerm2-Color-Schemes \
+        lighthaus-theme/alacritty/lighthaus
+
+    set -l repo
+    for repo in $repos
+        set -l userrepo (string join '/' (string split -f 1,2 '/' $repo))
+        set -l name (string split -r -f 2 -m 1 '/' $repo)
+        set -l repodir $CACHEDIR/$name
+        if test -d $repodir
+            git -C $repodir pull --quiet
+        else
+            git clone --depth 1 --quiet https://github.com/$userrepo $repodir 2>/dev/null
+        end
     end
 end
 
@@ -112,6 +126,9 @@ function tpak_main
             gen_all_color_schemes $argv[2..]
         case foo
             gen_all_color_schemes $argv[2..]
+
+            #set -l ymlfile $PRJDIR/.cache/lighthaus/src/lighthaus.yml
+            #gen_color_scheme_from_yaml $ymlfile
         case *
             echo >&2 "Unrecognized command '$argv[1]'" && return 1
     end
