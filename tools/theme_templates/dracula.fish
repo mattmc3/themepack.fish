@@ -2,32 +2,10 @@
 # preferred_background: $background
 # url: $url
 
-# .color-palette {
-#   background: #$background;
-#   foreground: #$foreground;
-#   selection:  #$selection_background;
-#   black:      #$black;
-#   red:        #$red;
-#   green:      #$green;
-#   yellow:     #$yellow;
-#   blue:       #$blue;
-#   magenta:    #$magenta;
-#   cyan:       #$cyan;
-#   white:      #$white;
-#   brblack:    #$brblack;
-#   brred:      #$brred;
-#   brgreen:    #$brgreen;
-#   bryellow:   #$bryellow;
-#   brblue:     #$brblue;
-#   brmagenta:  #$brmagenta;
-#   brcyan:     #$brcyan;
-#   brwhite:    #$brwhite;
-# }
-
 fish_color_autosuggestion $brblack
 fish_color_cancel $red --reverse
 fish_color_command $cyan
-fish_color_comment $brblack
+fish_color_comment $comment
 fish_color_cwd $green
 fish_color_cwd_root $red
 fish_color_end $yellow
