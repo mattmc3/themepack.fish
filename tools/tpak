@@ -20,52 +20,50 @@ function gen_all_color_schemes
 end
 
 function gen_color_scheme_from_yaml -a ymlfile
-    set -l datadir $PRJDIR/tools/color_schemes; mkdir -p $datadir
-    set -l TPAK_TEMP (mktemp -d -t tpak)
+    # setup
     set -l theme_name (path basename (path change-extension '' $ymlfile))
+    set -l workdir $TPAK_TEMP/$theme_name; mkdir -p $workdir
+    set -l datadir $PRJDIR/tools/color_schemes; mkdir -p $datadir
     set -l theme_json_file $datadir/(to_snake_case $theme_name).json
     set -l bg (yq '.[] | .primary | .background' $ymlfile)
     set -l header \
         "name: '$theme_name'" \
         "type: '"(determine_theme_type $bg)"'"
 
-    # compare iterm2cs props with the json file
-    set -l iterm2cs_props \
-        name type \
-        background foreground \
-        black blue cyan green magenta red white yellow \
-        brblack brblue brcyan brgreen brmagenta brred brwhite bryellow \
-        cursor_text cursor_color \
-        selection_background selection_text
-    set -l props
-    if test -f $theme_json_file
-        set props (yq 'to_entries | .[].key' $theme_json_file)
-    else
-        set props $iterm2cs_props
-    end
-
-    # preserve any extra properties that iterm2cs doesn't have
-    set -l key; set -l val
-    for key in (string match -v -a -r (echo '('(string join '|' $iterm2cs_props)')') $props)
-        set val (yq ".$key" $theme_json_file 2>/dev/null)
-        if not string match -q -r '^(null|)$' $val
-            set header $header "$key: '$val'"
-        end
-    end
-
     # Let the user know where we're at
     echo "Generating $theme_name..."
 
-    # peel off and transform the yaml parts
-    printf "%s\n" $header >$TPAK_TEMP/$theme_name.0.yml
-    yq '.[] | .primary' $ymlfile >$TPAK_TEMP/$theme_name.1.yml
-    yq '.[] | .normal' $ymlfile >$TPAK_TEMP/$theme_name.2.yml
-    yq '.[] | .bright | with_entries(.key |= "br" + .)' $ymlfile >$TPAK_TEMP/$theme_name.3.yml
-    yq '.[] | .cursor | .color = .cursor | del(.cursor) | with_entries(.key |= "cursor_" + .)' $ymlfile >$TPAK_TEMP/$theme_name.4.yml
-    yq '.[] | .selection | with_entries(.key |= "selection_" + .)' $ymlfile >$TPAK_TEMP/$theme_name.5.yml
+    # Peel off and transform the yaml parts
+    printf "%s\n" $header >$workdir/00-header.yml
+    yq '.[] | .primary' $ymlfile | string lower >$workdir/01-primary.yml
+    yq '.[] | .normal' $ymlfile | string lower >$workdir/02-normal.yml
+    yq '.[] | .bright | with_entries(.key |= "br" + .)' $ymlfile | string lower >$workdir/03-bright.yml
+    yq '.[] | .dim | with_entries(.key |= "dim_" + .)' $ymlfile | string lower >$workdir/04-dim.yml
+    yq '.[] | .cursor | .color = .cursor | del(.cursor) | with_entries(.key |= "cursor_" + .)' $ymlfile | string lower >$workdir/05-cursor.yml
+    yq '.[] | .selection | with_entries(.key |= "selection_" + .)' $ymlfile | string lower >$workdir/06-sel.yml
 
-    # avengers, assemble!
-    yq eval-all -o=json '. as $item ireduce ({}; . * $item )' $TPAK_TEMP/$theme_name.*.yml >$theme_json_file
+    # Preserve any extra properties from json that alacritty yaml doesn't have
+    if test -f $theme_json_file
+        set -l new_props (yq eval-all '(. as $item ireduce ({}; . * $item ) | keys)[]' $workdir/*.yml)
+        set -l old_props (yq 'to_entries | .[].key' $theme_json_file)
+        set -l footer
+        set -l prop
+        for prop in $old_props
+            if not contains $prop $new_props
+                set -l val (yq ".$prop" $theme_json_file 2>/dev/null)
+                set footer $footer "$prop: '$val'"
+            end
+        end
+        if test (count $footer) -gt 0
+            printf "%s\n" $footer >$workdir/00-header2.yml
+        end
+    end
+
+    # Avengers, assemble!
+    yq eval-all -o=json '. as $item ireduce ({}; . * $item )' $workdir/*.yml >$theme_json_file
+
+    # Cleanup
+    test -d $workdir && rm -rf $workdir
 end
 
 function git_iterm2cs
