@@ -13,7 +13,7 @@ Setting up themes this way gives support for [the built-in theme configuration c
 fish_config theme (choose | demo | dump | list | save | show)
 ```
 
-themepak.fish is not meant to house every theme. Its intent is to expand the selection of themes you already get with Fish by including additional high-quality themes. This theme pack is designed to co-exist with other [properly constructed theme plugins](#fish-theme-plugin-conventions) without having to uninstall it to try a new theme.
+themepack.fish is not meant to house every theme. Its intent is to expand the selection of themes you already get with Fish by including additional high-quality themes. This theme pack is designed to co-exist with other [properly constructed theme plugins](#fish-theme-plugin-conventions) without having to uninstall it to try a new theme.
 
 ## Installation
 
