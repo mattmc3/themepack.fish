@@ -31,6 +31,8 @@ function gen_color_scheme_from_yaml -a ymlfile
     set -l datadir $PRJDIR/tools/color_schemes; mkdir -p $datadir
     set -l theme_json_file $datadir/(to_snake_case $theme_name).json
     set -l bg (yq '.[] | .primary | .background' $ymlfile)
+    set -l colororder black red green yellow blue magenta cyan white
+    set -l colorpick (echo '"'(string join '","' $colororder)'"')
     set -l header \
         "name: '$theme_name'" \
         "type: '"(determine_theme_type $bg)"'"
@@ -40,10 +42,10 @@ function gen_color_scheme_from_yaml -a ymlfile
 
     # Peel off and transform the yaml parts
     printf "%s\n" $header >$workdir/00-header.yml
-    yq '.[] | .primary' $ymlfile | string lower >$workdir/01-primary.yml
-    yq '.[] | .normal' $ymlfile | string lower >$workdir/02-normal.yml
-    yq '.[] | .bright | with_entries(.key |= "br" + .)' $ymlfile | string lower >$workdir/03-bright.yml
-    yq '.[] | .dim | with_entries(.key |= "dim_" + .)' $ymlfile | string lower >$workdir/04-dim.yml
+    yq '.[] | .primary | sort_keys(.)' $ymlfile | string lower >$workdir/01-primary.yml
+    yq '.[] | .normal | sort_keys(.) | pick(['$colorpick'] + keys | unique)' $ymlfile | string lower >$workdir/02-normal.yml
+    yq '.[] | .bright | sort_keys(.) | pick(['$colorpick'] + keys | unique) | with_entries(.key |= "br" + .)' $ymlfile | string lower >$workdir/03-bright.yml
+    yq '.[] | .dim | sort_keys(.) | with_entries(.key |= "dim_" + .)' $ymlfile | string lower >$workdir/04-dim.yml
     yq '.[] | .cursor | .color = .cursor | del(.cursor) | with_entries(.key |= "cursor_" + .)' $ymlfile | string lower >$workdir/05-cursor.yml
     yq '.[] | .selection | with_entries(.key |= "selection_" + .)' $ymlfile | string lower >$workdir/06-sel.yml
 
