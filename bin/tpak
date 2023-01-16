@@ -1,11 +1,13 @@
 #!/usr/bin/env fish
 
+# tpak - tool for generating color palette json files
+
 set -g PRJDIR (path dirname (path resolve (status dirname)))
 set -q XDG_CACHE_HOME || set XDG_CACHE_HOME $HOME/.cache
 set -g CACHEDIR $XDG_CACHE_HOME/themepack.fish
 set -g TPAK_TEMP (mktemp -d -t tpak)
 
-function gen_all_color_schemes
+function gen_all_color_files
     # pre-reqs
     if not type yq &>/dev/null
         echo >&2 "tpak: Required tool not found 'yq'."
@@ -13,28 +15,28 @@ function gen_all_color_schemes
     end
     git_alacritty_repos
 
-    # Collect color scheme yaml files
+    # Collect alacritty yaml files
     mkdir -p $TPAK_TEMP/alacritty_yaml
     cp $CACHEDIR/iTerm2-Color-Schemes/alacritty/*.yml $TPAK_TEMP/alacritty_yaml
     cp $CACHEDIR/lighthaus/src/lighthaus.yml $TPAK_TEMP/alacritty_yaml
 
     set -l file
     for file in $TPAK_TEMP/alacritty_yaml/*.yml
-        gen_color_scheme_from_yaml $file
+        gen_color_file_from_yaml $file
     end
 end
 
-function gen_color_scheme_from_yaml -a ymlfile
+function gen_color_file_from_yaml -a ymlfile
     # setup
     set -l theme_name (path basename (path change-extension '' $ymlfile))
     set -l workdir $TPAK_TEMP/$theme_name
     mkdir -p $workdir
-    set -l datadir $PRJDIR/tools/color_schemes
+    set -l datadir $PRJDIR/themes/colors
     mkdir -p $datadir
     set -l theme_json_file $datadir/(to_snake_case $theme_name).json
     set -l bg (yq '.[] | .primary | .background' $ymlfile)
     set -l colororder black red green yellow blue magenta cyan white
-    set -l colorpick (echo '"'(string join '","' $colororder)'"')
+    set -l yqcolorpick (echo '"'(string join '","' $colororder)'"')
     set -l header \
         "name: '$theme_name'" \
         "type: '"(determine_theme_type $bg)"'"
@@ -45,8 +47,8 @@ function gen_color_scheme_from_yaml -a ymlfile
     # Peel off and transform the yaml parts
     printf "%s\n" $header >$workdir/00-header.yml
     yq '.[] | .primary | sort_keys(.)' $ymlfile | string lower >$workdir/01-primary.yml
-    yq '.[] | .normal | sort_keys(.) | pick(['$colorpick'] + keys | unique)' $ymlfile | string lower >$workdir/02-normal.yml
-    yq '.[] | .bright | sort_keys(.) | pick(['$colorpick'] + keys | unique) | with_entries(.key |= "br" + .)' $ymlfile | string lower >$workdir/03-bright.yml
+    yq '.[] | .normal | sort_keys(.) | pick(['$yqcolorpick'] + keys | unique)' $ymlfile | string lower >$workdir/02-normal.yml
+    yq '.[] | .bright | sort_keys(.) | pick(['$yqcolorpick'] + keys | unique) | with_entries(.key |= "br" + .)' $ymlfile | string lower >$workdir/03-bright.yml
     yq '.[] | .dim | sort_keys(.) | with_entries(.key |= "dim_" + .)' $ymlfile | string lower >$workdir/04-dim.yml
     yq '.[] | .cursor | .color = .cursor | del(.cursor) | with_entries(.key |= "cursor_" + .)' $ymlfile | string lower >$workdir/05-cursor.yml
     yq '.[] | .selection | with_entries(.key |= "selection_" + .)' $ymlfile | string lower >$workdir/06-sel.yml
@@ -126,13 +128,21 @@ end
 
 function tpak_main
     switch $argv[1]
-        case generate-color-schemes
-            gen_all_color_schemes $argv[2..]
+        case help
+            echo "tpak - themepack.fish project build utility"
+            echo ""
+            echo "Commands:"
+            echo "  help               Show this message"
+            echo "  gen-color-files    Generate theme color json files"
+            echo "  foo                Do whatever foo thing I'm testing"
+            return
+        case gen-color-files
+            gen_all_color_files $argv[2..]
         case foo
-            gen_all_color_schemes $argv[2..]
+            gen_all_color_files $argv[2..]
 
             #set -l ymlfile $PRJDIR/.cache/lighthaus/src/lighthaus.yml
-            #gen_color_scheme_from_yaml $ymlfile
+            #gen_color_file_from_yaml $ymlfile
         case *
             echo >&2 "Unrecognized command '$argv[1]'" && return 1
     end
