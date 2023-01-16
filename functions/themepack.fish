@@ -2,27 +2,25 @@ function themepack \
     -d "Add more themes to Fish" \
     -a cmd
 
-    set -l themepack_version 1.0.0
-    set -q XDG_CACHE_HOME || set XDG_CACHE_HOME $HOME/.cache
-    set -l cachedir $XDG_CACHE_HOME/themepack.fish; mkdir -p $cachedir
-    if not test -d $cachedir/iterm2cs
-        git clone --depth 1 --quiet https://github.com/mbadolato/iTerm2-Color-Schemes $cachedir/iterm2cs 2>/dev/null
+    set -l themepack_version 0.1.0
+
+    if not set -q fish_theme_colors_path
+        set -l prjdir (path dirname (path resolve (status dirname)))
+        set -gx fish_theme_colors_path $prjdir/themes/colors
     end
 
     switch "$cmd"
         case ''
-            echo "themepack: missing subcommand"
-            echo ""
-            echo "(Type 'themepack --help' for documentation)"
+            echo >&2 "themepack: missing subcommand"
+            echo >&2 ""
+            echo >&2 "(Type 'themepack --help' for documentation)"
         case -v --version
             echo "themepack, version $themepack_version"
         case -h --help
             man themepack.fish
-        case update
-            echo "Refreshing iTerm2-Color-Schemes..."
-            git -C $cachedir/iterm2cs pull
         case list
-            for file in $cachedir/iterm2cs/alacritty/*.yml
+            set -l file
+            for file in $fish_theme_colors_path/*.json
                 path basename (path change-extension '' $file)
             end
         case generate
@@ -65,13 +63,55 @@ function themepack \
     end
 end
 
-function __themepack_generator_alacritty -a name template ymlfile
+function __themepack_prereqs
     if not type yq &>/dev/null
         echo >&2 "themepack generate: Required command not found 'yq'."
         echo >&2 ""
-        echo >&2 "Use your OS package manager to install (ie: brew install yq)."
+        echo >&2 "Use your OS package manager to install (eg: brew install yq)."
         return 1
     end
+end
+
+function __themepack_generator_default -a name template jsonfile
+    __themepack_prereqs || return 1
+
+    set code (
+        yq -o=props $jsonfile |
+        string replace -r '^' 'set -l ' |
+        string replace '= #' '= ' |
+        string replace ' = ' ' "' |
+        string replace -r '$' '"'
+    )
+    eval (string join ';' $code)
+
+    set -l fn_template "__themepack_template_"$template
+    $fn_template \
+        --name=$name \
+        --bg=$background \
+        --fg=$foreground \
+        --black=$black \
+        --red=$red \
+        --green=$green \
+        --yellow=$yellow \
+        --blue=$blue \
+        --magenta=$magenta \
+        --cyan=$cyan \
+        --white=$white \
+        --brblack=$brblack \
+        --brred=$brred \
+        --brgreen=$brgreen \
+        --bryellow=$bryellow \
+        --brblue=$brblue \
+        --brmagenta=$brmagenta \
+        --brcyan=$brcyan \
+        --brwhite=$brwhite \
+        --selection_bg=$selection_background \
+        --selection_text=$selection_text \
+        $cursor_color $cursor_text
+end
+
+function __themepack_generator_alacritty -a name template ymlfile
+    __themepack_prereqs || return 1
 
     # colors.primary.background = #c0ffee
     # transform =>
@@ -112,7 +152,8 @@ function __themepack_template_default
     set -l options \
         'name=' 'bg=' 'fg=' \
         'black=' 'red=' 'green=' 'yellow=' 'blue=' 'magenta=' 'cyan=' 'white=' \
-        'brblack=' 'brred=' 'brgreen=' 'bryellow=' 'brblue=' 'brmagenta=' 'brcyan=' 'brwhite='
+        'brblack=' 'brred=' 'brgreen=' 'bryellow=' 'brblue=' 'brmagenta=' 'brcyan=' 'brwhite=' \
+        'selection_bg=' 'selection_text='
 
     # parse args
     argparse --name=themepack_template_default $options -- $argv
