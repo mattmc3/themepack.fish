@@ -35,11 +35,13 @@ header: themepack.fish manual
 
 **themepack generate** generates a Fish .theme file.
 
-The _\-\-generator_ tells themepack what kind of color scheme file is provided. If _\-\-generator_ is not specified _alacritty_ is assumed. No other color scheme generators are currently supported, however users can easily expand the available themepack generators by implementing your own function called '__themepack_generator_XXXXX' where _XXXXX_ is whatever name you want to pass to _\-\-generator_.
+The _\-\-generator_ option tells themepack what kind of color file is provided. If _\-\-generator_ is not specified _default_ is assumed.
+
+Alacritty YAML files are also supported. The Alacritty generator can be used with the option _\-\-generator=alacritty_. Currently, no other color scheme generators are supported, however you can easily expand the available themepack generators by implementing your own function called '__themepack_generator_XXXXX' where _XXXXX_ is whatever name you want to pass to _\-\-generator_.
 
 A _\-\-template_ is simply a Fish function whose job it is to output the _.theme_ file contents. If _\-\-template_ is not specified, then _default_ is assumed.
 
-_FILE_ is the color scheme the generator uses to feed the template to create the theme file.
+_FILE_ is the color file the generator uses to feed the template to create the theme file. This file should be in the themepack JSON format, unless a different _\-\-generator_ is provided.
 
 # SEE ALSO
 

@@ -32,7 +32,7 @@ function themepack \
             argparse --name=themepack 'n/name=' 'g/generator=' 't/template=' -- $argv[2..]
             or return 1
 
-            test -n "$_flag_generator" || set _flag_generator alacritty
+            test -n "$_flag_generator" || set _flag_generator default
             set -l fn_generator "__themepack_generator_"$_flag_generator
             test -n "$_flag_template" || set _flag_template default
             set -l fn_template "__themepack_template_"$_flag_template
