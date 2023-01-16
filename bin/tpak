@@ -27,8 +27,10 @@ end
 function gen_color_scheme_from_yaml -a ymlfile
     # setup
     set -l theme_name (path basename (path change-extension '' $ymlfile))
-    set -l workdir $TPAK_TEMP/$theme_name; mkdir -p $workdir
-    set -l datadir $PRJDIR/tools/color_schemes; mkdir -p $datadir
+    set -l workdir $TPAK_TEMP/$theme_name
+    mkdir -p $workdir
+    set -l datadir $PRJDIR/tools/color_schemes
+    mkdir -p $datadir
     set -l theme_json_file $datadir/(to_snake_case $theme_name).json
     set -l bg (yq '.[] | .primary | .background' $ymlfile)
     set -l colororder black red green yellow blue magenta cyan white
@@ -95,12 +97,12 @@ end
 function to_snake_case -a str
     # 'Abc DefGhi-(Dark)' -> 'abc_def_ghi_dark'
     string replace -ra 'HaX0R_.+' '\L$0' $str |
-    string replace -ra '([a-z0-9])([A-Z])' '$1_$2'|
-    string replace -ra '[\s\-\(\)\.]+' '_' |
-    string replace -ra '__+' '_' |
-    string replace -ra '^_' '' |
-    string replace -ra '_$' '' |
-    string lower
+        string replace -ra '([a-z0-9])([A-Z])' '$1_$2' |
+        string replace -ra '[\s\-\(\)\.]+' _ |
+        string replace -ra '__+' _ |
+        string replace -ra '^_' '' |
+        string replace -ra '_$' '' |
+        string lower
 end
 
 function determine_theme_type --argument-names color
@@ -116,9 +118,9 @@ function determine_theme_type --argument-names color
     set b (echo "ibase=16; $hexcolor[3]" | bc)
 
     if test (math 0.2126 x $r + 0.7152 x $g + 0.0722 x $b) -lt 40
-        echo "dark"
+        echo dark
     else
-        echo "light"
+        echo light
     end
 end
 
