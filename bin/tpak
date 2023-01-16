@@ -3,22 +3,23 @@
 # tpak - tool for generating color palette json files
 
 set -g PRJDIR (path dirname (path resolve (status dirname)))
-set -q XDG_CACHE_HOME || set XDG_CACHE_HOME $HOME/.cache
-set -g CACHEDIR $XDG_CACHE_HOME/themepack.fish
 set -g TPAK_TEMP (mktemp -d -t tpak)
 
 function gen_all_color_files
+    set -q XDG_CACHE_HOME || set -l XDG_CACHE_HOME $HOME/.cache
+    set -l cachedir $XDG_CACHE_HOME/themepack.fish
+
     # pre-reqs
     if not type yq &>/dev/null
         echo >&2 "tpak: Required tool not found 'yq'."
         return 1
     end
-    git_alacritty_repos
+    git_alacritty_repos $cachedir
 
     # Collect alacritty yaml files
     mkdir -p $TPAK_TEMP/alacritty_yaml
-    cp $CACHEDIR/iTerm2-Color-Schemes/alacritty/*.yml $TPAK_TEMP/alacritty_yaml
-    cp $CACHEDIR/lighthaus/src/lighthaus.yml $TPAK_TEMP/alacritty_yaml
+    cp $cachedir/iTerm2-Color-Schemes/alacritty/*.yml $TPAK_TEMP/alacritty_yaml
+    cp $cachedir/lighthaus/src/lighthaus.yml $TPAK_TEMP/alacritty_yaml
 
     set -l file
     for file in $TPAK_TEMP/alacritty_yaml/*.yml
@@ -26,14 +27,20 @@ function gen_all_color_files
     end
 end
 
+function path_file_stem -a filepath
+    set -l result (path basename (path change-extension '' $filepath))
+    echo $result
+end
+
 function gen_color_file_from_yaml -a ymlfile
     # setup
-    set -l theme_name (path basename (path change-extension '' $ymlfile))
-    set -l workdir $TPAK_TEMP/$theme_name
+    set -l theme_name (path_file_stem $ymlfile)
+    set -l theme_short_name (to_snake_case $theme_name)
+    set -l workdir $TPAK_TEMP/$theme_short_name
     mkdir -p $workdir
     set -l datadir $PRJDIR/themes/colors
     mkdir -p $datadir
-    set -l theme_json_file $datadir/(to_snake_case $theme_name).json
+    set -l theme_json_file $datadir/$theme_short_name.json
     set -l bg (yq '.[] | .primary | .background' $ymlfile)
     set -l colororder black red green yellow blue magenta cyan white
     set -l yqcolorpick (echo '"'(string join '","' $colororder)'"')
@@ -42,7 +49,7 @@ function gen_color_file_from_yaml -a ymlfile
         "type: '"(determine_theme_type $bg)"'"
 
     # Let the user know where we're at
-    echo "Generating $theme_name..."
+    echo "Generating $theme_short_name..."
 
     # Peel off and transform the yaml parts
     printf "%s\n" $header >$workdir/00-header.yml
@@ -77,8 +84,8 @@ function gen_color_file_from_yaml -a ymlfile
     test -d $workdir && rm -rf $workdir
 end
 
-function git_alacritty_repos
-    mkdir -p $CACHEDIR
+function git_alacritty_repos -a gitroot
+    mkdir -p $gitroot
     set -l repos \
         mbadolato/iTerm2-Color-Schemes \
         lighthaus-theme/alacritty/lighthaus
@@ -87,7 +94,7 @@ function git_alacritty_repos
     for repo in $repos
         set -l userrepo (string join '/' (string split -f 1,2 '/' $repo))
         set -l name (string split -r -f 2 -m 1 '/' $repo)
-        set -l repodir $CACHEDIR/$name
+        set -l repodir $gitroot/$name
         if test -d $repodir
             git -C $repodir pull --quiet
         else
