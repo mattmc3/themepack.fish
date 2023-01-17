@@ -204,3 +204,12 @@ function __themepack_template_default
 
     printf "%s\n" $theme
 end
+
+function __themepack_envsubst \
+    --description="A lite substitute for envsubst if missing"
+
+    python -c 'import os,sys;[sys.stdout.write(os.path.expandvars(l)) for l in sys.stdin]'
+end
+if not type envsubst &>/dev/null
+    alias envsubst __themepack_envsubst
+end

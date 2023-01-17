@@ -1,0 +1,41 @@
+# name: "$theme_name"
+# preferred_background: $theme_bg
+
+fish_color_autosuggestion 555 $theme_brblack
+fish_color_cancel -r
+fish_color_command $theme_blue
+fish_color_comment $theme_red
+fish_color_cwd $theme_green
+fish_color_cwd_root $theme_red
+fish_color_end $theme_green
+fish_color_error $theme_brred
+fish_color_escape $theme_brcyan
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote $theme_yellow
+fish_color_keyword $theme_blue
+fish_color_match --background=$theme_brblue
+fish_color_normal normal
+fish_color_operator $theme_brcyan
+fish_color_option $theme_cyan
+fish_color_param $theme_cyan
+fish_color_quote $theme_yellow
+fish_color_redirection $theme_cyan --bold
+fish_color_search_match $theme_bryellow --background=$theme_brblack
+fish_color_selection $theme_white --bold --background=$theme_brblack
+fish_color_status $theme_red
+fish_color_user $theme_brgreen
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description $theme_bryellow $theme_yellow -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress $theme_brwhite --background=$theme_cyan
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix
