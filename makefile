@@ -17,9 +17,10 @@ pretty:
 	fish -c 'fish_indent -w ./tools/tpak'; \
 	fish -c 'fish_indent -w ./**/*.fish'
 
-##? bulidman   - build the man pages
-.PHONY: buildman
-buildman:
-	pandoc --standalone --to man ./man/themepack.fish.md -o ./man/man1/themepack.fish.1
+##? bulid      - run build tasks for this project
+.PHONY: build
+build:
+	./bin/tpak build
+# pandoc --standalone --to man ./man/themepack.fish.md -o ./man/man1/themepack.fish.1
 
 ##?
