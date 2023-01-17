@@ -5,7 +5,7 @@
 set -g PRJDIR (path dirname (path resolve (status dirname)))
 set -g TPAK_TEMP (mktemp -d -t tpak)
 
-function gen_all_color_files
+function build_metadata_file
     set -q XDG_CACHE_HOME || set -l XDG_CACHE_HOME $HOME/.cache
     set -l cachedir $XDG_CACHE_HOME/themepack.fish
 
@@ -14,104 +14,58 @@ function gen_all_color_files
         echo >&2 "tpak: Required tool not found 'yq'."
         return 1
     end
-    git_alacritty_repos $cachedir
 
-    # Collect alacritty yaml files
-    mkdir -p $TPAK_TEMP/alacritty_yaml
-    cp $cachedir/iTerm2-Color-Schemes/alacritty/*.yml $TPAK_TEMP/alacritty_yaml
-    cp $cachedir/lighthaus/src/lighthaus.yml $TPAK_TEMP/alacritty_yaml
-
-    set -l file
-    for file in $TPAK_TEMP/alacritty_yaml/*.yml
-        gen_color_file_from_yaml $file
+    # get iterm2 color scheme repo (it has a bunch of themes in alacritty yaml format)
+    set -l repo mbadolato/iTerm2-Color-Schemes
+    set -l repodir $cachedir/iterm2cs
+    if test -d $repodir
+        git -C $repodir pull --quiet
+    else
+        git clone --depth 1 --quiet https://github.com/$repo $repodir 2>/dev/null
     end
-end
 
-function path_file_stem -a filepath
-    set -l result (path basename (path change-extension '' $filepath))
-    echo $result
-end
-
-function gen_color_file_from_yaml -a ymlfile
-    # setup
-    set -l theme_name (path_file_stem $ymlfile)
-    set -l theme_short_name (to_snake_case $theme_name)
-    set -l workdir $TPAK_TEMP/$theme_short_name
+    set -l workdir $TPAK_TEMP/itermcs_metadata
     mkdir -p $workdir
-    set -l datadir $PRJDIR/themes/colors
-    mkdir -p $datadir
-    set -l theme_json_file $datadir/$theme_short_name.json
-    set -l bg (yq '.[] | .primary | .background' $ymlfile)
-    set -l colororder black red green yellow blue magenta cyan white
-    set -l yqcolorpick (echo '"'(string join '","' $colororder)'"')
-    set -l header \
-        "name: '$theme_name'" \
-        "type: '"(determine_theme_type $bg)"'"
+    set -l file
+    for ymlfile in $cachedir/iterm2cs/alacritty/*.yml
+        set -l filename (path basename $ymlfile)
+        set -l jsonfile $workdir/(path change-extension 'json' $filename)
+        set -l fullname (path change-extension '' $filename)
+        set -l bg (yq '.[] | .primary | .background' $ymlfile)
+        set -l theme_type (determine_theme_type $bg)
+        set -l repo_path "alacritty/$filename"
+        set -l name (
+            # snake case name
+            string replace -ra 'HaX0R_.+' '\L$0' $fullname |
+            string replace -ra '([a-z0-9])([A-Z])' '$1_$2' |
+            string replace -ra '[\s\-\(\)\.]+' _ |
+            string replace -ra '__+' _ |
+            string replace -ra '^_' '' |
+            string replace -ra '_$' '' |
+            string lower
+        )
+        set -l json '{ "themes": [{' \
+            '"name": "'$name'",' \
+            '"fullname": "'$fullname'",' \
+            '"type": "'$theme_type'",' \
+            '"repo": "'$repo'",' \
+            '"path": "'$repo_path'",' \
+            '"outfile": "'$outfile'",' \
+            '"format": "alacritty"' \
+        "}]}"
+        echo "Generating $name metadata..."
+        echo $json >$jsonfile
+    end
 
-    # Let the user know where we're at
-    echo "Generating $theme_short_name..."
-
-    # Peel off and transform the yaml parts
-    printf "%s\n" $header >$workdir/00-header.yml
-    yq '.[] | .primary | sort_keys(.)' $ymlfile | string lower >$workdir/01-primary.yml
-    yq '.[] | .normal | sort_keys(.) | pick(['$yqcolorpick'] + keys | unique)' $ymlfile | string lower >$workdir/02-normal.yml
-    yq '.[] | .bright | sort_keys(.) | pick(['$yqcolorpick'] + keys | unique) | with_entries(.key |= "br" + .)' $ymlfile | string lower >$workdir/03-bright.yml
-    yq '.[] | .dim | sort_keys(.) | with_entries(.key |= "dim_" + .)' $ymlfile | string lower >$workdir/04-dim.yml
-    yq '.[] | .cursor | .color = .cursor | del(.cursor) | with_entries(.key |= "cursor_" + .)' $ymlfile | string lower >$workdir/05-cursor.yml
-    yq '.[] | .selection | with_entries(.key |= "selection_" + .)' $ymlfile | string lower >$workdir/06-sel.yml
-
-    # Preserve any extra properties from json that alacritty yaml doesn't have
-    if test -f $theme_json_file
-        set -l new_props (yq eval-all '(. as $item ireduce ({}; . * $item ) | keys)[]' $workdir/*.yml)
-        set -l old_props (yq 'to_entries | .[].key' $theme_json_file)
-        set -l footer
-        set -l prop
-        for prop in $old_props
-            if not contains $prop $new_props
-                set -l val (yq ".$prop" $theme_json_file 2>/dev/null)
-                set footer $footer "$prop: '$val'"
-            end
-        end
-        if test (count $footer) -gt 0
-            printf "%s\n" $footer >$workdir/00-header2.yml
-        end
+    set -l themepack_yml $PRJDIR/themes/themepack.yml
+    if test -f $themepack_yml
+        yq -o=json 'del(.themes[] | select(.repo == "mbadolato/iTerm2-Color-Schemes"))' $themepack_yml >$workdir/_themepack.json
     end
 
     # Avengers, assemble!
-    yq eval-all -o=json '. as $item ireduce ({}; . * $item )' $workdir/*.yml >$theme_json_file
-
-    # Cleanup
-    test -d $workdir && rm -rf $workdir
-end
-
-function git_alacritty_repos -a gitroot
-    mkdir -p $gitroot
-    set -l repos \
-        mbadolato/iTerm2-Color-Schemes \
-        lighthaus-theme/alacritty/lighthaus
-
-    set -l repo
-    for repo in $repos
-        set -l userrepo (string join '/' (string split -f 1,2 '/' $repo))
-        set -l name (string split -r -f 2 -m 1 '/' $repo)
-        set -l repodir $gitroot/$name
-        if test -d $repodir
-            git -C $repodir pull --quiet
-        else
-            git clone --depth 1 --quiet https://github.com/$userrepo $repodir 2>/dev/null
-        end
-    end
-end
-
-function to_snake_case -a str
-    # 'Abc DefGhi-(Dark)' -> 'abc_def_ghi_dark'
-    string replace -ra 'HaX0R_.+' '\L$0' $str |
-        string replace -ra '([a-z0-9])([A-Z])' '$1_$2' |
-        string replace -ra '[\s\-\(\)\.]+' _ |
-        string replace -ra '__+' _ |
-        string replace -ra '^_' '' |
-        string replace -ra '_$' '' |
-        string lower
+    echo "Assembling metadata..."
+    yq eval-all -P '. as $item ireduce ({}; . *+ $item ) | .themes |= sort_by(.name)' $workdir/*.json >$PRJDIR/themes/themepack.yml
+    echo "Done."
 end
 
 function determine_theme_type --argument-names color
@@ -135,21 +89,15 @@ end
 
 function tpak_main
     switch $argv[1]
-        case help
+        case '' help
             echo "tpak - themepack.fish project build utility"
             echo ""
             echo "Commands:"
             echo "  help               Show this message"
-            echo "  gen-color-files    Generate theme color json files"
-            echo "  foo                Do whatever foo thing I'm testing"
+            echo "  build              Build project files"
             return
-        case gen-color-files
-            gen_all_color_files $argv[2..]
-        case foo
-            gen_all_color_files $argv[2..]
-
-            #set -l ymlfile $PRJDIR/.cache/lighthaus/src/lighthaus.yml
-            #gen_color_file_from_yaml $ymlfile
+        case build
+            build_metadata_file $argv[2..]
         case *
             echo >&2 "Unrecognized command '$argv[1]'" && return 1
     end

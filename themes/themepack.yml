@@ -1,0 +1,1795 @@
+themes:
+  - name: 3024_day
+    fullname: 3024 Day
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/3024 Day.yml
+    format: alacritty
+  - name: 3024_night
+    fullname: 3024 Night
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/3024 Night.yml
+    format: alacritty
+  - name: abernathy
+    fullname: Abernathy
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Abernathy.yml
+    format: alacritty
+  - name: adventure
+    fullname: Adventure
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Adventure.yml
+    format: alacritty
+  - name: adventure_time
+    fullname: AdventureTime
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/AdventureTime.yml
+    format: alacritty
+  - name: afterglow
+    fullname: Afterglow
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Afterglow.yml
+    format: alacritty
+  - name: alabaster
+    fullname: Alabaster
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Alabaster.yml
+    format: alacritty
+  - name: alien_blood
+    fullname: AlienBlood
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/AlienBlood.yml
+    format: alacritty
+  - name: andromeda
+    fullname: Andromeda
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Andromeda.yml
+    format: alacritty
+  - name: apple_classic
+    fullname: Apple Classic
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Apple Classic.yml
+    format: alacritty
+  - name: arcoiris
+    fullname: arcoiris
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/arcoiris.yml
+    format: alacritty
+  - name: argonaut
+    fullname: Argonaut
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Argonaut.yml
+    format: alacritty
+  - name: arthur
+    fullname: Arthur
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Arthur.yml
+    format: alacritty
+  - name: atelier_sulphurpool
+    fullname: AtelierSulphurpool
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/AtelierSulphurpool.yml
+    format: alacritty
+  - name: atom
+    fullname: Atom
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Atom.yml
+    format: alacritty
+  - name: atom_one_light
+    fullname: AtomOneLight
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/AtomOneLight.yml
+    format: alacritty
+  - name: aurora
+    fullname: Aurora
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Aurora.yml
+    format: alacritty
+  - name: ayu
+    fullname: ayu
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/ayu.yml
+    format: alacritty
+  - name: ayu_light
+    fullname: ayu_light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/ayu_light.yml
+    format: alacritty
+  - name: ayu_mirage
+    fullname: Ayu Mirage
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Ayu Mirage.yml
+    format: alacritty
+  - name: banana_blueberry
+    fullname: Banana Blueberry
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Banana Blueberry.yml
+    format: alacritty
+  - name: batman
+    fullname: Batman
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Batman.yml
+    format: alacritty
+  - name: belafonte_day
+    fullname: Belafonte Day
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Belafonte Day.yml
+    format: alacritty
+  - name: belafonte_night
+    fullname: Belafonte Night
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Belafonte Night.yml
+    format: alacritty
+  - name: birds_of_paradise
+    fullname: BirdsOfParadise
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/BirdsOfParadise.yml
+    format: alacritty
+  - name: blazer
+    fullname: Blazer
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Blazer.yml
+    format: alacritty
+  - name: blue_berry_pie
+    fullname: BlueBerryPie
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/BlueBerryPie.yml
+    format: alacritty
+  - name: blue_dolphin
+    fullname: BlueDolphin
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/BlueDolphin.yml
+    format: alacritty
+  - name: blue_matrix
+    fullname: Blue Matrix
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Blue Matrix.yml
+    format: alacritty
+  - name: bluloco_dark
+    fullname: BlulocoDark
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/BlulocoDark.yml
+    format: alacritty
+  - name: bluloco_light
+    fullname: BlulocoLight
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/BlulocoLight.yml
+    format: alacritty
+  - name: borland
+    fullname: Borland
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Borland.yml
+    format: alacritty
+  - name: breeze
+    fullname: Breeze
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Breeze.yml
+    format: alacritty
+  - name: bright_lights
+    fullname: Bright Lights
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Bright Lights.yml
+    format: alacritty
+  - name: broadcast
+    fullname: Broadcast
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Broadcast.yml
+    format: alacritty
+  - name: brogrammer
+    fullname: Brogrammer
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Brogrammer.yml
+    format: alacritty
+  - name: builtin_dark
+    fullname: Builtin Dark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Builtin Dark.yml
+    format: alacritty
+  - name: builtin_light
+    fullname: Builtin Light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Builtin Light.yml
+    format: alacritty
+  - name: builtin_pastel_dark
+    fullname: Builtin Pastel Dark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Builtin Pastel Dark.yml
+    format: alacritty
+  - name: builtin_solarized_dark
+    fullname: Builtin Solarized Dark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Builtin Solarized Dark.yml
+    format: alacritty
+  - name: builtin_solarized_light
+    fullname: Builtin Solarized Light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Builtin Solarized Light.yml
+    format: alacritty
+  - name: builtin_tango_dark
+    fullname: Builtin Tango Dark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Builtin Tango Dark.yml
+    format: alacritty
+  - name: builtin_tango_light
+    fullname: Builtin Tango Light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Builtin Tango Light.yml
+    format: alacritty
+  - name: c64
+    fullname: C64
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/C64.yml
+    format: alacritty
+  - name: calamity
+    fullname: Calamity
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Calamity.yml
+    format: alacritty
+  - name: catppuccin_frappe
+    fullname: catppuccin-frappe
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/catppuccin-frappe.yml
+    format: alacritty
+  - name: catppuccin_latte
+    fullname: catppuccin-latte
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/catppuccin-latte.yml
+    format: alacritty
+  - name: catppuccin_macchiato
+    fullname: catppuccin-macchiato
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/catppuccin-macchiato.yml
+    format: alacritty
+  - name: catppuccin_mocha
+    fullname: catppuccin-mocha
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/catppuccin-mocha.yml
+    format: alacritty
+  - name: cga
+    fullname: CGA
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/CGA.yml
+    format: alacritty
+  - name: chalk
+    fullname: Chalk
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Chalk.yml
+    format: alacritty
+  - name: chalkboard
+    fullname: Chalkboard
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Chalkboard.yml
+    format: alacritty
+  - name: challenger_deep
+    fullname: ChallengerDeep
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/ChallengerDeep.yml
+    format: alacritty
+  - name: chester
+    fullname: Chester
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Chester.yml
+    format: alacritty
+  - name: ciapre
+    fullname: Ciapre
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Ciapre.yml
+    format: alacritty
+  - name: clrs
+    fullname: CLRS
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/CLRS.yml
+    format: alacritty
+  - name: cobalt2
+    fullname: Cobalt2
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Cobalt2.yml
+    format: alacritty
+  - name: cobalt_neon
+    fullname: Cobalt Neon
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Cobalt Neon.yml
+    format: alacritty
+  - name: coffee_theme
+    fullname: coffee_theme
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/coffee_theme.yml
+    format: alacritty
+  - name: crayon_pony_fish
+    fullname: CrayonPonyFish
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/CrayonPonyFish.yml
+    format: alacritty
+  - name: cyberdyne
+    fullname: Cyberdyne
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Cyberdyne.yml
+    format: alacritty
+  - name: cyberpunk
+    fullname: cyberpunk
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/cyberpunk.yml
+    format: alacritty
+  - name: dark+
+    fullname: Dark+
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Dark+.yml
+    format: alacritty
+  - name: dark_pastel
+    fullname: Dark Pastel
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Dark Pastel.yml
+    format: alacritty
+  - name: darkermatrix
+    fullname: darkermatrix
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/darkermatrix.yml
+    format: alacritty
+  - name: darkmatrix
+    fullname: darkmatrix
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/darkmatrix.yml
+    format: alacritty
+  - name: darkside
+    fullname: Darkside
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Darkside.yml
+    format: alacritty
+  - name: deep
+    fullname: deep
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/deep.yml
+    format: alacritty
+  - name: desert
+    fullname: Desert
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Desert.yml
+    format: alacritty
+  - name: dimmed_monokai
+    fullname: DimmedMonokai
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/DimmedMonokai.yml
+    format: alacritty
+  - name: django
+    fullname: Django
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Django.yml
+    format: alacritty
+  - name: django_reborn_again
+    fullname: DjangoRebornAgain
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/DjangoRebornAgain.yml
+    format: alacritty
+  - name: django_smooth
+    fullname: DjangoSmooth
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/DjangoSmooth.yml
+    format: alacritty
+  - name: doom_one
+    fullname: DoomOne
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/DoomOne.yml
+    format: alacritty
+  - name: doom_peacock
+    fullname: Doom Peacock
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Doom Peacock.yml
+    format: alacritty
+  - name: dot_gov
+    fullname: DotGov
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/DotGov.yml
+    format: alacritty
+  - name: dracula
+    fullname: Dracula
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Dracula.yml
+    format: alacritty
+  - name: dracula+
+    fullname: Dracula+
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Dracula+.yml
+    format: alacritty
+  - name: duckbones
+    fullname: duckbones
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/duckbones.yml
+    format: alacritty
+  - name: duotone_dark
+    fullname: Duotone Dark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Duotone Dark.yml
+    format: alacritty
+  - name: earthsong
+    fullname: Earthsong
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Earthsong.yml
+    format: alacritty
+  - name: elemental
+    fullname: Elemental
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Elemental.yml
+    format: alacritty
+  - name: elementary
+    fullname: Elementary
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Elementary.yml
+    format: alacritty
+  - name: encom
+    fullname: ENCOM
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/ENCOM.yml
+    format: alacritty
+  - name: espresso
+    fullname: Espresso
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Espresso.yml
+    format: alacritty
+  - name: espresso_libre
+    fullname: Espresso Libre
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Espresso Libre.yml
+    format: alacritty
+  - name: everblush
+    fullname: Everblush
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Everblush.yml
+    format: alacritty
+  - name: fahrenheit
+    fullname: Fahrenheit
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Fahrenheit.yml
+    format: alacritty
+  - name: fairyfloss
+    fullname: Fairyfloss
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Fairyfloss.yml
+    format: alacritty
+  - name: fideloper
+    fullname: Fideloper
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Fideloper.yml
+    format: alacritty
+  - name: firefox_dev
+    fullname: FirefoxDev
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/FirefoxDev.yml
+    format: alacritty
+  - name: firewatch
+    fullname: Firewatch
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Firewatch.yml
+    format: alacritty
+  - name: fish_tank
+    fullname: FishTank
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/FishTank.yml
+    format: alacritty
+  - name: flat
+    fullname: Flat
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Flat.yml
+    format: alacritty
+  - name: flatland
+    fullname: Flatland
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Flatland.yml
+    format: alacritty
+  - name: floraverse
+    fullname: Floraverse
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Floraverse.yml
+    format: alacritty
+  - name: forest_blue
+    fullname: ForestBlue
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/ForestBlue.yml
+    format: alacritty
+  - name: framer
+    fullname: Framer
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Framer.yml
+    format: alacritty
+  - name: front_end_delight
+    fullname: FrontEndDelight
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/FrontEndDelight.yml
+    format: alacritty
+  - name: fun_forrest
+    fullname: FunForrest
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/FunForrest.yml
+    format: alacritty
+  - name: galaxy
+    fullname: Galaxy
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Galaxy.yml
+    format: alacritty
+  - name: galizur
+    fullname: Galizur
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Galizur.yml
+    format: alacritty
+  - name: git_hub_dark
+    fullname: GitHub Dark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/GitHub Dark.yml
+    format: alacritty
+  - name: github
+    fullname: Github
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Github.yml
+    format: alacritty
+  - name: glacier
+    fullname: Glacier
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Glacier.yml
+    format: alacritty
+  - name: grape
+    fullname: Grape
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Grape.yml
+    format: alacritty
+  - name: grass
+    fullname: Grass
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Grass.yml
+    format: alacritty
+  - name: grey_green
+    fullname: Grey-green
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Grey-green.yml
+    format: alacritty
+  - name: gruvbox_dark
+    fullname: GruvboxDark
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/GruvboxDark.yml
+    format: alacritty
+  - name: gruvbox_dark_hard
+    fullname: GruvboxDarkHard
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/GruvboxDarkHard.yml
+    format: alacritty
+  - name: gruvbox_light
+    fullname: Gruvbox Light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Gruvbox Light.yml
+    format: alacritty
+  - name: guezwhoz
+    fullname: Guezwhoz
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Guezwhoz.yml
+    format: alacritty
+  - name: hacktober
+    fullname: Hacktober
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Hacktober.yml
+    format: alacritty
+  - name: hardcore
+    fullname: Hardcore
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Hardcore.yml
+    format: alacritty
+  - name: harper
+    fullname: Harper
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Harper.yml
+    format: alacritty
+  - name: hax0r_blue
+    fullname: HaX0R_BLUE
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/HaX0R_BLUE.yml
+    format: alacritty
+  - name: hax0r_gr33n
+    fullname: HaX0R_GR33N
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/HaX0R_GR33N.yml
+    format: alacritty
+  - name: hax0r_r3d
+    fullname: HaX0R_R3D
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/HaX0R_R3D.yml
+    format: alacritty
+  - name: highway
+    fullname: Highway
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Highway.yml
+    format: alacritty
+  - name: hipster_green
+    fullname: Hipster Green
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Hipster Green.yml
+    format: alacritty
+  - name: hivacruz
+    fullname: Hivacruz
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Hivacruz.yml
+    format: alacritty
+  - name: homebrew
+    fullname: Homebrew
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Homebrew.yml
+    format: alacritty
+  - name: hopscotch
+    fullname: Hopscotch
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Hopscotch.yml
+    format: alacritty
+  - name: hopscotch_256
+    fullname: Hopscotch.256
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Hopscotch.256.yml
+    format: alacritty
+  - name: hurtado
+    fullname: Hurtado
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Hurtado.yml
+    format: alacritty
+  - name: hybrid
+    fullname: Hybrid
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Hybrid.yml
+    format: alacritty
+  - name: ic_green_ppl
+    fullname: IC_Green_PPL
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/IC_Green_PPL.yml
+    format: alacritty
+  - name: ic_orange_ppl
+    fullname: IC_Orange_PPL
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/IC_Orange_PPL.yml
+    format: alacritty
+  - name: iceberg_dark
+    fullname: iceberg-dark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/iceberg-dark.yml
+    format: alacritty
+  - name: iceberg_light
+    fullname: iceberg-light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/iceberg-light.yml
+    format: alacritty
+  - name: idea
+    fullname: idea
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/idea.yml
+    format: alacritty
+  - name: idle_toes
+    fullname: idleToes
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/idleToes.yml
+    format: alacritty
+  - name: ir_black
+    fullname: IR_Black
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/IR_Black.yml
+    format: alacritty
+  - name: jackie_brown
+    fullname: Jackie Brown
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Jackie Brown.yml
+    format: alacritty
+  - name: japanesque
+    fullname: Japanesque
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Japanesque.yml
+    format: alacritty
+  - name: jellybeans
+    fullname: Jellybeans
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Jellybeans.yml
+    format: alacritty
+  - name: jet_brains_darcula
+    fullname: JetBrains Darcula
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/JetBrains Darcula.yml
+    format: alacritty
+  - name: jubi
+    fullname: jubi
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/jubi.yml
+    format: alacritty
+  - name: kanagawabones
+    fullname: kanagawabones
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/kanagawabones.yml
+    format: alacritty
+  - name: kibble
+    fullname: Kibble
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Kibble.yml
+    format: alacritty
+  - name: kolorit
+    fullname: Kolorit
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Kolorit.yml
+    format: alacritty
+  - name: konsolas
+    fullname: Konsolas
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Konsolas.yml
+    format: alacritty
+  - name: lab_fox
+    fullname: Lab Fox
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Lab Fox.yml
+    format: alacritty
+  - name: laser
+    fullname: Laser
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Laser.yml
+    format: alacritty
+  - name: later_this_evening
+    fullname: Later This Evening
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Later This Evening.yml
+    format: alacritty
+  - name: lavandula
+    fullname: Lavandula
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Lavandula.yml
+    format: alacritty
+  - name: lighthaus
+    fullname: Lighthaus
+    type: dark
+    repo: lighthaus-theme/alacritty
+    path: src/lighthaus.yml
+    format: alacritty
+  - name: liquid_carbon
+    fullname: LiquidCarbon
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/LiquidCarbon.yml
+    format: alacritty
+  - name: liquid_carbon_transparent
+    fullname: LiquidCarbonTransparent
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/LiquidCarbonTransparent.yml
+    format: alacritty
+  - name: liquid_carbon_transparent_inverse
+    fullname: LiquidCarbonTransparentInverse
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/LiquidCarbonTransparentInverse.yml
+    format: alacritty
+  - name: lovelace
+    fullname: lovelace
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/lovelace.yml
+    format: alacritty
+  - name: man_page
+    fullname: Man Page
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Man Page.yml
+    format: alacritty
+  - name: mariana
+    fullname: Mariana
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Mariana.yml
+    format: alacritty
+  - name: material
+    fullname: Material
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Material.yml
+    format: alacritty
+  - name: material_dark
+    fullname: MaterialDark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/MaterialDark.yml
+    format: alacritty
+  - name: material_darker
+    fullname: MaterialDarker
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/MaterialDarker.yml
+    format: alacritty
+  - name: material_design_colors
+    fullname: MaterialDesignColors
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/MaterialDesignColors.yml
+    format: alacritty
+  - name: material_ocean
+    fullname: MaterialOcean
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/MaterialOcean.yml
+    format: alacritty
+  - name: mathias
+    fullname: Mathias
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Mathias.yml
+    format: alacritty
+  - name: matrix
+    fullname: matrix
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/matrix.yml
+    format: alacritty
+  - name: medallion
+    fullname: Medallion
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Medallion.yml
+    format: alacritty
+  - name: midnight_in_mojave
+    fullname: midnight-in-mojave
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/midnight-in-mojave.yml
+    format: alacritty
+  - name: mirage
+    fullname: Mirage
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Mirage.yml
+    format: alacritty
+  - name: misterioso
+    fullname: Misterioso
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Misterioso.yml
+    format: alacritty
+  - name: molokai
+    fullname: Molokai
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Molokai.yml
+    format: alacritty
+  - name: mona_lisa
+    fullname: MonaLisa
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/MonaLisa.yml
+    format: alacritty
+  - name: monokai_remastered
+    fullname: Monokai Remastered
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Monokai Remastered.yml
+    format: alacritty
+  - name: monokai_soda
+    fullname: Monokai Soda
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Monokai Soda.yml
+    format: alacritty
+  - name: monokai_vivid
+    fullname: Monokai Vivid
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Monokai Vivid.yml
+    format: alacritty
+  - name: n0tch2k
+    fullname: N0tch2k
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/N0tch2k.yml
+    format: alacritty
+  - name: neobones_dark
+    fullname: neobones_dark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/neobones_dark.yml
+    format: alacritty
+  - name: neobones_light
+    fullname: neobones_light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/neobones_light.yml
+    format: alacritty
+  - name: neon
+    fullname: Neon
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Neon.yml
+    format: alacritty
+  - name: neopolitan
+    fullname: Neopolitan
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Neopolitan.yml
+    format: alacritty
+  - name: neutron
+    fullname: Neutron
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Neutron.yml
+    format: alacritty
+  - name: night_lion_v1
+    fullname: NightLion v1
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/NightLion v1.yml
+    format: alacritty
+  - name: night_lion_v2
+    fullname: NightLion v2
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/NightLion v2.yml
+    format: alacritty
+  - name: night_owlish_light
+    fullname: Night Owlish Light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Night Owlish Light.yml
+    format: alacritty
+  - name: nocturnal_winter
+    fullname: Nocturnal Winter
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Nocturnal Winter.yml
+    format: alacritty
+  - name: nord
+    fullname: nord
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/nord.yml
+    format: alacritty
+  - name: nord_light
+    fullname: nord-light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/nord-light.yml
+    format: alacritty
+  - name: novel
+    fullname: Novel
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Novel.yml
+    format: alacritty
+  - name: obsidian
+    fullname: Obsidian
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Obsidian.yml
+    format: alacritty
+  - name: ocean
+    fullname: Ocean
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Ocean.yml
+    format: alacritty
+  - name: oceanic_material
+    fullname: OceanicMaterial
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/OceanicMaterial.yml
+    format: alacritty
+  - name: oceanic_next
+    fullname: Oceanic-Next
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Oceanic-Next.yml
+    format: alacritty
+  - name: ollie
+    fullname: Ollie
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Ollie.yml
+    format: alacritty
+  - name: one_half_dark
+    fullname: OneHalfDark
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/OneHalfDark.yml
+    format: alacritty
+  - name: one_half_light
+    fullname: OneHalfLight
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/OneHalfLight.yml
+    format: alacritty
+  - name: operator_mono_dark
+    fullname: Operator Mono Dark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Operator Mono Dark.yml
+    format: alacritty
+  - name: overnight_slumber
+    fullname: Overnight Slumber
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Overnight Slumber.yml
+    format: alacritty
+  - name: pale_night_hc
+    fullname: PaleNightHC
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/PaleNightHC.yml
+    format: alacritty
+  - name: pandora
+    fullname: Pandora
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Pandora.yml
+    format: alacritty
+  - name: paraiso_dark
+    fullname: Paraiso Dark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Paraiso Dark.yml
+    format: alacritty
+  - name: paul_millr
+    fullname: PaulMillr
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/PaulMillr.yml
+    format: alacritty
+  - name: pencil_dark
+    fullname: PencilDark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/PencilDark.yml
+    format: alacritty
+  - name: pencil_light
+    fullname: PencilLight
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/PencilLight.yml
+    format: alacritty
+  - name: peppermint
+    fullname: Peppermint
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Peppermint.yml
+    format: alacritty
+  - name: piatto_light
+    fullname: Piatto Light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Piatto Light.yml
+    format: alacritty
+  - name: pnevma
+    fullname: Pnevma
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Pnevma.yml
+    format: alacritty
+  - name: popping_and_locking
+    fullname: Popping and Locking
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Popping and Locking.yml
+    format: alacritty
+  - name: primary
+    fullname: primary
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/primary.yml
+    format: alacritty
+  - name: pro
+    fullname: Pro
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Pro.yml
+    format: alacritty
+  - name: pro_light
+    fullname: Pro Light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Pro Light.yml
+    format: alacritty
+  - name: purple_rain
+    fullname: Purple Rain
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Purple Rain.yml
+    format: alacritty
+  - name: purplepeter
+    fullname: purplepeter
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/purplepeter.yml
+    format: alacritty
+  - name: rapture
+    fullname: Rapture
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Rapture.yml
+    format: alacritty
+  - name: raycast_dark
+    fullname: Raycast_Dark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Raycast_Dark.yml
+    format: alacritty
+  - name: raycast_light
+    fullname: Raycast_Light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Raycast_Light.yml
+    format: alacritty
+  - name: rebecca
+    fullname: rebecca
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/rebecca.yml
+    format: alacritty
+  - name: red_alert
+    fullname: Red Alert
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Red Alert.yml
+    format: alacritty
+  - name: red_planet
+    fullname: Red Planet
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Red Planet.yml
+    format: alacritty
+  - name: red_sands
+    fullname: Red Sands
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Red Sands.yml
+    format: alacritty
+  - name: relaxed
+    fullname: Relaxed
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Relaxed.yml
+    format: alacritty
+  - name: retro
+    fullname: Retro
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Retro.yml
+    format: alacritty
+  - name: rippedcasts
+    fullname: Rippedcasts
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Rippedcasts.yml
+    format: alacritty
+  - name: rose_pine
+    fullname: rose-pine
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/rose-pine.yml
+    format: alacritty
+  - name: rose_pine_dawn
+    fullname: rose-pine-dawn
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/rose-pine-dawn.yml
+    format: alacritty
+  - name: rose_pine_moon
+    fullname: rose-pine-moon
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/rose-pine-moon.yml
+    format: alacritty
+  - name: rouge_2
+    fullname: Rouge 2
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Rouge 2.yml
+    format: alacritty
+  - name: royal
+    fullname: Royal
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Royal.yml
+    format: alacritty
+  - name: ryuuko
+    fullname: Ryuuko
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Ryuuko.yml
+    format: alacritty
+  - name: sakura
+    fullname: Sakura
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Sakura.yml
+    format: alacritty
+  - name: scarlet_protocol
+    fullname: Scarlet Protocol
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Scarlet Protocol.yml
+    format: alacritty
+  - name: sea_shells
+    fullname: SeaShells
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/SeaShells.yml
+    format: alacritty
+  - name: seafoam_pastel
+    fullname: Seafoam Pastel
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Seafoam Pastel.yml
+    format: alacritty
+  - name: seoulbones_dark
+    fullname: seoulbones_dark
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/seoulbones_dark.yml
+    format: alacritty
+  - name: seoulbones_light
+    fullname: seoulbones_light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/seoulbones_light.yml
+    format: alacritty
+  - name: seti
+    fullname: Seti
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Seti.yml
+    format: alacritty
+  - name: shades_of_purple
+    fullname: shades-of-purple
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/shades-of-purple.yml
+    format: alacritty
+  - name: shaman
+    fullname: Shaman
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Shaman.yml
+    format: alacritty
+  - name: slate
+    fullname: Slate
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Slate.yml
+    format: alacritty
+  - name: sleepy_hollow
+    fullname: SleepyHollow
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/SleepyHollow.yml
+    format: alacritty
+  - name: smyck
+    fullname: Smyck
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Smyck.yml
+    format: alacritty
+  - name: snazzy
+    fullname: Snazzy
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Snazzy.yml
+    format: alacritty
+  - name: soft_server
+    fullname: SoftServer
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/SoftServer.yml
+    format: alacritty
+  - name: solarized_darcula
+    fullname: Solarized Darcula
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Solarized Darcula.yml
+    format: alacritty
+  - name: solarized_dark_higher_contrast
+    fullname: Solarized Dark Higher Contrast
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Solarized Dark Higher Contrast.yml
+    format: alacritty
+  - name: solarized_dark_patched
+    fullname: Solarized Dark - Patched
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Solarized Dark - Patched.yml
+    format: alacritty
+  - name: space_gray
+    fullname: SpaceGray
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/SpaceGray.yml
+    format: alacritty
+  - name: space_gray_eighties
+    fullname: SpaceGray Eighties
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/SpaceGray Eighties.yml
+    format: alacritty
+  - name: space_gray_eighties_dull
+    fullname: SpaceGray Eighties Dull
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/SpaceGray Eighties Dull.yml
+    format: alacritty
+  - name: spacedust
+    fullname: Spacedust
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Spacedust.yml
+    format: alacritty
+  - name: spiderman
+    fullname: Spiderman
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Spiderman.yml
+    format: alacritty
+  - name: spring
+    fullname: Spring
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Spring.yml
+    format: alacritty
+  - name: square
+    fullname: Square
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Square.yml
+    format: alacritty
+  - name: sublette
+    fullname: Sublette
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Sublette.yml
+    format: alacritty
+  - name: subliminal
+    fullname: Subliminal
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Subliminal.yml
+    format: alacritty
+  - name: sundried
+    fullname: Sundried
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Sundried.yml
+    format: alacritty
+  - name: symfonic
+    fullname: Symfonic
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Symfonic.yml
+    format: alacritty
+  - name: synthwave
+    fullname: synthwave
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/synthwave.yml
+    format: alacritty
+  - name: synthwave_alpha
+    fullname: SynthwaveAlpha
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/SynthwaveAlpha.yml
+    format: alacritty
+  - name: synthwave_everything
+    fullname: synthwave-everything
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/synthwave-everything.yml
+    format: alacritty
+  - name: tango_adapted
+    fullname: Tango Adapted
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Tango Adapted.yml
+    format: alacritty
+  - name: tango_half_adapted
+    fullname: Tango Half Adapted
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Tango Half Adapted.yml
+    format: alacritty
+  - name: teerb
+    fullname: Teerb
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Teerb.yml
+    format: alacritty
+  - name: terminal_basic
+    fullname: Terminal Basic
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Terminal Basic.yml
+    format: alacritty
+  - name: thayer_bright
+    fullname: Thayer Bright
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Thayer Bright.yml
+    format: alacritty
+  - name: the_hulk
+    fullname: The Hulk
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/The Hulk.yml
+    format: alacritty
+  - name: tinacious_design_dark
+    fullname: Tinacious Design (Dark)
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Tinacious Design (Dark).yml
+    format: alacritty
+  - name: tinacious_design_light
+    fullname: Tinacious Design (Light)
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Tinacious Design (Light).yml
+    format: alacritty
+  - name: tokyonight
+    fullname: tokyonight
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/tokyonight.yml
+    format: alacritty
+  - name: tokyonight_day
+    fullname: tokyonight-day
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/tokyonight-day.yml
+    format: alacritty
+  - name: tokyonight_storm
+    fullname: TokyoNight - Storm
+    type: dark
+    repo: folke/tokyonight.nvim
+    path: extras/alacritty/tokyonight_storm.yml
+    format: alacritty
+  - name: tokyonight_storm
+    fullname: tokyonight-storm
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/tokyonight-storm.yml
+    format: alacritty
+  - name: tomorrow
+    fullname: Tomorrow
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Tomorrow.yml
+    format: alacritty
+  - name: tomorrow_night
+    fullname: Tomorrow Night
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Tomorrow Night.yml
+    format: alacritty
+  - name: tomorrow_night_blue
+    fullname: Tomorrow Night Blue
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Tomorrow Night Blue.yml
+    format: alacritty
+  - name: tomorrow_night_bright
+    fullname: Tomorrow Night Bright
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Tomorrow Night Bright.yml
+    format: alacritty
+  - name: tomorrow_night_burns
+    fullname: Tomorrow Night Burns
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Tomorrow Night Burns.yml
+    format: alacritty
+  - name: tomorrow_night_eighties
+    fullname: Tomorrow Night Eighties
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Tomorrow Night Eighties.yml
+    format: alacritty
+  - name: toy_chest
+    fullname: ToyChest
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/ToyChest.yml
+    format: alacritty
+  - name: treehouse
+    fullname: Treehouse
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Treehouse.yml
+    format: alacritty
+  - name: twilight
+    fullname: Twilight
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Twilight.yml
+    format: alacritty
+  - name: ubuntu
+    fullname: Ubuntu
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Ubuntu.yml
+    format: alacritty
+  - name: ultra_dark
+    fullname: UltraDark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/UltraDark.yml
+    format: alacritty
+  - name: ultra_violent
+    fullname: UltraViolent
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/UltraViolent.yml
+    format: alacritty
+  - name: under_the_sea
+    fullname: UnderTheSea
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/UnderTheSea.yml
+    format: alacritty
+  - name: unikitty
+    fullname: Unikitty
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Unikitty.yml
+    format: alacritty
+  - name: urple
+    fullname: Urple
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Urple.yml
+    format: alacritty
+  - name: vaughn
+    fullname: Vaughn
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Vaughn.yml
+    format: alacritty
+  - name: vibrant_ink
+    fullname: VibrantInk
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/VibrantInk.yml
+    format: alacritty
+  - name: vimbones
+    fullname: vimbones
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/vimbones.yml
+    format: alacritty
+  - name: violet_dark
+    fullname: Violet Dark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Violet Dark.yml
+    format: alacritty
+  - name: violet_light
+    fullname: Violet Light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Violet Light.yml
+    format: alacritty
+  - name: warm_neon
+    fullname: WarmNeon
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/WarmNeon.yml
+    format: alacritty
+  - name: wez
+    fullname: Wez
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Wez.yml
+    format: alacritty
+  - name: whimsy
+    fullname: Whimsy
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Whimsy.yml
+    format: alacritty
+  - name: wild_cherry
+    fullname: WildCherry
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/WildCherry.yml
+    format: alacritty
+  - name: wilmersdorf
+    fullname: wilmersdorf
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/wilmersdorf.yml
+    format: alacritty
+  - name: wombat
+    fullname: Wombat
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Wombat.yml
+    format: alacritty
+  - name: wryan
+    fullname: Wryan
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Wryan.yml
+    format: alacritty
+  - name: zenbones
+    fullname: zenbones
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/zenbones.yml
+    format: alacritty
+  - name: zenbones_dark
+    fullname: zenbones_dark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/zenbones_dark.yml
+    format: alacritty
+  - name: zenbones_light
+    fullname: zenbones_light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/zenbones_light.yml
+    format: alacritty
+  - name: zenburn
+    fullname: Zenburn
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/Zenburn.yml
+    format: alacritty
+  - name: zenburned
+    fullname: zenburned
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/zenburned.yml
+    format: alacritty
+  - name: zenwritten_dark
+    fullname: zenwritten_dark
+    type: dark
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/zenwritten_dark.yml
+    format: alacritty
+  - name: zenwritten_light
+    fullname: zenwritten_light
+    type: light
+    repo: mbadolato/iTerm2-Color-Schemes
+    path: alacritty/zenwritten_light.yml
+    format: alacritty
