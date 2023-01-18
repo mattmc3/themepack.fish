@@ -3,50 +3,46 @@ function themepack \
     -a cmd
 
     set -l themepack_version 0.1.0
+    __themepack_prereqs or return 1
 
-    if not set -q fish_theme_colors_path
-        set -l prjdir (path dirname (path resolve (status dirname)))
-        set -gx fish_theme_colors_path $prjdir/themes/colors
-    end
+    set -l prjdir (path dirname (path resolve (status dirname)))
+    set -l metadatafile $prjdir/themes/themepack.yml
 
     switch "$cmd"
         case ''
             echo >&2 "themepack: missing subcommand"
             echo >&2 ""
             echo >&2 "(Type 'themepack --help' for documentation)"
+            return 1
         case -v --version
             echo "themepack, version $themepack_version"
+            return 0
         case -h --help
             man themepack.fish
+            return 0
         case list
-            set -l file
-            for file in $fish_theme_colors_path/*.json
-                path basename (path change-extension '' $file)
-            end
-        case generate
-            set -l usage "Usage: themepack generate [(-n | --name) NAME]" \
-                         "                          [(-g | --generator) GENERATOR]" \
-                         "                          [(-t | --template) TEMPLATE] FILE"
+            yq '.themes[].name' $metadatafile | column
+            return 0
+        case install
+            set -l usage "Usage: themepack install [(-t | --template) TEMPLATE] THEME"
 
             # parse args
-            argparse --name=themepack 'n/name=' 'g/generator=' 't/template=' -- $argv[2..]
+            argparse --name=themepack 't/template=' -- $argv[2..]
             or return 1
 
-            test -n "$_flag_generator" || set _flag_generator default
-            set -l fn_generator "__themepack_generator_"$_flag_generator
             test -n "$_flag_template" || set _flag_template default
-            set -l fn_template "__themepack_template_"$_flag_template
+            if test -f $template_file ||
+                set -l template_file $prjdir/themes/$_flag_template.tpl
+            end
 
             # validate args
             set -l errmsg
             if not test (count $argv) -eq 1
-                set errmsg "themepack generate: Expecting argument 'FILE'."
-            else if not test -s $argv
-                set errmsg "themepack generate: File not found '$argv'."
-            else if not functions --query $fn_generator
-                set errmsg "themepack generate: Generator not found '$_flag_generator'."
-            else if not functions --query $fn_template
-                set errmsg "themepack generate: Template not found '$_flag_template'."
+                set errmsg "themepack install: Expecting argument 'THEME'."
+            else if not contains "$argv" (themepack list) -s $argv
+                set errmsg "themepack install: Theme not found '$argv'."
+            else if test -f $template_file
+                set errmsg "themepack install: Template not found '$template_file'."
             end
             if test -n "$errmsg"
                 printf >&2 "%s\n" $errmsg "" $usage
@@ -148,65 +144,8 @@ function __themepack_generator_alacritty -a name template ymlfile
         --brwhite=$colors_bright_white
 end
 
-function __themepack_template_default
-    set -l options \
-        'name=' 'bg=' 'fg=' \
-        'black=' 'red=' 'green=' 'yellow=' 'blue=' 'magenta=' 'cyan=' 'white=' \
-        'brblack=' 'brred=' 'brgreen=' 'bryellow=' 'brblue=' 'brmagenta=' 'brcyan=' 'brwhite=' \
-        'selection_bg=' 'selection_text='
-
-    # parse args
-    argparse --name=themepack_template_default $options -- $argv
-    or return 1
-
-    set -l theme \
-        "# name: \"$_flag_name\"" \
-        "# preferred_background: $_flag_bg" \
-        "" \
-        "fish_color_autosuggestion 555 $_flag_brblack" \
-        "fish_color_cancel -r" \
-        "fish_color_command $_flag_blue" \
-        "fish_color_comment $_flag_red" \
-        "fish_color_cwd $_flag_green" \
-        "fish_color_cwd_root $_flag_red" \
-        "fish_color_end $_flag_green" \
-        "fish_color_error $_flag_brred" \
-        "fish_color_escape $_flag_brcyan" \
-        "fish_color_history_current --bold" \
-        "fish_color_host normal" \
-        "fish_color_host_remote $_flag_yellow" \
-        "fish_color_keyword $_flag_blue" \
-        "fish_color_match --background=$_flag_brblue" \
-        "fish_color_normal normal" \
-        "fish_color_operator $_flag_brcyan" \
-        "fish_color_option $_flag_cyan" \
-        "fish_color_param $_flag_cyan" \
-        "fish_color_quote $_flag_yellow" \
-        "fish_color_redirection $_flag_cyan --bold" \
-        "fish_color_search_match $_flag_bryellow --background=$_flag_brblack" \
-        "fish_color_selection $_flag_white --bold --background=$_flag_brblack" \
-        "fish_color_status $_flag_red" \
-        "fish_color_user $_flag_brgreen" \
-        "fish_color_valid_path --underline" \
-        "fish_pager_color_background" \
-        "fish_pager_color_completion normal" \
-        "fish_pager_color_description $_flag_bryellow $_flag_yellow -i" \
-        "fish_pager_color_prefix normal --bold --underline" \
-        "fish_pager_color_progress $_flag_brwhite --background=$_flag_cyan" \
-        "fish_pager_color_secondary_background" \
-        "fish_pager_color_secondary_completion" \
-        "fish_pager_color_secondary_description" \
-        "fish_pager_color_secondary_prefix" \
-        "fish_pager_color_selected_background -r" \
-        "fish_pager_color_selected_completion" \
-        "fish_pager_color_selected_description" \
-        "fish_pager_color_selected_prefix" \
-
-    printf "%s\n" $theme
-end
-
 function __themepack_envsubst \
-    --description="A lite substitute for envsubst if missing"
+    --description="A simple substitute for envsubst if missing"
 
     python -c 'import os,sys;[sys.stdout.write(os.path.expandvars(l)) for l in sys.stdin]'
 end
