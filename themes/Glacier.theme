@@ -1,0 +1,66 @@
+# name: "Glacier"
+# preferred_background: 0c1115
+
+# color-palette {
+#  background: #0c1115;
+#  foreground: #ffffff;
+#  selection:  #bd2523;
+#  cursor:     #6c6c6c;
+#
+#   black:     #2e343c;
+#   red:       #bd0f2f;
+#   green:     #35a770;
+#   yellow:    #fb9435;
+#   blue:      #1f5872;
+#   magenta:   #bd2523;
+#   cyan:      #778397;
+#   white:     #ffffff;
+#
+#   brblack:   #404a55;
+#   brred:     #bd0f2f;
+#   brgreen:   #49e998;
+#   bryellow:  #fddf6e;
+#   brblue:    #2a8bc1;
+#   brmagenta: #ea4727;
+#   brcyan:    #a0b6d3;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 1f5872
+fish_color_comment bd0f2f
+fish_color_cwd 35a770
+fish_color_cwd_root bd0f2f
+fish_color_end 35a770
+fish_color_error bd0f2f
+fish_color_escape a0b6d3
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote fb9435
+fish_color_keyword 1f5872
+fish_color_match --background=2a8bc1
+fish_color_normal normal
+fish_color_operator a0b6d3
+fish_color_option 778397
+fish_color_param 778397
+fish_color_quote fb9435
+fish_color_redirection 778397 --bold
+fish_color_search_match fddf6e --background=404a55
+fish_color_selection ffffff --bold --background=404a55
+fish_color_status bd0f2f
+fish_color_user 49e998
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fddf6e fb9435 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=778397
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

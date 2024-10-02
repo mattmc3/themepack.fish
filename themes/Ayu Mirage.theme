@@ -1,0 +1,66 @@
+# name: "Ayu Mirage"
+# preferred_background: 1f2430
+
+# color-palette {
+#  background: #1f2430;
+#  foreground: #cbccc6;
+#  selection:  #33415e;
+#  cursor:     #ffcc66;
+#
+#   black:     #191e2a;
+#   red:       #ed8274;
+#   green:     #a6cc70;
+#   yellow:    #fad07b;
+#   blue:      #6dcbfa;
+#   magenta:   #cfbafa;
+#   cyan:      #90e1c6;
+#   white:     #c7c7c7;
+#
+#   brblack:   #686868;
+#   brred:     #f28779;
+#   brgreen:   #bae67e;
+#   bryellow:  #ffd580;
+#   brblue:    #73d0ff;
+#   brmagenta: #d4bfff;
+#   brcyan:    #95e6cb;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 6dcbfa
+fish_color_comment ed8274
+fish_color_cwd a6cc70
+fish_color_cwd_root ed8274
+fish_color_end a6cc70
+fish_color_error f28779
+fish_color_escape 95e6cb
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote fad07b
+fish_color_keyword 6dcbfa
+fish_color_match --background=73d0ff
+fish_color_normal normal
+fish_color_operator 95e6cb
+fish_color_option 90e1c6
+fish_color_param 90e1c6
+fish_color_quote fad07b
+fish_color_redirection 90e1c6 --bold
+fish_color_search_match ffd580 --background=686868
+fish_color_selection c7c7c7 --bold --background=686868
+fish_color_status ed8274
+fish_color_user bae67e
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffd580 fad07b -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=90e1c6
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

@@ -1,0 +1,66 @@
+# name: "Nocturnal Winter"
+# preferred_background: 0d0d17
+
+# color-palette {
+#  background: #0d0d17;
+#  foreground: #e6e5e5;
+#  selection:  #adbdd0;
+#  cursor:     #e6e5e5;
+#
+#   black:     #4d4d4d;
+#   red:       #f12d52;
+#   green:     #09cd7e;
+#   yellow:    #f5f17a;
+#   blue:      #3182e0;
+#   magenta:   #ff2b6d;
+#   cyan:      #09c87a;
+#   white:     #fcfcfc;
+#
+#   brblack:   #808080;
+#   brred:     #f16d86;
+#   brgreen:   #0ae78d;
+#   bryellow:  #fffc67;
+#   brblue:    #6096ff;
+#   brmagenta: #ff78a2;
+#   brcyan:    #0ae78d;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 3182e0
+fish_color_comment f12d52
+fish_color_cwd 09cd7e
+fish_color_cwd_root f12d52
+fish_color_end 09cd7e
+fish_color_error f16d86
+fish_color_escape 0ae78d
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote f5f17a
+fish_color_keyword 3182e0
+fish_color_match --background=6096ff
+fish_color_normal normal
+fish_color_operator 0ae78d
+fish_color_option 09c87a
+fish_color_param 09c87a
+fish_color_quote f5f17a
+fish_color_redirection 09c87a --bold
+fish_color_search_match fffc67 --background=808080
+fish_color_selection fcfcfc --bold --background=808080
+fish_color_status f12d52
+fish_color_user 0ae78d
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fffc67 f5f17a -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=09c87a
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

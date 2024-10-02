@@ -1,0 +1,66 @@
+# name: "Hivacruz"
+# preferred_background: 132638
+
+# color-palette {
+#  background: #132638;
+#  foreground: #ede4e4;
+#  selection:  #5e6687;
+#  cursor:     #979db4;
+#
+#   black:     #202746;
+#   red:       #c94922;
+#   green:     #ac9739;
+#   yellow:    #c08b30;
+#   blue:      #3d8fd1;
+#   magenta:   #6679cc;
+#   cyan:      #22a2c9;
+#   white:     #979db4;
+#
+#   brblack:   #6b7394;
+#   brred:     #c76b29;
+#   brgreen:   #73ad43;
+#   bryellow:  #5e6687;
+#   brblue:    #898ea4;
+#   brmagenta: #dfe2f1;
+#   brcyan:    #9c637a;
+#   brwhite:   #f5f7ff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 3d8fd1
+fish_color_comment c94922
+fish_color_cwd ac9739
+fish_color_cwd_root c94922
+fish_color_end ac9739
+fish_color_error c76b29
+fish_color_escape 9c637a
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote c08b30
+fish_color_keyword 3d8fd1
+fish_color_match --background=898ea4
+fish_color_normal normal
+fish_color_operator 9c637a
+fish_color_option 22a2c9
+fish_color_param 22a2c9
+fish_color_quote c08b30
+fish_color_redirection 22a2c9 --bold
+fish_color_search_match 5e6687 --background=6b7394
+fish_color_selection 979db4 --bold --background=6b7394
+fish_color_status c94922
+fish_color_user 73ad43
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description 5e6687 c08b30 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress f5f7ff --background=22a2c9
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

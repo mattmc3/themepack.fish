@@ -1,0 +1,66 @@
+# name: "Earthsong"
+# preferred_background: 292520
+
+# color-palette {
+#  background: #292520;
+#  foreground: #e5c7a9;
+#  selection:  #121418;
+#  cursor:     #f6f7ec;
+#
+#   black:     #121418;
+#   red:       #c94234;
+#   green:     #85c54c;
+#   yellow:    #f5ae2e;
+#   blue:      #1398b9;
+#   magenta:   #d0633d;
+#   cyan:      #509552;
+#   white:     #e5c6aa;
+#
+#   brblack:   #675f54;
+#   brred:     #ff645a;
+#   brgreen:   #98e036;
+#   bryellow:  #e0d561;
+#   brblue:    #5fdaff;
+#   brmagenta: #ff9269;
+#   brcyan:    #84f088;
+#   brwhite:   #f6f7ec;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 1398b9
+fish_color_comment c94234
+fish_color_cwd 85c54c
+fish_color_cwd_root c94234
+fish_color_end 85c54c
+fish_color_error ff645a
+fish_color_escape 84f088
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote f5ae2e
+fish_color_keyword 1398b9
+fish_color_match --background=5fdaff
+fish_color_normal normal
+fish_color_operator 84f088
+fish_color_option 509552
+fish_color_param 509552
+fish_color_quote f5ae2e
+fish_color_redirection 509552 --bold
+fish_color_search_match e0d561 --background=675f54
+fish_color_selection e5c6aa --bold --background=675f54
+fish_color_status c94234
+fish_color_user 98e036
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e0d561 f5ae2e -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress f6f7ec --background=509552
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

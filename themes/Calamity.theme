@@ -1,0 +1,66 @@
+# name: "Calamity"
+# preferred_background: 2f2833
+
+# color-palette {
+#  background: #2f2833;
+#  foreground: #d5ced9;
+#  selection:  #7e6c88;
+#  cursor:     #d5ced9;
+#
+#   black:     #2f2833;
+#   red:       #fc644d;
+#   green:     #a5f69c;
+#   yellow:    #e9d7a5;
+#   blue:      #3b79c7;
+#   magenta:   #f92672;
+#   cyan:      #74d3de;
+#   white:     #d5ced9;
+#
+#   brblack:   #7e6c88;
+#   brred:     #fc644d;
+#   brgreen:   #a5f69c;
+#   bryellow:  #e9d7a5;
+#   brblue:    #3b79c7;
+#   brmagenta: #f92672;
+#   brcyan:    #74d3de;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 3b79c7
+fish_color_comment fc644d
+fish_color_cwd a5f69c
+fish_color_cwd_root fc644d
+fish_color_end a5f69c
+fish_color_error fc644d
+fish_color_escape 74d3de
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e9d7a5
+fish_color_keyword 3b79c7
+fish_color_match --background=3b79c7
+fish_color_normal normal
+fish_color_operator 74d3de
+fish_color_option 74d3de
+fish_color_param 74d3de
+fish_color_quote e9d7a5
+fish_color_redirection 74d3de --bold
+fish_color_search_match e9d7a5 --background=7e6c88
+fish_color_selection d5ced9 --bold --background=7e6c88
+fish_color_status fc644d
+fish_color_user a5f69c
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e9d7a5 e9d7a5 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=74d3de
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

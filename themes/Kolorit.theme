@@ -1,0 +1,66 @@
+# name: "Kolorit"
+# preferred_background: 1d1a1e
+
+# color-palette {
+#  background: #1d1a1e;
+#  foreground: #efecec;
+#  selection:  #e1925c;
+#  cursor:     #c7c7c7;
+#
+#   black:     #1d1a1e;
+#   red:       #ff5b82;
+#   green:     #47d7a1;
+#   yellow:    #e8e562;
+#   blue:      #5db4ee;
+#   magenta:   #da6cda;
+#   cyan:      #57e9eb;
+#   white:     #ededed;
+#
+#   brblack:   #1d1a1e;
+#   brred:     #ff5b82;
+#   brgreen:   #47d7a1;
+#   bryellow:  #e8e562;
+#   brblue:    #5db4ee;
+#   brmagenta: #da6cda;
+#   brcyan:    #57e9eb;
+#   brwhite:   #ededed;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 5db4ee
+fish_color_comment ff5b82
+fish_color_cwd 47d7a1
+fish_color_cwd_root ff5b82
+fish_color_end 47d7a1
+fish_color_error ff5b82
+fish_color_escape 57e9eb
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e8e562
+fish_color_keyword 5db4ee
+fish_color_match --background=5db4ee
+fish_color_normal normal
+fish_color_operator 57e9eb
+fish_color_option 57e9eb
+fish_color_param 57e9eb
+fish_color_quote e8e562
+fish_color_redirection 57e9eb --bold
+fish_color_search_match e8e562 --background=1d1a1e
+fish_color_selection ededed --bold --background=1d1a1e
+fish_color_status ff5b82
+fish_color_user 47d7a1
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e8e562 e8e562 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ededed --background=57e9eb
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

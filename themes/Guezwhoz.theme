@@ -1,0 +1,66 @@
+# name: "Guezwhoz"
+# preferred_background: 1c1c1c
+
+# color-palette {
+#  background: #1c1c1c;
+#  foreground: #d0d0d0;
+#  selection:  #005f5f;
+#  cursor:     #eeeeee;
+#
+#   black:     #080808;
+#   red:       #ff5f5f;
+#   green:     #87d7af;
+#   yellow:    #d7d787;
+#   blue:      #5fafd7;
+#   magenta:   #afafff;
+#   cyan:      #5fd7d7;
+#   white:     #dadada;
+#
+#   brblack:   #8a8a8a;
+#   brred:     #d75f5f;
+#   brgreen:   #afd7af;
+#   bryellow:  #d7d7af;
+#   brblue:    #87afd7;
+#   brmagenta: #afafd7;
+#   brcyan:    #87d7d7;
+#   brwhite:   #dadada;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 5fafd7
+fish_color_comment ff5f5f
+fish_color_cwd 87d7af
+fish_color_cwd_root ff5f5f
+fish_color_end 87d7af
+fish_color_error d75f5f
+fish_color_escape 87d7d7
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote d7d787
+fish_color_keyword 5fafd7
+fish_color_match --background=87afd7
+fish_color_normal normal
+fish_color_operator 87d7d7
+fish_color_option 5fd7d7
+fish_color_param 5fd7d7
+fish_color_quote d7d787
+fish_color_redirection 5fd7d7 --bold
+fish_color_search_match d7d7af --background=8a8a8a
+fish_color_selection dadada --bold --background=8a8a8a
+fish_color_status ff5f5f
+fish_color_user afd7af
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description d7d7af d7d787 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress dadada --background=5fd7d7
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

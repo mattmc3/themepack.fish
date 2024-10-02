@@ -1,0 +1,66 @@
+# name: "JetBrains Darcula"
+# preferred_background: 202020
+
+# color-palette {
+#  background: #202020;
+#  foreground: #adadad;
+#  selection:  #1a3272;
+#  cursor:     #ffffff;
+#
+#   black:     #000000;
+#   red:       #fa5355;
+#   green:     #126e00;
+#   yellow:    #c2c300;
+#   blue:      #4581eb;
+#   magenta:   #fa54ff;
+#   cyan:      #33c2c1;
+#   white:     #adadad;
+#
+#   brblack:   #555555;
+#   brred:     #fb7172;
+#   brgreen:   #67ff4f;
+#   bryellow:  #ffff00;
+#   brblue:    #6d9df1;
+#   brmagenta: #fb82ff;
+#   brcyan:    #60d3d1;
+#   brwhite:   #eeeeee;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 4581eb
+fish_color_comment fa5355
+fish_color_cwd 126e00
+fish_color_cwd_root fa5355
+fish_color_end 126e00
+fish_color_error fb7172
+fish_color_escape 60d3d1
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote c2c300
+fish_color_keyword 4581eb
+fish_color_match --background=6d9df1
+fish_color_normal normal
+fish_color_operator 60d3d1
+fish_color_option 33c2c1
+fish_color_param 33c2c1
+fish_color_quote c2c300
+fish_color_redirection 33c2c1 --bold
+fish_color_search_match ffff00 --background=555555
+fish_color_selection adadad --bold --background=555555
+fish_color_status fa5355
+fish_color_user 67ff4f
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffff00 c2c300 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress eeeeee --background=33c2c1
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

@@ -1,0 +1,66 @@
+# name: "duckbones"
+# preferred_background: 0e101a
+
+# color-palette {
+#  background: #0e101a;
+#  foreground: #ebefc0;
+#  selection:  #37382d;
+#  cursor:     #edf2c2;
+#
+#   black:     #0e101a;
+#   red:       #e03600;
+#   green:     #5dcd97;
+#   yellow:    #e39500;
+#   blue:      #00a3cb;
+#   magenta:   #795ccc;
+#   cyan:      #00a3cb;
+#   white:     #ebefc0;
+#
+#   brblack:   #2b2f46;
+#   brred:     #ff4821;
+#   brgreen:   #58db9e;
+#   bryellow:  #f6a100;
+#   brblue:    #00b4e0;
+#   brmagenta: #b3a1e6;
+#   brcyan:    #00b4e0;
+#   brwhite:   #b3b692;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 00a3cb
+fish_color_comment e03600
+fish_color_cwd 5dcd97
+fish_color_cwd_root e03600
+fish_color_end 5dcd97
+fish_color_error ff4821
+fish_color_escape 00b4e0
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e39500
+fish_color_keyword 00a3cb
+fish_color_match --background=00b4e0
+fish_color_normal normal
+fish_color_operator 00b4e0
+fish_color_option 00a3cb
+fish_color_param 00a3cb
+fish_color_quote e39500
+fish_color_redirection 00a3cb --bold
+fish_color_search_match f6a100 --background=2b2f46
+fish_color_selection ebefc0 --bold --background=2b2f46
+fish_color_status e03600
+fish_color_user 58db9e
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description f6a100 e39500 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress b3b692 --background=00a3cb
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

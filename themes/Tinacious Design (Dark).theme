@@ -1,0 +1,66 @@
+# name: "Tinacious Design (Dark)"
+# preferred_background: 1d1d26
+
+# color-palette {
+#  background: #1d1d26;
+#  foreground: #cbcbf0;
+#  selection:  #ff3399;
+#  cursor:     #cbcbf0;
+#
+#   black:     #1d1d26;
+#   red:       #ff3399;
+#   green:     #00d364;
+#   yellow:    #ffcc66;
+#   blue:      #00cbff;
+#   magenta:   #cc66ff;
+#   cyan:      #00ceca;
+#   white:     #cbcbf0;
+#
+#   brblack:   #636667;
+#   brred:     #ff2f92;
+#   brgreen:   #00d364;
+#   bryellow:  #ffd479;
+#   brblue:    #00cbff;
+#   brmagenta: #d783ff;
+#   brcyan:    #00d5d4;
+#   brwhite:   #d5d6f3;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 00cbff
+fish_color_comment ff3399
+fish_color_cwd 00d364
+fish_color_cwd_root ff3399
+fish_color_end 00d364
+fish_color_error ff2f92
+fish_color_escape 00d5d4
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ffcc66
+fish_color_keyword 00cbff
+fish_color_match --background=00cbff
+fish_color_normal normal
+fish_color_operator 00d5d4
+fish_color_option 00ceca
+fish_color_param 00ceca
+fish_color_quote ffcc66
+fish_color_redirection 00ceca --bold
+fish_color_search_match ffd479 --background=636667
+fish_color_selection cbcbf0 --bold --background=636667
+fish_color_status ff3399
+fish_color_user 00d364
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffd479 ffcc66 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress d5d6f3 --background=00ceca
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

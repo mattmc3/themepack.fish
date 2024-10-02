@@ -1,0 +1,66 @@
+# name: "Thayer Bright"
+# preferred_background: 1b1d1e
+
+# color-palette {
+#  background: #1b1d1e;
+#  foreground: #f8f8f8;
+#  selection:  #4d4d4d;
+#  cursor:     #fc971f;
+#
+#   black:     #1b1d1e;
+#   red:       #f92672;
+#   green:     #4df840;
+#   yellow:    #f4fd22;
+#   blue:      #2757d6;
+#   magenta:   #8c54fe;
+#   cyan:      #38c8b5;
+#   white:     #ccccc6;
+#
+#   brblack:   #505354;
+#   brred:     #ff5995;
+#   brgreen:   #b6e354;
+#   bryellow:  #feed6c;
+#   brblue:    #3f78ff;
+#   brmagenta: #9e6ffe;
+#   brcyan:    #23cfd5;
+#   brwhite:   #f8f8f2;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2757d6
+fish_color_comment f92672
+fish_color_cwd 4df840
+fish_color_cwd_root f92672
+fish_color_end 4df840
+fish_color_error ff5995
+fish_color_escape 23cfd5
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote f4fd22
+fish_color_keyword 2757d6
+fish_color_match --background=3f78ff
+fish_color_normal normal
+fish_color_operator 23cfd5
+fish_color_option 38c8b5
+fish_color_param 38c8b5
+fish_color_quote f4fd22
+fish_color_redirection 38c8b5 --bold
+fish_color_search_match feed6c --background=505354
+fish_color_selection ccccc6 --bold --background=505354
+fish_color_status f92672
+fish_color_user b6e354
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description feed6c f4fd22 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress f8f8f2 --background=38c8b5
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

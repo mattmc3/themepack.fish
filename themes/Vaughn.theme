@@ -1,0 +1,66 @@
+# name: "Vaughn"
+# preferred_background: 25234f
+
+# color-palette {
+#  background: #25234f;
+#  foreground: #dcdccc;
+#  selection:  #b5d5ff;
+#  cursor:     #ff5555;
+#
+#   black:     #25234f;
+#   red:       #705050;
+#   green:     #60b48a;
+#   yellow:    #dfaf8f;
+#   blue:      #5555ff;
+#   magenta:   #f08cc3;
+#   cyan:      #8cd0d3;
+#   white:     #709080;
+#
+#   brblack:   #709080;
+#   brred:     #dca3a3;
+#   brgreen:   #60b48a;
+#   bryellow:  #f0dfaf;
+#   brblue:    #5555ff;
+#   brmagenta: #ec93d3;
+#   brcyan:    #93e0e3;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 5555ff
+fish_color_comment 705050
+fish_color_cwd 60b48a
+fish_color_cwd_root 705050
+fish_color_end 60b48a
+fish_color_error dca3a3
+fish_color_escape 93e0e3
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote dfaf8f
+fish_color_keyword 5555ff
+fish_color_match --background=5555ff
+fish_color_normal normal
+fish_color_operator 93e0e3
+fish_color_option 8cd0d3
+fish_color_param 8cd0d3
+fish_color_quote dfaf8f
+fish_color_redirection 8cd0d3 --bold
+fish_color_search_match f0dfaf --background=709080
+fish_color_selection 709080 --bold --background=709080
+fish_color_status 705050
+fish_color_user 60b48a
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description f0dfaf dfaf8f -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=8cd0d3
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

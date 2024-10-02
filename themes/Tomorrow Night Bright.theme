@@ -1,0 +1,66 @@
+# name: "Tomorrow Night Bright"
+# preferred_background: 000000
+
+# color-palette {
+#  background: #000000;
+#  foreground: #eaeaea;
+#  selection:  #424242;
+#  cursor:     #eaeaea;
+#
+#   black:     #000000;
+#   red:       #d54e53;
+#   green:     #b9ca4a;
+#   yellow:    #e7c547;
+#   blue:      #7aa6da;
+#   magenta:   #c397d8;
+#   cyan:      #70c0b1;
+#   white:     #ffffff;
+#
+#   brblack:   #000000;
+#   brred:     #d54e53;
+#   brgreen:   #b9ca4a;
+#   bryellow:  #e7c547;
+#   brblue:    #7aa6da;
+#   brmagenta: #c397d8;
+#   brcyan:    #70c0b1;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 7aa6da
+fish_color_comment d54e53
+fish_color_cwd b9ca4a
+fish_color_cwd_root d54e53
+fish_color_end b9ca4a
+fish_color_error d54e53
+fish_color_escape 70c0b1
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e7c547
+fish_color_keyword 7aa6da
+fish_color_match --background=7aa6da
+fish_color_normal normal
+fish_color_operator 70c0b1
+fish_color_option 70c0b1
+fish_color_param 70c0b1
+fish_color_quote e7c547
+fish_color_redirection 70c0b1 --bold
+fish_color_search_match e7c547 --background=000000
+fish_color_selection ffffff --bold --background=000000
+fish_color_status d54e53
+fish_color_user b9ca4a
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e7c547 e7c547 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=70c0b1
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

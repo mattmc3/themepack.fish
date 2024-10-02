@@ -1,0 +1,66 @@
+# name: "rose-pine-moon"
+# preferred_background: 232136
+
+# color-palette {
+#  background: #232136;
+#  foreground: #e0def4;
+#  selection:  #232136;
+#  cursor:     #e0def4;
+#
+#   black:     #393552;
+#   red:       #eb6f92;
+#   green:     #9ccfd8;
+#   yellow:    #f6c177;
+#   blue:      #3e8fb0;
+#   magenta:   #c4a7e7;
+#   cyan:      #ea9a97;
+#   white:     #e0def4;
+#
+#   brblack:   #6e6a86;
+#   brred:     #eb6f92;
+#   brgreen:   #9ccfd8;
+#   bryellow:  #f6c177;
+#   brblue:    #3e8fb0;
+#   brmagenta: #c4a7e7;
+#   brcyan:    #ea9a97;
+#   brwhite:   #e0def4;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 3e8fb0
+fish_color_comment eb6f92
+fish_color_cwd 9ccfd8
+fish_color_cwd_root eb6f92
+fish_color_end 9ccfd8
+fish_color_error eb6f92
+fish_color_escape ea9a97
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote f6c177
+fish_color_keyword 3e8fb0
+fish_color_match --background=3e8fb0
+fish_color_normal normal
+fish_color_operator ea9a97
+fish_color_option ea9a97
+fish_color_param ea9a97
+fish_color_quote f6c177
+fish_color_redirection ea9a97 --bold
+fish_color_search_match f6c177 --background=6e6a86
+fish_color_selection e0def4 --bold --background=6e6a86
+fish_color_status eb6f92
+fish_color_user 9ccfd8
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description f6c177 f6c177 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress e0def4 --background=ea9a97
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

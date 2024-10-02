@@ -1,0 +1,66 @@
+# name: "Later This Evening"
+# preferred_background: 222222
+
+# color-palette {
+#  background: #222222;
+#  foreground: #959595;
+#  selection:  #424242;
+#  cursor:     #424242;
+#
+#   black:     #2b2b2b;
+#   red:       #d45a60;
+#   green:     #afba67;
+#   yellow:    #e5d289;
+#   blue:      #a0bad6;
+#   magenta:   #c092d6;
+#   cyan:      #91bfb7;
+#   white:     #3c3d3d;
+#
+#   brblack:   #454747;
+#   brred:     #d3232f;
+#   brgreen:   #aabb39;
+#   bryellow:  #e5be39;
+#   brblue:    #6699d6;
+#   brmagenta: #ab53d6;
+#   brcyan:    #5fc0ae;
+#   brwhite:   #c1c2c2;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command a0bad6
+fish_color_comment d45a60
+fish_color_cwd afba67
+fish_color_cwd_root d45a60
+fish_color_end afba67
+fish_color_error d3232f
+fish_color_escape 5fc0ae
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e5d289
+fish_color_keyword a0bad6
+fish_color_match --background=6699d6
+fish_color_normal normal
+fish_color_operator 5fc0ae
+fish_color_option 91bfb7
+fish_color_param 91bfb7
+fish_color_quote e5d289
+fish_color_redirection 91bfb7 --bold
+fish_color_search_match e5be39 --background=454747
+fish_color_selection 3c3d3d --bold --background=454747
+fish_color_status d45a60
+fish_color_user aabb39
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e5be39 e5d289 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress c1c2c2 --background=91bfb7
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

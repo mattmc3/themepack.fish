@@ -1,0 +1,66 @@
+# name: "3024 Night"
+# preferred_background: 090300
+
+# color-palette {
+#  background: #090300;
+#  foreground: #a5a2a2;
+#  selection:  #4a4543;
+#  cursor:     #a5a2a2;
+#
+#   black:     #090300;
+#   red:       #db2d20;
+#   green:     #01a252;
+#   yellow:    #fded02;
+#   blue:      #01a0e4;
+#   magenta:   #a16a94;
+#   cyan:      #b5e4f4;
+#   white:     #a5a2a2;
+#
+#   brblack:   #5c5855;
+#   brred:     #e8bbd0;
+#   brgreen:   #3a3432;
+#   bryellow:  #4a4543;
+#   brblue:    #807d7c;
+#   brmagenta: #d6d5d4;
+#   brcyan:    #cdab53;
+#   brwhite:   #f7f7f7;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 01a0e4
+fish_color_comment db2d20
+fish_color_cwd 01a252
+fish_color_cwd_root db2d20
+fish_color_end 01a252
+fish_color_error e8bbd0
+fish_color_escape cdab53
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote fded02
+fish_color_keyword 01a0e4
+fish_color_match --background=807d7c
+fish_color_normal normal
+fish_color_operator cdab53
+fish_color_option b5e4f4
+fish_color_param b5e4f4
+fish_color_quote fded02
+fish_color_redirection b5e4f4 --bold
+fish_color_search_match 4a4543 --background=5c5855
+fish_color_selection a5a2a2 --bold --background=5c5855
+fish_color_status db2d20
+fish_color_user 3a3432
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description 4a4543 fded02 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress f7f7f7 --background=b5e4f4
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

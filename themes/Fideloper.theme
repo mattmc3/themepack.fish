@@ -1,0 +1,66 @@
+# name: "Fideloper"
+# preferred_background: 292f33
+
+# color-palette {
+#  background: #292f33;
+#  foreground: #dbdae0;
+#  selection:  #efb8ac;
+#  cursor:     #d4605a;
+#
+#   black:     #292f33;
+#   red:       #cb1e2d;
+#   green:     #edb8ac;
+#   yellow:    #b7ab9b;
+#   blue:      #2e78c2;
+#   magenta:   #c0236f;
+#   cyan:      #309186;
+#   white:     #eae3ce;
+#
+#   brblack:   #092028;
+#   brred:     #d4605a;
+#   brgreen:   #d4605a;
+#   bryellow:  #a86671;
+#   brblue:    #7c85c4;
+#   brmagenta: #5c5db2;
+#   brcyan:    #819090;
+#   brwhite:   #fcf4df;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2e78c2
+fish_color_comment cb1e2d
+fish_color_cwd edb8ac
+fish_color_cwd_root cb1e2d
+fish_color_end edb8ac
+fish_color_error d4605a
+fish_color_escape 819090
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote b7ab9b
+fish_color_keyword 2e78c2
+fish_color_match --background=7c85c4
+fish_color_normal normal
+fish_color_operator 819090
+fish_color_option 309186
+fish_color_param 309186
+fish_color_quote b7ab9b
+fish_color_redirection 309186 --bold
+fish_color_search_match a86671 --background=092028
+fish_color_selection eae3ce --bold --background=092028
+fish_color_status cb1e2d
+fish_color_user d4605a
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description a86671 b7ab9b -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress fcf4df --background=309186
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

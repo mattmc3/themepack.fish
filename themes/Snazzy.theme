@@ -1,0 +1,66 @@
+# name: "Snazzy"
+# preferred_background: 1e1f29
+
+# color-palette {
+#  background: #1e1f29;
+#  foreground: #ebece6;
+#  selection:  #81aec6;
+#  cursor:     #e4e4e4;
+#
+#   black:     #000000;
+#   red:       #fc4346;
+#   green:     #50fb7c;
+#   yellow:    #f0fb8c;
+#   blue:      #49baff;
+#   magenta:   #fc4cb4;
+#   cyan:      #8be9fe;
+#   white:     #ededec;
+#
+#   brblack:   #555555;
+#   brred:     #fc4346;
+#   brgreen:   #50fb7c;
+#   bryellow:  #f0fb8c;
+#   brblue:    #49baff;
+#   brmagenta: #fc4cb4;
+#   brcyan:    #8be9fe;
+#   brwhite:   #ededec;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 49baff
+fish_color_comment fc4346
+fish_color_cwd 50fb7c
+fish_color_cwd_root fc4346
+fish_color_end 50fb7c
+fish_color_error fc4346
+fish_color_escape 8be9fe
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote f0fb8c
+fish_color_keyword 49baff
+fish_color_match --background=49baff
+fish_color_normal normal
+fish_color_operator 8be9fe
+fish_color_option 8be9fe
+fish_color_param 8be9fe
+fish_color_quote f0fb8c
+fish_color_redirection 8be9fe --bold
+fish_color_search_match f0fb8c --background=555555
+fish_color_selection ededec --bold --background=555555
+fish_color_status fc4346
+fish_color_user 50fb7c
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description f0fb8c f0fb8c -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ededec --background=8be9fe
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

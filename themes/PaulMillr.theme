@@ -1,0 +1,66 @@
+# name: "PaulMillr"
+# preferred_background: 000000
+
+# color-palette {
+#  background: #000000;
+#  foreground: #f2f2f2;
+#  selection:  #414141;
+#  cursor:     #4d4d4d;
+#
+#   black:     #2a2a2a;
+#   red:       #ff0000;
+#   green:     #79ff0f;
+#   yellow:    #e7bf00;
+#   blue:      #396bd7;
+#   magenta:   #b449be;
+#   cyan:      #66ccff;
+#   white:     #bbbbbb;
+#
+#   brblack:   #666666;
+#   brred:     #ff0080;
+#   brgreen:   #66ff66;
+#   bryellow:  #f3d64e;
+#   brblue:    #709aed;
+#   brmagenta: #db67e6;
+#   brcyan:    #7adff2;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 396bd7
+fish_color_comment ff0000
+fish_color_cwd 79ff0f
+fish_color_cwd_root ff0000
+fish_color_end 79ff0f
+fish_color_error ff0080
+fish_color_escape 7adff2
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e7bf00
+fish_color_keyword 396bd7
+fish_color_match --background=709aed
+fish_color_normal normal
+fish_color_operator 7adff2
+fish_color_option 66ccff
+fish_color_param 66ccff
+fish_color_quote e7bf00
+fish_color_redirection 66ccff --bold
+fish_color_search_match f3d64e --background=666666
+fish_color_selection bbbbbb --bold --background=666666
+fish_color_status ff0000
+fish_color_user 66ff66
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description f3d64e e7bf00 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=66ccff
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

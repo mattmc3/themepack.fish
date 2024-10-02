@@ -1,0 +1,66 @@
+# name: "Harper"
+# preferred_background: 010101
+
+# color-palette {
+#  background: #010101;
+#  foreground: #a8a49d;
+#  selection:  #5a5753;
+#  cursor:     #a8a49d;
+#
+#   black:     #010101;
+#   red:       #f8b63f;
+#   green:     #7fb5e1;
+#   yellow:    #d6da25;
+#   blue:      #489e48;
+#   magenta:   #b296c6;
+#   cyan:      #f5bfd7;
+#   white:     #a8a49d;
+#
+#   brblack:   #726e6a;
+#   brred:     #f8b63f;
+#   brgreen:   #7fb5e1;
+#   bryellow:  #d6da25;
+#   brblue:    #489e48;
+#   brmagenta: #b296c6;
+#   brcyan:    #f5bfd7;
+#   brwhite:   #fefbea;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 489e48
+fish_color_comment f8b63f
+fish_color_cwd 7fb5e1
+fish_color_cwd_root f8b63f
+fish_color_end 7fb5e1
+fish_color_error f8b63f
+fish_color_escape f5bfd7
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote d6da25
+fish_color_keyword 489e48
+fish_color_match --background=489e48
+fish_color_normal normal
+fish_color_operator f5bfd7
+fish_color_option f5bfd7
+fish_color_param f5bfd7
+fish_color_quote d6da25
+fish_color_redirection f5bfd7 --bold
+fish_color_search_match d6da25 --background=726e6a
+fish_color_selection a8a49d --bold --background=726e6a
+fish_color_status f8b63f
+fish_color_user 7fb5e1
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description d6da25 d6da25 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress fefbea --background=f5bfd7
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

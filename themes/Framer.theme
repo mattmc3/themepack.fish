@@ -1,0 +1,66 @@
+# name: "Framer"
+# preferred_background: 111111
+
+# color-palette {
+#  background: #111111;
+#  foreground: #777777;
+#  selection:  #666666;
+#  cursor:     #fcdc08;
+#
+#   black:     #141414;
+#   red:       #ff5555;
+#   green:     #98ec65;
+#   yellow:    #ffcc33;
+#   blue:      #00aaff;
+#   magenta:   #aa88ff;
+#   cyan:      #88ddff;
+#   white:     #cccccc;
+#
+#   brblack:   #414141;
+#   brred:     #ff8888;
+#   brgreen:   #b6f292;
+#   bryellow:  #ffd966;
+#   brblue:    #33bbff;
+#   brmagenta: #cebbff;
+#   brcyan:    #bbecff;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 00aaff
+fish_color_comment ff5555
+fish_color_cwd 98ec65
+fish_color_cwd_root ff5555
+fish_color_end 98ec65
+fish_color_error ff8888
+fish_color_escape bbecff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ffcc33
+fish_color_keyword 00aaff
+fish_color_match --background=33bbff
+fish_color_normal normal
+fish_color_operator bbecff
+fish_color_option 88ddff
+fish_color_param 88ddff
+fish_color_quote ffcc33
+fish_color_redirection 88ddff --bold
+fish_color_search_match ffd966 --background=414141
+fish_color_selection cccccc --bold --background=414141
+fish_color_status ff5555
+fish_color_user b6f292
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffd966 ffcc33 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=88ddff
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

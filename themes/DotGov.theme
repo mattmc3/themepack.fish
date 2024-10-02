@@ -1,0 +1,66 @@
+# name: "DotGov"
+# preferred_background: 262c35
+
+# color-palette {
+#  background: #262c35;
+#  foreground: #ebebeb;
+#  selection:  #1a4080;
+#  cursor:     #d9002f;
+#
+#   black:     #191919;
+#   red:       #bf091d;
+#   green:     #3d9751;
+#   yellow:    #f6bb34;
+#   blue:      #17b2e0;
+#   magenta:   #7830b0;
+#   cyan:      #8bd2ed;
+#   white:     #ffffff;
+#
+#   brblack:   #191919;
+#   brred:     #bf091d;
+#   brgreen:   #3d9751;
+#   bryellow:  #f6bb34;
+#   brblue:    #17b2e0;
+#   brmagenta: #7830b0;
+#   brcyan:    #8bd2ed;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 17b2e0
+fish_color_comment bf091d
+fish_color_cwd 3d9751
+fish_color_cwd_root bf091d
+fish_color_end 3d9751
+fish_color_error bf091d
+fish_color_escape 8bd2ed
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote f6bb34
+fish_color_keyword 17b2e0
+fish_color_match --background=17b2e0
+fish_color_normal normal
+fish_color_operator 8bd2ed
+fish_color_option 8bd2ed
+fish_color_param 8bd2ed
+fish_color_quote f6bb34
+fish_color_redirection 8bd2ed --bold
+fish_color_search_match f6bb34 --background=191919
+fish_color_selection ffffff --bold --background=191919
+fish_color_status bf091d
+fish_color_user 3d9751
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description f6bb34 f6bb34 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=8bd2ed
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

@@ -1,0 +1,66 @@
+# name: "catppuccin-macchiato"
+# preferred_background: 24273a
+
+# color-palette {
+#  background: #24273a;
+#  foreground: #cad3f5;
+#  selection:  #5b6078;
+#  cursor:     #f4dbd6;
+#
+#   black:     #494d64;
+#   red:       #ed8796;
+#   green:     #a6da95;
+#   yellow:    #eed49f;
+#   blue:      #8aadf4;
+#   magenta:   #f5bde6;
+#   cyan:      #8bd5ca;
+#   white:     #b8c0e0;
+#
+#   brblack:   #5b6078;
+#   brred:     #ed8796;
+#   brgreen:   #a6da95;
+#   bryellow:  #eed49f;
+#   brblue:    #8aadf4;
+#   brmagenta: #f5bde6;
+#   brcyan:    #8bd5ca;
+#   brwhite:   #a5adcb;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 8aadf4
+fish_color_comment ed8796
+fish_color_cwd a6da95
+fish_color_cwd_root ed8796
+fish_color_end a6da95
+fish_color_error ed8796
+fish_color_escape 8bd5ca
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote eed49f
+fish_color_keyword 8aadf4
+fish_color_match --background=8aadf4
+fish_color_normal normal
+fish_color_operator 8bd5ca
+fish_color_option 8bd5ca
+fish_color_param 8bd5ca
+fish_color_quote eed49f
+fish_color_redirection 8bd5ca --bold
+fish_color_search_match eed49f --background=5b6078
+fish_color_selection b8c0e0 --bold --background=5b6078
+fish_color_status ed8796
+fish_color_user a6da95
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description eed49f eed49f -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress a5adcb --background=8bd5ca
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

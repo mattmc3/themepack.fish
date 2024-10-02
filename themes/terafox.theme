@@ -1,0 +1,66 @@
+# name: "terafox"
+# preferred_background: 152528
+
+# color-palette {
+#  background: #152528;
+#  foreground: #e6eaea;
+#  selection:  #293e40;
+#  cursor:     #e6eaea;
+#
+#   black:     #2f3239;
+#   red:       #e85c51;
+#   green:     #7aa4a1;
+#   yellow:    #fda47f;
+#   blue:      #5a93aa;
+#   magenta:   #ad5c7c;
+#   cyan:      #a1cdd8;
+#   white:     #ebebeb;
+#
+#   brblack:   #4e5157;
+#   brred:     #eb746b;
+#   brgreen:   #8eb2af;
+#   bryellow:  #fdb292;
+#   brblue:    #73a3b7;
+#   brmagenta: #b97490;
+#   brcyan:    #afd4de;
+#   brwhite:   #eeeeee;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 5a93aa
+fish_color_comment e85c51
+fish_color_cwd 7aa4a1
+fish_color_cwd_root e85c51
+fish_color_end 7aa4a1
+fish_color_error eb746b
+fish_color_escape afd4de
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote fda47f
+fish_color_keyword 5a93aa
+fish_color_match --background=73a3b7
+fish_color_normal normal
+fish_color_operator afd4de
+fish_color_option a1cdd8
+fish_color_param a1cdd8
+fish_color_quote fda47f
+fish_color_redirection a1cdd8 --bold
+fish_color_search_match fdb292 --background=4e5157
+fish_color_selection ebebeb --bold --background=4e5157
+fish_color_status e85c51
+fish_color_user 8eb2af
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fdb292 fda47f -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress eeeeee --background=a1cdd8
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

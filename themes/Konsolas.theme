@@ -1,0 +1,66 @@
+# name: "Konsolas"
+# preferred_background: 060606
+
+# color-palette {
+#  background: #060606;
+#  foreground: #c8c1c1;
+#  selection:  #060606;
+#  cursor:     #c8c1c1;
+#
+#   black:     #000000;
+#   red:       #aa1717;
+#   green:     #18b218;
+#   yellow:    #ebae1f;
+#   blue:      #2323a5;
+#   magenta:   #ad1edc;
+#   cyan:      #42b0c8;
+#   white:     #c8c1c1;
+#
+#   brblack:   #7b716e;
+#   brred:     #ff4141;
+#   brgreen:   #5fff5f;
+#   bryellow:  #ffff55;
+#   brblue:    #4b4bff;
+#   brmagenta: #ff54ff;
+#   brcyan:    #69ffff;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2323a5
+fish_color_comment aa1717
+fish_color_cwd 18b218
+fish_color_cwd_root aa1717
+fish_color_end 18b218
+fish_color_error ff4141
+fish_color_escape 69ffff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ebae1f
+fish_color_keyword 2323a5
+fish_color_match --background=4b4bff
+fish_color_normal normal
+fish_color_operator 69ffff
+fish_color_option 42b0c8
+fish_color_param 42b0c8
+fish_color_quote ebae1f
+fish_color_redirection 42b0c8 --bold
+fish_color_search_match ffff55 --background=7b716e
+fish_color_selection c8c1c1 --bold --background=7b716e
+fish_color_status aa1717
+fish_color_user 5fff5f
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffff55 ebae1f -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=42b0c8
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

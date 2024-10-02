@@ -1,0 +1,66 @@
+# name: "Grape"
+# preferred_background: 171423
+
+# color-palette {
+#  background: #171423;
+#  foreground: #9f9fa1;
+#  selection:  #493d70;
+#  cursor:     #a288f7;
+#
+#   black:     #2d283f;
+#   red:       #ed2261;
+#   green:     #1fa91b;
+#   yellow:    #8ddc20;
+#   blue:      #487df4;
+#   magenta:   #8d35c9;
+#   cyan:      #3bdeed;
+#   white:     #9e9ea0;
+#
+#   brblack:   #59516a;
+#   brred:     #f0729a;
+#   brgreen:   #53aa5e;
+#   bryellow:  #b2dc87;
+#   brblue:    #a9bcec;
+#   brmagenta: #ad81c2;
+#   brcyan:    #9de3eb;
+#   brwhite:   #a288f7;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 487df4
+fish_color_comment ed2261
+fish_color_cwd 1fa91b
+fish_color_cwd_root ed2261
+fish_color_end 1fa91b
+fish_color_error f0729a
+fish_color_escape 9de3eb
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote 8ddc20
+fish_color_keyword 487df4
+fish_color_match --background=a9bcec
+fish_color_normal normal
+fish_color_operator 9de3eb
+fish_color_option 3bdeed
+fish_color_param 3bdeed
+fish_color_quote 8ddc20
+fish_color_redirection 3bdeed --bold
+fish_color_search_match b2dc87 --background=59516a
+fish_color_selection 9e9ea0 --bold --background=59516a
+fish_color_status ed2261
+fish_color_user 53aa5e
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description b2dc87 8ddc20 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress a288f7 --background=3bdeed
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

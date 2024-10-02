@@ -1,0 +1,66 @@
+# name: "Solarized Darcula"
+# preferred_background: 3d3f41
+
+# color-palette {
+#  background: #3d3f41;
+#  foreground: #d2d8d9;
+#  selection:  #214283;
+#  cursor:     #708284;
+#
+#   black:     #25292a;
+#   red:       #f24840;
+#   green:     #629655;
+#   yellow:    #b68800;
+#   blue:      #2075c7;
+#   magenta:   #797fd4;
+#   cyan:      #15968d;
+#   white:     #d2d8d9;
+#
+#   brblack:   #25292a;
+#   brred:     #f24840;
+#   brgreen:   #629655;
+#   bryellow:  #b68800;
+#   brblue:    #2075c7;
+#   brmagenta: #797fd4;
+#   brcyan:    #15968d;
+#   brwhite:   #d2d8d9;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2075c7
+fish_color_comment f24840
+fish_color_cwd 629655
+fish_color_cwd_root f24840
+fish_color_end 629655
+fish_color_error f24840
+fish_color_escape 15968d
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote b68800
+fish_color_keyword 2075c7
+fish_color_match --background=2075c7
+fish_color_normal normal
+fish_color_operator 15968d
+fish_color_option 15968d
+fish_color_param 15968d
+fish_color_quote b68800
+fish_color_redirection 15968d --bold
+fish_color_search_match b68800 --background=25292a
+fish_color_selection d2d8d9 --bold --background=25292a
+fish_color_status f24840
+fish_color_user 629655
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description b68800 b68800 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress d2d8d9 --background=15968d
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

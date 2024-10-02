@@ -1,0 +1,66 @@
+# name: "AdventureTime"
+# preferred_background: 1f1d45
+
+# color-palette {
+#  background: #1f1d45;
+#  foreground: #f8dcc0;
+#  selection:  #706b4e;
+#  cursor:     #efbf38;
+#
+#   black:     #050404;
+#   red:       #bd0013;
+#   green:     #4ab118;
+#   yellow:    #e7741e;
+#   blue:      #0f4ac6;
+#   magenta:   #665993;
+#   cyan:      #70a598;
+#   white:     #f8dcc0;
+#
+#   brblack:   #4e7cbf;
+#   brred:     #fc5f5a;
+#   brgreen:   #9eff6e;
+#   bryellow:  #efc11a;
+#   brblue:    #1997c6;
+#   brmagenta: #9b5953;
+#   brcyan:    #c8faf4;
+#   brwhite:   #f6f5fb;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 0f4ac6
+fish_color_comment bd0013
+fish_color_cwd 4ab118
+fish_color_cwd_root bd0013
+fish_color_end 4ab118
+fish_color_error fc5f5a
+fish_color_escape c8faf4
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e7741e
+fish_color_keyword 0f4ac6
+fish_color_match --background=1997c6
+fish_color_normal normal
+fish_color_operator c8faf4
+fish_color_option 70a598
+fish_color_param 70a598
+fish_color_quote e7741e
+fish_color_redirection 70a598 --bold
+fish_color_search_match efc11a --background=4e7cbf
+fish_color_selection f8dcc0 --bold --background=4e7cbf
+fish_color_status bd0013
+fish_color_user 9eff6e
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description efc11a e7741e -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress f6f5fb --background=70a598
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

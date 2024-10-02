@@ -1,0 +1,66 @@
+# name: "tokyonight-storm"
+# preferred_background: 24283b
+
+# color-palette {
+#  background: #24283b;
+#  foreground: #c0caf5;
+#  selection:  #364a82;
+#  cursor:     #c0caf5;
+#
+#   black:     #1d202f;
+#   red:       #f7768e;
+#   green:     #9ece6a;
+#   yellow:    #e0af68;
+#   blue:      #7aa2f7;
+#   magenta:   #bb9af7;
+#   cyan:      #7dcfff;
+#   white:     #a9b1d6;
+#
+#   brblack:   #414868;
+#   brred:     #f7768e;
+#   brgreen:   #9ece6a;
+#   bryellow:  #e0af68;
+#   brblue:    #7aa2f7;
+#   brmagenta: #bb9af7;
+#   brcyan:    #7dcfff;
+#   brwhite:   #c0caf5;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 7aa2f7
+fish_color_comment f7768e
+fish_color_cwd 9ece6a
+fish_color_cwd_root f7768e
+fish_color_end 9ece6a
+fish_color_error f7768e
+fish_color_escape 7dcfff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e0af68
+fish_color_keyword 7aa2f7
+fish_color_match --background=7aa2f7
+fish_color_normal normal
+fish_color_operator 7dcfff
+fish_color_option 7dcfff
+fish_color_param 7dcfff
+fish_color_quote e0af68
+fish_color_redirection 7dcfff --bold
+fish_color_search_match e0af68 --background=414868
+fish_color_selection a9b1d6 --bold --background=414868
+fish_color_status f7768e
+fish_color_user 9ece6a
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e0af68 e0af68 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress c0caf5 --background=7dcfff
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

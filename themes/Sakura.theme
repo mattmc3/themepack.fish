@@ -1,0 +1,66 @@
+# name: "Sakura"
+# preferred_background: 18131e
+
+# color-palette {
+#  background: #18131e;
+#  foreground: #dd7bdc;
+#  selection:  #c05cbf;
+#  cursor:     #ff65fd;
+#
+#   black:     #000000;
+#   red:       #d52370;
+#   green:     #41af1a;
+#   yellow:    #bc7053;
+#   blue:      #6964ab;
+#   magenta:   #c71fbf;
+#   cyan:      #939393;
+#   white:     #998eac;
+#
+#   brblack:   #786d69;
+#   brred:     #f41d99;
+#   brgreen:   #22e529;
+#   bryellow:  #f59574;
+#   brblue:    #9892f1;
+#   brmagenta: #e90cdd;
+#   brcyan:    #eeeeee;
+#   brwhite:   #cbb6ff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 6964ab
+fish_color_comment d52370
+fish_color_cwd 41af1a
+fish_color_cwd_root d52370
+fish_color_end 41af1a
+fish_color_error f41d99
+fish_color_escape eeeeee
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote bc7053
+fish_color_keyword 6964ab
+fish_color_match --background=9892f1
+fish_color_normal normal
+fish_color_operator eeeeee
+fish_color_option 939393
+fish_color_param 939393
+fish_color_quote bc7053
+fish_color_redirection 939393 --bold
+fish_color_search_match f59574 --background=786d69
+fish_color_selection 998eac --bold --background=786d69
+fish_color_status d52370
+fish_color_user 22e529
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description f59574 bc7053 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress cbb6ff --background=939393
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

@@ -1,0 +1,66 @@
+# name: "Doom Peacock"
+# preferred_background: 2b2a27
+
+# color-palette {
+#  background: #2b2a27;
+#  foreground: #ede0ce;
+#  selection:  #a60033;
+#  cursor:     #9c9c9d;
+#
+#   black:     #1c1f24;
+#   red:       #cb4b16;
+#   green:     #26a6a6;
+#   yellow:    #bcd42a;
+#   blue:      #2a6cc6;
+#   magenta:   #a9a1e1;
+#   cyan:      #5699af;
+#   white:     #ede0ce;
+#
+#   brblack:   #2b2a27;
+#   brred:     #ff5d38;
+#   brgreen:   #98be65;
+#   bryellow:  #e6f972;
+#   brblue:    #51afef;
+#   brmagenta: #c678dd;
+#   brcyan:    #46d9ff;
+#   brwhite:   #dfdfdf;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2a6cc6
+fish_color_comment cb4b16
+fish_color_cwd 26a6a6
+fish_color_cwd_root cb4b16
+fish_color_end 26a6a6
+fish_color_error ff5d38
+fish_color_escape 46d9ff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote bcd42a
+fish_color_keyword 2a6cc6
+fish_color_match --background=51afef
+fish_color_normal normal
+fish_color_operator 46d9ff
+fish_color_option 5699af
+fish_color_param 5699af
+fish_color_quote bcd42a
+fish_color_redirection 5699af --bold
+fish_color_search_match e6f972 --background=2b2a27
+fish_color_selection ede0ce --bold --background=2b2a27
+fish_color_status cb4b16
+fish_color_user 98be65
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e6f972 bcd42a -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress dfdfdf --background=5699af
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

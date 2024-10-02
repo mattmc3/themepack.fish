@@ -1,0 +1,66 @@
+# name: "Atom"
+# preferred_background: 161719
+
+# color-palette {
+#  background: #161719;
+#  foreground: #c5c8c6;
+#  selection:  #444444;
+#  cursor:     #d0d0d0;
+#
+#   black:     #000000;
+#   red:       #fd5ff1;
+#   green:     #87c38a;
+#   yellow:    #ffd7b1;
+#   blue:      #85befd;
+#   magenta:   #b9b6fc;
+#   cyan:      #85befd;
+#   white:     #e0e0e0;
+#
+#   brblack:   #000000;
+#   brred:     #fd5ff1;
+#   brgreen:   #94fa36;
+#   bryellow:  #f5ffa8;
+#   brblue:    #96cbfe;
+#   brmagenta: #b9b6fc;
+#   brcyan:    #85befd;
+#   brwhite:   #e0e0e0;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 85befd
+fish_color_comment fd5ff1
+fish_color_cwd 87c38a
+fish_color_cwd_root fd5ff1
+fish_color_end 87c38a
+fish_color_error fd5ff1
+fish_color_escape 85befd
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ffd7b1
+fish_color_keyword 85befd
+fish_color_match --background=96cbfe
+fish_color_normal normal
+fish_color_operator 85befd
+fish_color_option 85befd
+fish_color_param 85befd
+fish_color_quote ffd7b1
+fish_color_redirection 85befd --bold
+fish_color_search_match f5ffa8 --background=000000
+fish_color_selection e0e0e0 --bold --background=000000
+fish_color_status fd5ff1
+fish_color_user 94fa36
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description f5ffa8 ffd7b1 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress e0e0e0 --background=85befd
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

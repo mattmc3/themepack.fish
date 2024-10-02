@@ -1,0 +1,66 @@
+# name: "Seti"
+# preferred_background: 111213
+
+# color-palette {
+#  background: #111213;
+#  foreground: #cacecd;
+#  selection:  #303233;
+#  cursor:     #e3bf21;
+#
+#   black:     #323232;
+#   red:       #c22832;
+#   green:     #8ec43d;
+#   yellow:    #e0c64f;
+#   blue:      #43a5d5;
+#   magenta:   #8b57b5;
+#   cyan:      #8ec43d;
+#   white:     #eeeeee;
+#
+#   brblack:   #323232;
+#   brred:     #c22832;
+#   brgreen:   #8ec43d;
+#   bryellow:  #e0c64f;
+#   brblue:    #43a5d5;
+#   brmagenta: #8b57b5;
+#   brcyan:    #8ec43d;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 43a5d5
+fish_color_comment c22832
+fish_color_cwd 8ec43d
+fish_color_cwd_root c22832
+fish_color_end 8ec43d
+fish_color_error c22832
+fish_color_escape 8ec43d
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e0c64f
+fish_color_keyword 43a5d5
+fish_color_match --background=43a5d5
+fish_color_normal normal
+fish_color_operator 8ec43d
+fish_color_option 8ec43d
+fish_color_param 8ec43d
+fish_color_quote e0c64f
+fish_color_redirection 8ec43d --bold
+fish_color_search_match e0c64f --background=323232
+fish_color_selection eeeeee --bold --background=323232
+fish_color_status c22832
+fish_color_user 8ec43d
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e0c64f e0c64f -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=8ec43d
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

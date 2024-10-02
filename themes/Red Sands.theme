@@ -1,0 +1,66 @@
+# name: "Red Sands"
+# preferred_background: 7a251e
+
+# color-palette {
+#  background: #7a251e;
+#  foreground: #d7c9a7;
+#  selection:  #a4a390;
+#  cursor:     #ffffff;
+#
+#   black:     #000000;
+#   red:       #ff3f00;
+#   green:     #00bb00;
+#   yellow:    #e7b000;
+#   blue:      #0072ff;
+#   magenta:   #bb00bb;
+#   cyan:      #00bbbb;
+#   white:     #bbbbbb;
+#
+#   brblack:   #555555;
+#   brred:     #bb0000;
+#   brgreen:   #00bb00;
+#   bryellow:  #e7b000;
+#   brblue:    #0072ae;
+#   brmagenta: #ff55ff;
+#   brcyan:    #55ffff;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 0072ff
+fish_color_comment ff3f00
+fish_color_cwd 00bb00
+fish_color_cwd_root ff3f00
+fish_color_end 00bb00
+fish_color_error bb0000
+fish_color_escape 55ffff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e7b000
+fish_color_keyword 0072ff
+fish_color_match --background=0072ae
+fish_color_normal normal
+fish_color_operator 55ffff
+fish_color_option 00bbbb
+fish_color_param 00bbbb
+fish_color_quote e7b000
+fish_color_redirection 00bbbb --bold
+fish_color_search_match e7b000 --background=555555
+fish_color_selection bbbbbb --bold --background=555555
+fish_color_status ff3f00
+fish_color_user 00bb00
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e7b000 e7b000 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=00bbbb
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

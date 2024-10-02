@@ -1,0 +1,66 @@
+# name: "Unikitty"
+# preferred_background: ff8cd9
+
+# color-palette {
+#  background: #ff8cd9;
+#  foreground: #0b0b0b;
+#  selection:  #3ea9fe;
+#  cursor:     #bafc8b;
+#
+#   black:     #0c0c0c;
+#   red:       #a80f20;
+#   green:     #bafc8b;
+#   yellow:    #eedf4b;
+#   blue:      #145fcd;
+#   magenta:   #ff36a2;
+#   cyan:      #6bd1bc;
+#   white:     #e2d7e1;
+#
+#   brblack:   #434343;
+#   brred:     #d91329;
+#   brgreen:   #d3ffaf;
+#   bryellow:  #ffef50;
+#   brblue:    #0075ea;
+#   brmagenta: #fdd5e5;
+#   brcyan:    #79ecd5;
+#   brwhite:   #fff3fe;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 145fcd
+fish_color_comment a80f20
+fish_color_cwd bafc8b
+fish_color_cwd_root a80f20
+fish_color_end bafc8b
+fish_color_error d91329
+fish_color_escape 79ecd5
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote eedf4b
+fish_color_keyword 145fcd
+fish_color_match --background=0075ea
+fish_color_normal normal
+fish_color_operator 79ecd5
+fish_color_option 6bd1bc
+fish_color_param 6bd1bc
+fish_color_quote eedf4b
+fish_color_redirection 6bd1bc --bold
+fish_color_search_match ffef50 --background=434343
+fish_color_selection e2d7e1 --bold --background=434343
+fish_color_status a80f20
+fish_color_user d3ffaf
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffef50 eedf4b -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress fff3fe --background=6bd1bc
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

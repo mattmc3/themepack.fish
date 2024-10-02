@@ -1,0 +1,66 @@
+# name: "Lavandula"
+# preferred_background: 050014
+
+# color-palette {
+#  background: #050014;
+#  foreground: #736e7d;
+#  selection:  #37323c;
+#  cursor:     #8c91fa;
+#
+#   black:     #230046;
+#   red:       #7d1625;
+#   green:     #337e6f;
+#   yellow:    #7f6f49;
+#   blue:      #4f4a7f;
+#   magenta:   #5a3f7f;
+#   cyan:      #58777f;
+#   white:     #736e7d;
+#
+#   brblack:   #372d46;
+#   brred:     #e05167;
+#   brgreen:   #52e0c4;
+#   bryellow:  #e0c386;
+#   brblue:    #8e87e0;
+#   brmagenta: #a776e0;
+#   brcyan:    #9ad4e0;
+#   brwhite:   #8c91fa;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 4f4a7f
+fish_color_comment 7d1625
+fish_color_cwd 337e6f
+fish_color_cwd_root 7d1625
+fish_color_end 337e6f
+fish_color_error e05167
+fish_color_escape 9ad4e0
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote 7f6f49
+fish_color_keyword 4f4a7f
+fish_color_match --background=8e87e0
+fish_color_normal normal
+fish_color_operator 9ad4e0
+fish_color_option 58777f
+fish_color_param 58777f
+fish_color_quote 7f6f49
+fish_color_redirection 58777f --bold
+fish_color_search_match e0c386 --background=372d46
+fish_color_selection 736e7d --bold --background=372d46
+fish_color_status 7d1625
+fish_color_user 52e0c4
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e0c386 7f6f49 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress 8c91fa --background=58777f
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

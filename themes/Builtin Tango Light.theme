@@ -1,0 +1,66 @@
+# name: "Builtin Tango Light"
+# preferred_background: ffffff
+
+# color-palette {
+#  background: #ffffff;
+#  foreground: #000000;
+#  selection:  #b5d5ff;
+#  cursor:     #000000;
+#
+#   black:     #000000;
+#   red:       #cc0000;
+#   green:     #4e9a06;
+#   yellow:    #c4a000;
+#   blue:      #3465a4;
+#   magenta:   #75507b;
+#   cyan:      #06989a;
+#   white:     #d3d7cf;
+#
+#   brblack:   #555753;
+#   brred:     #ef2929;
+#   brgreen:   #8ae234;
+#   bryellow:  #fce94f;
+#   brblue:    #729fcf;
+#   brmagenta: #ad7fa8;
+#   brcyan:    #34e2e2;
+#   brwhite:   #eeeeec;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 3465a4
+fish_color_comment cc0000
+fish_color_cwd 4e9a06
+fish_color_cwd_root cc0000
+fish_color_end 4e9a06
+fish_color_error ef2929
+fish_color_escape 34e2e2
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote c4a000
+fish_color_keyword 3465a4
+fish_color_match --background=729fcf
+fish_color_normal normal
+fish_color_operator 34e2e2
+fish_color_option 06989a
+fish_color_param 06989a
+fish_color_quote c4a000
+fish_color_redirection 06989a --bold
+fish_color_search_match fce94f --background=555753
+fish_color_selection d3d7cf --bold --background=555753
+fish_color_status cc0000
+fish_color_user 8ae234
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fce94f c4a000 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress eeeeec --background=06989a
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

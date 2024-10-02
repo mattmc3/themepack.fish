@@ -1,0 +1,66 @@
+# name: "niji"
+# preferred_background: 141515
+
+# color-palette {
+#  background: #141515;
+#  foreground: #ffffff;
+#  selection:  #515151;
+#  cursor:     #ffc663;
+#
+#   black:     #333333;
+#   red:       #d23e08;
+#   green:     #54ca74;
+#   yellow:    #fff700;
+#   blue:      #2ab9ff;
+#   magenta:   #ff50da;
+#   cyan:      #1ef9f5;
+#   white:     #ddd0c4;
+#
+#   brblack:   #515151;
+#   brred:     #ffb7b7;
+#   brgreen:   #c1ffae;
+#   bryellow:  #fcffb8;
+#   brblue:    #8efff3;
+#   brmagenta: #ffa2ed;
+#   brcyan:    #bcffc7;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2ab9ff
+fish_color_comment d23e08
+fish_color_cwd 54ca74
+fish_color_cwd_root d23e08
+fish_color_end 54ca74
+fish_color_error ffb7b7
+fish_color_escape bcffc7
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote fff700
+fish_color_keyword 2ab9ff
+fish_color_match --background=8efff3
+fish_color_normal normal
+fish_color_operator bcffc7
+fish_color_option 1ef9f5
+fish_color_param 1ef9f5
+fish_color_quote fff700
+fish_color_redirection 1ef9f5 --bold
+fish_color_search_match fcffb8 --background=515151
+fish_color_selection ddd0c4 --bold --background=515151
+fish_color_status d23e08
+fish_color_user c1ffae
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fcffb8 fff700 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=1ef9f5
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

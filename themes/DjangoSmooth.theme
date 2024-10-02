@@ -1,0 +1,66 @@
+# name: "DjangoSmooth"
+# preferred_background: 245032
+
+# color-palette {
+#  background: #245032;
+#  foreground: #f8f8f8;
+#  selection:  #336442;
+#  cursor:     #336442;
+#
+#   black:     #000000;
+#   red:       #fd6209;
+#   green:     #41a83e;
+#   yellow:    #ffe862;
+#   blue:      #989898;
+#   magenta:   #f8f8f8;
+#   cyan:      #9df39f;
+#   white:     #e8e8e7;
+#
+#   brblack:   #323232;
+#   brred:     #ff943b;
+#   brgreen:   #73da70;
+#   bryellow:  #ffff94;
+#   brblue:    #cacaca;
+#   brmagenta: #ffffff;
+#   brcyan:    #cfffd1;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 989898
+fish_color_comment fd6209
+fish_color_cwd 41a83e
+fish_color_cwd_root fd6209
+fish_color_end 41a83e
+fish_color_error ff943b
+fish_color_escape cfffd1
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ffe862
+fish_color_keyword 989898
+fish_color_match --background=cacaca
+fish_color_normal normal
+fish_color_operator cfffd1
+fish_color_option 9df39f
+fish_color_param 9df39f
+fish_color_quote ffe862
+fish_color_redirection 9df39f --bold
+fish_color_search_match ffff94 --background=323232
+fish_color_selection e8e8e7 --bold --background=323232
+fish_color_status fd6209
+fish_color_user 73da70
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffff94 ffe862 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=9df39f
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

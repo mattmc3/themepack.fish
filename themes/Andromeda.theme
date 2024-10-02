@@ -1,0 +1,66 @@
+# name: "Andromeda"
+# preferred_background: 262a33
+
+# color-palette {
+#  background: #262a33;
+#  foreground: #e5e5e5;
+#  selection:  #5a5c62;
+#  cursor:     #f8f8f0;
+#
+#   black:     #000000;
+#   red:       #cd3131;
+#   green:     #05bc79;
+#   yellow:    #e5e512;
+#   blue:      #2472c8;
+#   magenta:   #bc3fbc;
+#   cyan:      #0fa8cd;
+#   white:     #e5e5e5;
+#
+#   brblack:   #666666;
+#   brred:     #cd3131;
+#   brgreen:   #05bc79;
+#   bryellow:  #e5e512;
+#   brblue:    #2472c8;
+#   brmagenta: #bc3fbc;
+#   brcyan:    #0fa8cd;
+#   brwhite:   #e5e5e5;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2472c8
+fish_color_comment cd3131
+fish_color_cwd 05bc79
+fish_color_cwd_root cd3131
+fish_color_end 05bc79
+fish_color_error cd3131
+fish_color_escape 0fa8cd
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e5e512
+fish_color_keyword 2472c8
+fish_color_match --background=2472c8
+fish_color_normal normal
+fish_color_operator 0fa8cd
+fish_color_option 0fa8cd
+fish_color_param 0fa8cd
+fish_color_quote e5e512
+fish_color_redirection 0fa8cd --bold
+fish_color_search_match e5e512 --background=666666
+fish_color_selection e5e5e5 --bold --background=666666
+fish_color_status cd3131
+fish_color_user 05bc79
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e5e512 e5e512 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress e5e5e5 --background=0fa8cd
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

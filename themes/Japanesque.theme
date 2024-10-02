@@ -1,0 +1,66 @@
+# name: "Japanesque"
+# preferred_background: 1e1e1e
+
+# color-palette {
+#  background: #1e1e1e;
+#  foreground: #f7f6ec;
+#  selection:  #175877;
+#  cursor:     #edcf4f;
+#
+#   black:     #343935;
+#   red:       #cf3f61;
+#   green:     #7bb75b;
+#   yellow:    #e9b32a;
+#   blue:      #4c9ad4;
+#   magenta:   #a57fc4;
+#   cyan:      #389aad;
+#   white:     #fafaf6;
+#
+#   brblack:   #595b59;
+#   brred:     #d18fa6;
+#   brgreen:   #767f2c;
+#   bryellow:  #78592f;
+#   brblue:    #135979;
+#   brmagenta: #604291;
+#   brcyan:    #76bbca;
+#   brwhite:   #b2b5ae;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 4c9ad4
+fish_color_comment cf3f61
+fish_color_cwd 7bb75b
+fish_color_cwd_root cf3f61
+fish_color_end 7bb75b
+fish_color_error d18fa6
+fish_color_escape 76bbca
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e9b32a
+fish_color_keyword 4c9ad4
+fish_color_match --background=135979
+fish_color_normal normal
+fish_color_operator 76bbca
+fish_color_option 389aad
+fish_color_param 389aad
+fish_color_quote e9b32a
+fish_color_redirection 389aad --bold
+fish_color_search_match 78592f --background=595b59
+fish_color_selection fafaf6 --bold --background=595b59
+fish_color_status cf3f61
+fish_color_user 767f2c
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description 78592f e9b32a -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress b2b5ae --background=389aad
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

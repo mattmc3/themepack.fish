@@ -1,0 +1,66 @@
+# name: "Floraverse"
+# preferred_background: 0e0d15
+
+# color-palette {
+#  background: #0e0d15;
+#  foreground: #dbd1b9;
+#  selection:  #f3e0b8;
+#  cursor:     #bbbbbb;
+#
+#   black:     #08002e;
+#   red:       #64002c;
+#   green:     #5d731a;
+#   yellow:    #cd751c;
+#   blue:      #1d6da1;
+#   magenta:   #b7077e;
+#   cyan:      #42a38c;
+#   white:     #f3e0b8;
+#
+#   brblack:   #331e4d;
+#   brred:     #d02063;
+#   brgreen:   #b4ce59;
+#   bryellow:  #fac357;
+#   brblue:    #40a4cf;
+#   brmagenta: #f12aae;
+#   brcyan:    #62caa8;
+#   brwhite:   #fff5db;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 1d6da1
+fish_color_comment 64002c
+fish_color_cwd 5d731a
+fish_color_cwd_root 64002c
+fish_color_end 5d731a
+fish_color_error d02063
+fish_color_escape 62caa8
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote cd751c
+fish_color_keyword 1d6da1
+fish_color_match --background=40a4cf
+fish_color_normal normal
+fish_color_operator 62caa8
+fish_color_option 42a38c
+fish_color_param 42a38c
+fish_color_quote cd751c
+fish_color_redirection 42a38c --bold
+fish_color_search_match fac357 --background=331e4d
+fish_color_selection f3e0b8 --bold --background=331e4d
+fish_color_status 64002c
+fish_color_user b4ce59
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fac357 cd751c -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress fff5db --background=42a38c
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

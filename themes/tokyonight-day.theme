@@ -1,0 +1,66 @@
+# name: "tokyonight-day"
+# preferred_background: e1e2e7
+
+# color-palette {
+#  background: #e1e2e7;
+#  foreground: #3760bf;
+#  selection:  #99a7df;
+#  cursor:     #3760bf;
+#
+#   black:     #e9e9ed;
+#   red:       #f52a65;
+#   green:     #587539;
+#   yellow:    #8c6c3e;
+#   blue:      #2e7de9;
+#   magenta:   #9854f1;
+#   cyan:      #007197;
+#   white:     #6172b0;
+#
+#   brblack:   #a1a6c5;
+#   brred:     #f52a65;
+#   brgreen:   #587539;
+#   bryellow:  #8c6c3e;
+#   brblue:    #2e7de9;
+#   brmagenta: #9854f1;
+#   brcyan:    #007197;
+#   brwhite:   #3760bf;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2e7de9
+fish_color_comment f52a65
+fish_color_cwd 587539
+fish_color_cwd_root f52a65
+fish_color_end 587539
+fish_color_error f52a65
+fish_color_escape 007197
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote 8c6c3e
+fish_color_keyword 2e7de9
+fish_color_match --background=2e7de9
+fish_color_normal normal
+fish_color_operator 007197
+fish_color_option 007197
+fish_color_param 007197
+fish_color_quote 8c6c3e
+fish_color_redirection 007197 --bold
+fish_color_search_match 8c6c3e --background=a1a6c5
+fish_color_selection 6172b0 --bold --background=a1a6c5
+fish_color_status f52a65
+fish_color_user 587539
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description 8c6c3e 8c6c3e -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress 3760bf --background=007197
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

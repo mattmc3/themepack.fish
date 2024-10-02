@@ -1,0 +1,66 @@
+# name: "Shaman"
+# preferred_background: 001015
+
+# color-palette {
+#  background: #001015;
+#  foreground: #405555;
+#  selection:  #415555;
+#  cursor:     #4afcd6;
+#
+#   black:     #012026;
+#   red:       #b2302d;
+#   green:     #00a941;
+#   yellow:    #5e8baa;
+#   blue:      #449a86;
+#   magenta:   #00599d;
+#   cyan:      #5d7e19;
+#   white:     #405555;
+#
+#   brblack:   #384451;
+#   brred:     #ff4242;
+#   brgreen:   #2aea5e;
+#   bryellow:  #8ed4fd;
+#   brblue:    #61d5ba;
+#   brmagenta: #1298ff;
+#   brcyan:    #98d028;
+#   brwhite:   #58fbd6;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 449a86
+fish_color_comment b2302d
+fish_color_cwd 00a941
+fish_color_cwd_root b2302d
+fish_color_end 00a941
+fish_color_error ff4242
+fish_color_escape 98d028
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote 5e8baa
+fish_color_keyword 449a86
+fish_color_match --background=61d5ba
+fish_color_normal normal
+fish_color_operator 98d028
+fish_color_option 5d7e19
+fish_color_param 5d7e19
+fish_color_quote 5e8baa
+fish_color_redirection 5d7e19 --bold
+fish_color_search_match 8ed4fd --background=384451
+fish_color_selection 405555 --bold --background=384451
+fish_color_status b2302d
+fish_color_user 2aea5e
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description 8ed4fd 5e8baa -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress 58fbd6 --background=5d7e19
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

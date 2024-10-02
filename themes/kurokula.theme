@@ -1,0 +1,66 @@
+# name: "kurokula"
+# preferred_background: 141515
+
+# color-palette {
+#  background: #141515;
+#  foreground: #ddd0c4;
+#  selection:  #515151;
+#  cursor:     #702420;
+#
+#   black:     #333333;
+#   red:       #b66056;
+#   green:     #85b1a9;
+#   yellow:    #dbbb43;
+#   blue:      #6890d7;
+#   magenta:   #887aa3;
+#   cyan:      #837369;
+#   white:     #ddd0c4;
+#
+#   brblack:   #515151;
+#   brred:     #ffc663;
+#   brgreen:   #c1ffae;
+#   bryellow:  #fff700;
+#   brblue:    #a1d9ff;
+#   brmagenta: #a994ff;
+#   brcyan:    #f9cfb9;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 6890d7
+fish_color_comment b66056
+fish_color_cwd 85b1a9
+fish_color_cwd_root b66056
+fish_color_end 85b1a9
+fish_color_error ffc663
+fish_color_escape f9cfb9
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote dbbb43
+fish_color_keyword 6890d7
+fish_color_match --background=a1d9ff
+fish_color_normal normal
+fish_color_operator f9cfb9
+fish_color_option 837369
+fish_color_param 837369
+fish_color_quote dbbb43
+fish_color_redirection 837369 --bold
+fish_color_search_match fff700 --background=515151
+fish_color_selection ddd0c4 --bold --background=515151
+fish_color_status b66056
+fish_color_user c1ffae
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fff700 dbbb43 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=837369
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

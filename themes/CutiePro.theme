@@ -1,0 +1,66 @@
+# name: "CutiePro"
+# preferred_background: 181818
+
+# color-palette {
+#  background: #181818;
+#  foreground: #d5d0c9;
+#  selection:  #363636;
+#  cursor:     #efc4cd;
+#
+#   black:     #000000;
+#   red:       #f56e7f;
+#   green:     #bec975;
+#   yellow:    #f58669;
+#   blue:      #42d9c5;
+#   magenta:   #d286b7;
+#   cyan:      #37cb8a;
+#   white:     #d5c3c3;
+#
+#   brblack:   #88847f;
+#   brred:     #e5a1a3;
+#   brgreen:   #e8d6a7;
+#   bryellow:  #f1bb79;
+#   brblue:    #80c5de;
+#   brmagenta: #b294bb;
+#   brcyan:    #9dccbb;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 42d9c5
+fish_color_comment f56e7f
+fish_color_cwd bec975
+fish_color_cwd_root f56e7f
+fish_color_end bec975
+fish_color_error e5a1a3
+fish_color_escape 9dccbb
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote f58669
+fish_color_keyword 42d9c5
+fish_color_match --background=80c5de
+fish_color_normal normal
+fish_color_operator 9dccbb
+fish_color_option 37cb8a
+fish_color_param 37cb8a
+fish_color_quote f58669
+fish_color_redirection 37cb8a --bold
+fish_color_search_match f1bb79 --background=88847f
+fish_color_selection d5c3c3 --bold --background=88847f
+fish_color_status f56e7f
+fish_color_user e8d6a7
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description f1bb79 f58669 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=37cb8a
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

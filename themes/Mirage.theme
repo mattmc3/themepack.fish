@@ -1,0 +1,66 @@
+# name: "Mirage"
+# preferred_background: 1b2738
+
+# color-palette {
+#  background: #1b2738;
+#  foreground: #a6b2c0;
+#  selection:  #273951;
+#  cursor:     #ddb3ff;
+#
+#   black:     #011627;
+#   red:       #ff9999;
+#   green:     #85cc95;
+#   yellow:    #ffd700;
+#   blue:      #7fb5ff;
+#   magenta:   #ddb3ff;
+#   cyan:      #21c7a8;
+#   white:     #ffffff;
+#
+#   brblack:   #575656;
+#   brred:     #ff9999;
+#   brgreen:   #85cc95;
+#   bryellow:  #ffd700;
+#   brblue:    #7fb5ff;
+#   brmagenta: #ddb3ff;
+#   brcyan:    #85cc95;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 7fb5ff
+fish_color_comment ff9999
+fish_color_cwd 85cc95
+fish_color_cwd_root ff9999
+fish_color_end 85cc95
+fish_color_error ff9999
+fish_color_escape 85cc95
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ffd700
+fish_color_keyword 7fb5ff
+fish_color_match --background=7fb5ff
+fish_color_normal normal
+fish_color_operator 85cc95
+fish_color_option 21c7a8
+fish_color_param 21c7a8
+fish_color_quote ffd700
+fish_color_redirection 21c7a8 --bold
+fish_color_search_match ffd700 --background=575656
+fish_color_selection ffffff --bold --background=575656
+fish_color_status ff9999
+fish_color_user 85cc95
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffd700 ffd700 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=21c7a8
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

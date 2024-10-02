@@ -1,0 +1,66 @@
+# name: "NvimLight"
+# preferred_background: e0e2ea
+
+# color-palette {
+#  background: #e0e2ea;
+#  foreground: #14161b;
+#  selection:  #9b9ea4;
+#  cursor:     #9b9ea4;
+#
+#   black:     #07080d;
+#   red:       #590008;
+#   green:     #005523;
+#   yellow:    #6b5300;
+#   blue:      #004c73;
+#   magenta:   #470045;
+#   cyan:      #007373;
+#   white:     #eef1f8;
+#
+#   brblack:   #4f5258;
+#   brred:     #590008;
+#   brgreen:   #005523;
+#   bryellow:  #6b5300;
+#   brblue:    #004c73;
+#   brmagenta: #470045;
+#   brcyan:    #007373;
+#   brwhite:   #eef1f8;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 004c73
+fish_color_comment 590008
+fish_color_cwd 005523
+fish_color_cwd_root 590008
+fish_color_end 005523
+fish_color_error 590008
+fish_color_escape 007373
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote 6b5300
+fish_color_keyword 004c73
+fish_color_match --background=004c73
+fish_color_normal normal
+fish_color_operator 007373
+fish_color_option 007373
+fish_color_param 007373
+fish_color_quote 6b5300
+fish_color_redirection 007373 --bold
+fish_color_search_match 6b5300 --background=4f5258
+fish_color_selection eef1f8 --bold --background=4f5258
+fish_color_status 590008
+fish_color_user 005523
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description 6b5300 6b5300 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress eef1f8 --background=007373
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

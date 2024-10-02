@@ -1,0 +1,66 @@
+# name: "The Hulk"
+# preferred_background: 1b1d1e
+
+# color-palette {
+#  background: #1b1d1e;
+#  foreground: #b5b5b5;
+#  selection:  #4d504c;
+#  cursor:     #16b61b;
+#
+#   black:     #1b1d1e;
+#   red:       #269d1b;
+#   green:     #13ce30;
+#   yellow:    #63e457;
+#   blue:      #2525f5;
+#   magenta:   #641f74;
+#   cyan:      #378ca9;
+#   white:     #d9d8d1;
+#
+#   brblack:   #505354;
+#   brred:     #8dff2a;
+#   brgreen:   #48ff77;
+#   bryellow:  #3afe16;
+#   brblue:    #506b95;
+#   brmagenta: #72589d;
+#   brcyan:    #4085a6;
+#   brwhite:   #e5e6e1;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2525f5
+fish_color_comment 269d1b
+fish_color_cwd 13ce30
+fish_color_cwd_root 269d1b
+fish_color_end 13ce30
+fish_color_error 8dff2a
+fish_color_escape 4085a6
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote 63e457
+fish_color_keyword 2525f5
+fish_color_match --background=506b95
+fish_color_normal normal
+fish_color_operator 4085a6
+fish_color_option 378ca9
+fish_color_param 378ca9
+fish_color_quote 63e457
+fish_color_redirection 378ca9 --bold
+fish_color_search_match 3afe16 --background=505354
+fish_color_selection d9d8d1 --bold --background=505354
+fish_color_status 269d1b
+fish_color_user 48ff77
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description 3afe16 63e457 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress e5e6e1 --background=378ca9
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

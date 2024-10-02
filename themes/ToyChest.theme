@@ -1,0 +1,66 @@
+# name: "ToyChest"
+# preferred_background: 24364b
+
+# color-palette {
+#  background: #24364b;
+#  foreground: #31d07b;
+#  selection:  #5f217a;
+#  cursor:     #d5d5d5;
+#
+#   black:     #2c3f58;
+#   red:       #be2d26;
+#   green:     #1a9172;
+#   yellow:    #db8e27;
+#   blue:      #325d96;
+#   magenta:   #8a5edc;
+#   cyan:      #35a08f;
+#   white:     #23d183;
+#
+#   brblack:   #336889;
+#   brred:     #dd5944;
+#   brgreen:   #31d07b;
+#   bryellow:  #e7d84b;
+#   brblue:    #34a6da;
+#   brmagenta: #ae6bdc;
+#   brcyan:    #42c3ae;
+#   brwhite:   #d5d5d5;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 325d96
+fish_color_comment be2d26
+fish_color_cwd 1a9172
+fish_color_cwd_root be2d26
+fish_color_end 1a9172
+fish_color_error dd5944
+fish_color_escape 42c3ae
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote db8e27
+fish_color_keyword 325d96
+fish_color_match --background=34a6da
+fish_color_normal normal
+fish_color_operator 42c3ae
+fish_color_option 35a08f
+fish_color_param 35a08f
+fish_color_quote db8e27
+fish_color_redirection 35a08f --bold
+fish_color_search_match e7d84b --background=336889
+fish_color_selection 23d183 --bold --background=336889
+fish_color_status be2d26
+fish_color_user 31d07b
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e7d84b db8e27 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress d5d5d5 --background=35a08f
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

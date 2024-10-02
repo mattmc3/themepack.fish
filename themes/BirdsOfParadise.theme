@@ -1,0 +1,66 @@
+# name: "BirdsOfParadise"
+# preferred_background: 2a1f1d
+
+# color-palette {
+#  background: #2a1f1d;
+#  foreground: #e0dbb7;
+#  selection:  #563c27;
+#  cursor:     #573d26;
+#
+#   black:     #573d26;
+#   red:       #be2d26;
+#   green:     #6ba18a;
+#   yellow:    #e99d2a;
+#   blue:      #5a86ad;
+#   magenta:   #ac80a6;
+#   cyan:      #74a6ad;
+#   white:     #e0dbb7;
+#
+#   brblack:   #9b6c4a;
+#   brred:     #e84627;
+#   brgreen:   #95d8ba;
+#   bryellow:  #d0d150;
+#   brblue:    #b8d3ed;
+#   brmagenta: #d19ecb;
+#   brcyan:    #93cfd7;
+#   brwhite:   #fff9d5;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 5a86ad
+fish_color_comment be2d26
+fish_color_cwd 6ba18a
+fish_color_cwd_root be2d26
+fish_color_end 6ba18a
+fish_color_error e84627
+fish_color_escape 93cfd7
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e99d2a
+fish_color_keyword 5a86ad
+fish_color_match --background=b8d3ed
+fish_color_normal normal
+fish_color_operator 93cfd7
+fish_color_option 74a6ad
+fish_color_param 74a6ad
+fish_color_quote e99d2a
+fish_color_redirection 74a6ad --bold
+fish_color_search_match d0d150 --background=9b6c4a
+fish_color_selection e0dbb7 --bold --background=9b6c4a
+fish_color_status be2d26
+fish_color_user 95d8ba
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description d0d150 e99d2a -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress fff9d5 --background=74a6ad
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

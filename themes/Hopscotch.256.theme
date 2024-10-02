@@ -1,0 +1,66 @@
+# name: "Hopscotch.256"
+# preferred_background: 322931
+
+# color-palette {
+#  background: #322931;
+#  foreground: #b9b5b8;
+#  selection:  #5c545b;
+#  cursor:     #b9b5b8;
+#
+#   black:     #322931;
+#   red:       #dd464c;
+#   green:     #8fc13e;
+#   yellow:    #fdcc59;
+#   blue:      #1290bf;
+#   magenta:   #c85e7c;
+#   cyan:      #149b93;
+#   white:     #b9b5b8;
+#
+#   brblack:   #797379;
+#   brred:     #dd464c;
+#   brgreen:   #8fc13e;
+#   bryellow:  #fdcc59;
+#   brblue:    #1290bf;
+#   brmagenta: #c85e7c;
+#   brcyan:    #149b93;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 1290bf
+fish_color_comment dd464c
+fish_color_cwd 8fc13e
+fish_color_cwd_root dd464c
+fish_color_end 8fc13e
+fish_color_error dd464c
+fish_color_escape 149b93
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote fdcc59
+fish_color_keyword 1290bf
+fish_color_match --background=1290bf
+fish_color_normal normal
+fish_color_operator 149b93
+fish_color_option 149b93
+fish_color_param 149b93
+fish_color_quote fdcc59
+fish_color_redirection 149b93 --bold
+fish_color_search_match fdcc59 --background=797379
+fish_color_selection b9b5b8 --bold --background=797379
+fish_color_status dd464c
+fish_color_user 8fc13e
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fdcc59 fdcc59 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=149b93
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

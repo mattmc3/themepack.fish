@@ -1,0 +1,66 @@
+# name: "SoftServer"
+# preferred_background: 242626
+
+# color-palette {
+#  background: #242626;
+#  foreground: #99a3a2;
+#  selection:  #7f8786;
+#  cursor:     #d2e0de;
+#
+#   black:     #000000;
+#   red:       #a2686a;
+#   green:     #9aa56a;
+#   yellow:    #a3906a;
+#   blue:      #6b8fa3;
+#   magenta:   #6a71a3;
+#   cyan:      #6ba58f;
+#   white:     #99a3a2;
+#
+#   brblack:   #666c6c;
+#   brred:     #dd5c60;
+#   brgreen:   #bfdf55;
+#   bryellow:  #deb360;
+#   brblue:    #62b1df;
+#   brmagenta: #606edf;
+#   brcyan:    #64e39c;
+#   brwhite:   #d2e0de;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 6b8fa3
+fish_color_comment a2686a
+fish_color_cwd 9aa56a
+fish_color_cwd_root a2686a
+fish_color_end 9aa56a
+fish_color_error dd5c60
+fish_color_escape 64e39c
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote a3906a
+fish_color_keyword 6b8fa3
+fish_color_match --background=62b1df
+fish_color_normal normal
+fish_color_operator 64e39c
+fish_color_option 6ba58f
+fish_color_param 6ba58f
+fish_color_quote a3906a
+fish_color_redirection 6ba58f --bold
+fish_color_search_match deb360 --background=666c6c
+fish_color_selection 99a3a2 --bold --background=666c6c
+fish_color_status a2686a
+fish_color_user bfdf55
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description deb360 a3906a -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress d2e0de --background=6ba58f
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

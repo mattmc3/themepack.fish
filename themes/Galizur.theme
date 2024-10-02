@@ -1,0 +1,66 @@
+# name: "Galizur"
+# preferred_background: 071317
+
+# color-palette {
+#  background: #071317;
+#  foreground: #ddeeff;
+#  selection:  #071317;
+#  cursor:     #ddeeff;
+#
+#   black:     #223344;
+#   red:       #aa1122;
+#   green:     #33aa11;
+#   yellow:    #ccaa22;
+#   blue:      #2255cc;
+#   magenta:   #7755aa;
+#   cyan:      #22bbdd;
+#   white:     #8899aa;
+#
+#   brblack:   #556677;
+#   brred:     #ff1133;
+#   brgreen:   #33ff11;
+#   bryellow:  #ffdd33;
+#   brblue:    #3377ff;
+#   brmagenta: #aa77ff;
+#   brcyan:    #33ddff;
+#   brwhite:   #bbccdd;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2255cc
+fish_color_comment aa1122
+fish_color_cwd 33aa11
+fish_color_cwd_root aa1122
+fish_color_end 33aa11
+fish_color_error ff1133
+fish_color_escape 33ddff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ccaa22
+fish_color_keyword 2255cc
+fish_color_match --background=3377ff
+fish_color_normal normal
+fish_color_operator 33ddff
+fish_color_option 22bbdd
+fish_color_param 22bbdd
+fish_color_quote ccaa22
+fish_color_redirection 22bbdd --bold
+fish_color_search_match ffdd33 --background=556677
+fish_color_selection 8899aa --bold --background=556677
+fish_color_status aa1122
+fish_color_user 33ff11
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffdd33 ccaa22 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress bbccdd --background=22bbdd
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

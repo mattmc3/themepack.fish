@@ -1,0 +1,66 @@
+# name: "Duotone Dark"
+# preferred_background: 1f1d27
+
+# color-palette {
+#  background: #1f1d27;
+#  foreground: #b7a1ff;
+#  selection:  #353147;
+#  cursor:     #ff9839;
+#
+#   black:     #1f1d27;
+#   red:       #d9393e;
+#   green:     #2dcd73;
+#   yellow:    #d9b76e;
+#   blue:      #ffc284;
+#   magenta:   #de8d40;
+#   cyan:      #2488ff;
+#   white:     #b7a1ff;
+#
+#   brblack:   #353147;
+#   brred:     #d9393e;
+#   brgreen:   #2dcd73;
+#   bryellow:  #d9b76e;
+#   brblue:    #ffc284;
+#   brmagenta: #de8d40;
+#   brcyan:    #2488ff;
+#   brwhite:   #eae5ff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command ffc284
+fish_color_comment d9393e
+fish_color_cwd 2dcd73
+fish_color_cwd_root d9393e
+fish_color_end 2dcd73
+fish_color_error d9393e
+fish_color_escape 2488ff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote d9b76e
+fish_color_keyword ffc284
+fish_color_match --background=ffc284
+fish_color_normal normal
+fish_color_operator 2488ff
+fish_color_option 2488ff
+fish_color_param 2488ff
+fish_color_quote d9b76e
+fish_color_redirection 2488ff --bold
+fish_color_search_match d9b76e --background=353147
+fish_color_selection b7a1ff --bold --background=353147
+fish_color_status d9393e
+fish_color_user 2dcd73
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description d9b76e d9b76e -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress eae5ff --background=2488ff
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

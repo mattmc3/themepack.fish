@@ -1,0 +1,66 @@
+# name: "Github"
+# preferred_background: f4f4f4
+
+# color-palette {
+#  background: #f4f4f4;
+#  foreground: #3e3e3e;
+#  selection:  #a9c1e2;
+#  cursor:     #3f3f3f;
+#
+#   black:     #3e3e3e;
+#   red:       #970b16;
+#   green:     #07962a;
+#   yellow:    #f8eec7;
+#   blue:      #003e8a;
+#   magenta:   #e94691;
+#   cyan:      #89d1ec;
+#   white:     #ffffff;
+#
+#   brblack:   #666666;
+#   brred:     #de0000;
+#   brgreen:   #87d5a2;
+#   bryellow:  #f1d007;
+#   brblue:    #2e6cba;
+#   brmagenta: #ffa29f;
+#   brcyan:    #1cfafe;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 003e8a
+fish_color_comment 970b16
+fish_color_cwd 07962a
+fish_color_cwd_root 970b16
+fish_color_end 07962a
+fish_color_error de0000
+fish_color_escape 1cfafe
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote f8eec7
+fish_color_keyword 003e8a
+fish_color_match --background=2e6cba
+fish_color_normal normal
+fish_color_operator 1cfafe
+fish_color_option 89d1ec
+fish_color_param 89d1ec
+fish_color_quote f8eec7
+fish_color_redirection 89d1ec --bold
+fish_color_search_match f1d007 --background=666666
+fish_color_selection ffffff --bold --background=666666
+fish_color_status 970b16
+fish_color_user 87d5a2
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description f1d007 f8eec7 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=89d1ec
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

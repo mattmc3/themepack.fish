@@ -1,0 +1,66 @@
+# name: "NightLion v2"
+# preferred_background: 171717
+
+# color-palette {
+#  background: #171717;
+#  foreground: #bbbbbb;
+#  selection:  #b5d5ff;
+#  cursor:     #bbbbbb;
+#
+#   black:     #4c4c4c;
+#   red:       #bb0000;
+#   green:     #04f623;
+#   yellow:    #f3f167;
+#   blue:      #64d0f0;
+#   magenta:   #ce6fdb;
+#   cyan:      #00dadf;
+#   white:     #bbbbbb;
+#
+#   brblack:   #555555;
+#   brred:     #ff5555;
+#   brgreen:   #7df71d;
+#   bryellow:  #ffff55;
+#   brblue:    #62cbe8;
+#   brmagenta: #ff9bf5;
+#   brcyan:    #00ccd8;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 64d0f0
+fish_color_comment bb0000
+fish_color_cwd 04f623
+fish_color_cwd_root bb0000
+fish_color_end 04f623
+fish_color_error ff5555
+fish_color_escape 00ccd8
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote f3f167
+fish_color_keyword 64d0f0
+fish_color_match --background=62cbe8
+fish_color_normal normal
+fish_color_operator 00ccd8
+fish_color_option 00dadf
+fish_color_param 00dadf
+fish_color_quote f3f167
+fish_color_redirection 00dadf --bold
+fish_color_search_match ffff55 --background=555555
+fish_color_selection bbbbbb --bold --background=555555
+fish_color_status bb0000
+fish_color_user 7df71d
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffff55 f3f167 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=00dadf
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

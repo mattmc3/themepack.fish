@@ -1,0 +1,66 @@
+# name: "catppuccin-latte"
+# preferred_background: eff1f5
+
+# color-palette {
+#  background: #eff1f5;
+#  foreground: #4c4f69;
+#  selection:  #acb0be;
+#  cursor:     #dc8a78;
+#
+#   black:     #5c5f77;
+#   red:       #d20f39;
+#   green:     #40a02b;
+#   yellow:    #df8e1d;
+#   blue:      #1e66f5;
+#   magenta:   #ea76cb;
+#   cyan:      #179299;
+#   white:     #acb0be;
+#
+#   brblack:   #6c6f85;
+#   brred:     #d20f39;
+#   brgreen:   #40a02b;
+#   bryellow:  #df8e1d;
+#   brblue:    #1e66f5;
+#   brmagenta: #ea76cb;
+#   brcyan:    #179299;
+#   brwhite:   #bcc0cc;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 1e66f5
+fish_color_comment d20f39
+fish_color_cwd 40a02b
+fish_color_cwd_root d20f39
+fish_color_end 40a02b
+fish_color_error d20f39
+fish_color_escape 179299
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote df8e1d
+fish_color_keyword 1e66f5
+fish_color_match --background=1e66f5
+fish_color_normal normal
+fish_color_operator 179299
+fish_color_option 179299
+fish_color_param 179299
+fish_color_quote df8e1d
+fish_color_redirection 179299 --bold
+fish_color_search_match df8e1d --background=6c6f85
+fish_color_selection acb0be --bold --background=6c6f85
+fish_color_status d20f39
+fish_color_user 40a02b
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description df8e1d df8e1d -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress bcc0cc --background=179299
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

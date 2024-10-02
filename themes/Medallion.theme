@@ -1,0 +1,66 @@
+# name: "Medallion"
+# preferred_background: 1d1908
+
+# color-palette {
+#  background: #1d1908;
+#  foreground: #cac296;
+#  selection:  #626dac;
+#  cursor:     #d3ba30;
+#
+#   black:     #000000;
+#   red:       #b64c00;
+#   green:     #7c8b16;
+#   yellow:    #d3bd26;
+#   blue:      #616bb0;
+#   magenta:   #8c5a90;
+#   cyan:      #916c25;
+#   white:     #cac29a;
+#
+#   brblack:   #5e5219;
+#   brred:     #ff9149;
+#   brgreen:   #b2ca3b;
+#   bryellow:  #ffe54a;
+#   brblue:    #acb8ff;
+#   brmagenta: #ffa0ff;
+#   brcyan:    #ffbc51;
+#   brwhite:   #fed698;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 616bb0
+fish_color_comment b64c00
+fish_color_cwd 7c8b16
+fish_color_cwd_root b64c00
+fish_color_end 7c8b16
+fish_color_error ff9149
+fish_color_escape ffbc51
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote d3bd26
+fish_color_keyword 616bb0
+fish_color_match --background=acb8ff
+fish_color_normal normal
+fish_color_operator ffbc51
+fish_color_option 916c25
+fish_color_param 916c25
+fish_color_quote d3bd26
+fish_color_redirection 916c25 --bold
+fish_color_search_match ffe54a --background=5e5219
+fish_color_selection cac29a --bold --background=5e5219
+fish_color_status b64c00
+fish_color_user b2ca3b
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffe54a d3bd26 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress fed698 --background=916c25
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

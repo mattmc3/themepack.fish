@@ -1,0 +1,66 @@
+# name: "Cobalt2"
+# preferred_background: 132738
+
+# color-palette {
+#  background: #132738;
+#  foreground: #ffffff;
+#  selection:  #18354f;
+#  cursor:     #f0cc09;
+#
+#   black:     #000000;
+#   red:       #ff0000;
+#   green:     #38de21;
+#   yellow:    #ffe50a;
+#   blue:      #1460d2;
+#   magenta:   #ff005d;
+#   cyan:      #00bbbb;
+#   white:     #bbbbbb;
+#
+#   brblack:   #555555;
+#   brred:     #f40e17;
+#   brgreen:   #3bd01d;
+#   bryellow:  #edc809;
+#   brblue:    #5555ff;
+#   brmagenta: #ff55ff;
+#   brcyan:    #6ae3fa;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 1460d2
+fish_color_comment ff0000
+fish_color_cwd 38de21
+fish_color_cwd_root ff0000
+fish_color_end 38de21
+fish_color_error f40e17
+fish_color_escape 6ae3fa
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ffe50a
+fish_color_keyword 1460d2
+fish_color_match --background=5555ff
+fish_color_normal normal
+fish_color_operator 6ae3fa
+fish_color_option 00bbbb
+fish_color_param 00bbbb
+fish_color_quote ffe50a
+fish_color_redirection 00bbbb --bold
+fish_color_search_match edc809 --background=555555
+fish_color_selection bbbbbb --bold --background=555555
+fish_color_status ff0000
+fish_color_user 3bd01d
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description edc809 ffe50a -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=00bbbb
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

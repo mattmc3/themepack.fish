@@ -1,0 +1,66 @@
+# name: "iTerm2 Smoooooth"
+# preferred_background: 15191f
+
+# color-palette {
+#  background: #15191f;
+#  foreground: #dcdcdc;
+#  selection:  #b3d7ff;
+#  cursor:     #ffffff;
+#
+#   black:     #14191e;
+#   red:       #b43c2a;
+#   green:     #00c200;
+#   yellow:    #c7c400;
+#   blue:      #2744c7;
+#   magenta:   #c040be;
+#   cyan:      #00c5c7;
+#   white:     #c7c7c7;
+#
+#   brblack:   #686868;
+#   brred:     #dd7975;
+#   brgreen:   #58e790;
+#   bryellow:  #ece100;
+#   brblue:    #a7abf2;
+#   brmagenta: #e17ee1;
+#   brcyan:    #60fdff;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2744c7
+fish_color_comment b43c2a
+fish_color_cwd 00c200
+fish_color_cwd_root b43c2a
+fish_color_end 00c200
+fish_color_error dd7975
+fish_color_escape 60fdff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote c7c400
+fish_color_keyword 2744c7
+fish_color_match --background=a7abf2
+fish_color_normal normal
+fish_color_operator 60fdff
+fish_color_option 00c5c7
+fish_color_param 00c5c7
+fish_color_quote c7c400
+fish_color_redirection 00c5c7 --bold
+fish_color_search_match ece100 --background=686868
+fish_color_selection c7c7c7 --bold --background=686868
+fish_color_status b43c2a
+fish_color_user 58e790
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ece100 c7c400 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=00c5c7
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

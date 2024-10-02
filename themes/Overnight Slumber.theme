@@ -1,0 +1,66 @@
+# name: "Overnight Slumber"
+# preferred_background: 0e1729
+
+# color-palette {
+#  background: #0e1729;
+#  foreground: #ced2d6;
+#  selection:  #1f2b41;
+#  cursor:     #ffa7c4;
+#
+#   black:     #0a1222;
+#   red:       #ffa7c4;
+#   green:     #85cc95;
+#   yellow:    #ffcb8b;
+#   blue:      #8dabe1;
+#   magenta:   #c792eb;
+#   cyan:      #78ccf0;
+#   white:     #ffffff;
+#
+#   brblack:   #575656;
+#   brred:     #ffa7c4;
+#   brgreen:   #85cc95;
+#   bryellow:  #ffcb8b;
+#   brblue:    #8dabe1;
+#   brmagenta: #c792eb;
+#   brcyan:    #ffa7c4;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 8dabe1
+fish_color_comment ffa7c4
+fish_color_cwd 85cc95
+fish_color_cwd_root ffa7c4
+fish_color_end 85cc95
+fish_color_error ffa7c4
+fish_color_escape ffa7c4
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ffcb8b
+fish_color_keyword 8dabe1
+fish_color_match --background=8dabe1
+fish_color_normal normal
+fish_color_operator ffa7c4
+fish_color_option 78ccf0
+fish_color_param 78ccf0
+fish_color_quote ffcb8b
+fish_color_redirection 78ccf0 --bold
+fish_color_search_match ffcb8b --background=575656
+fish_color_selection ffffff --bold --background=575656
+fish_color_status ffa7c4
+fish_color_user 85cc95
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffcb8b ffcb8b -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=78ccf0
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

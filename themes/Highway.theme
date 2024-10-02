@@ -1,0 +1,66 @@
+# name: "Highway"
+# preferred_background: 222225
+
+# color-palette {
+#  background: #222225;
+#  foreground: #ededed;
+#  selection:  #384564;
+#  cursor:     #e0d9b9;
+#
+#   black:     #000000;
+#   red:       #d00e18;
+#   green:     #138034;
+#   yellow:    #ffcb3e;
+#   blue:      #006bb3;
+#   magenta:   #6b2775;
+#   cyan:      #384564;
+#   white:     #ededed;
+#
+#   brblack:   #5d504a;
+#   brred:     #f07e18;
+#   brgreen:   #b1d130;
+#   bryellow:  #fff120;
+#   brblue:    #4fc2fd;
+#   brmagenta: #de0071;
+#   brcyan:    #5d504a;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 006bb3
+fish_color_comment d00e18
+fish_color_cwd 138034
+fish_color_cwd_root d00e18
+fish_color_end 138034
+fish_color_error f07e18
+fish_color_escape 5d504a
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ffcb3e
+fish_color_keyword 006bb3
+fish_color_match --background=4fc2fd
+fish_color_normal normal
+fish_color_operator 5d504a
+fish_color_option 384564
+fish_color_param 384564
+fish_color_quote ffcb3e
+fish_color_redirection 384564 --bold
+fish_color_search_match fff120 --background=5d504a
+fish_color_selection ededed --bold --background=5d504a
+fish_color_status d00e18
+fish_color_user b1d130
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fff120 ffcb3e -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=384564
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

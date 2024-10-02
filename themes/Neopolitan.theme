@@ -1,0 +1,66 @@
+# name: "Neopolitan"
+# preferred_background: 271f19
+
+# color-palette {
+#  background: #271f19;
+#  foreground: #ffffff;
+#  selection:  #253b76;
+#  cursor:     #ffffff;
+#
+#   black:     #000000;
+#   red:       #800000;
+#   green:     #61ce3c;
+#   yellow:    #fbde2d;
+#   blue:      #253b76;
+#   magenta:   #ff0080;
+#   cyan:      #8da6ce;
+#   white:     #f8f8f8;
+#
+#   brblack:   #000000;
+#   brred:     #800000;
+#   brgreen:   #61ce3c;
+#   bryellow:  #fbde2d;
+#   brblue:    #253b76;
+#   brmagenta: #ff0080;
+#   brcyan:    #8da6ce;
+#   brwhite:   #f8f8f8;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 253b76
+fish_color_comment 800000
+fish_color_cwd 61ce3c
+fish_color_cwd_root 800000
+fish_color_end 61ce3c
+fish_color_error 800000
+fish_color_escape 8da6ce
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote fbde2d
+fish_color_keyword 253b76
+fish_color_match --background=253b76
+fish_color_normal normal
+fish_color_operator 8da6ce
+fish_color_option 8da6ce
+fish_color_param 8da6ce
+fish_color_quote fbde2d
+fish_color_redirection 8da6ce --bold
+fish_color_search_match fbde2d --background=000000
+fish_color_selection f8f8f8 --bold --background=000000
+fish_color_status 800000
+fish_color_user 61ce3c
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fbde2d fbde2d -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress f8f8f8 --background=8da6ce
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

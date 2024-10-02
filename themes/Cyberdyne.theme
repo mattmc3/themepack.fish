@@ -1,0 +1,66 @@
+# name: "Cyberdyne"
+# preferred_background: 151144
+
+# color-palette {
+#  background: #151144;
+#  foreground: #00ff92;
+#  selection:  #454d96;
+#  cursor:     #00ff9c;
+#
+#   black:     #080808;
+#   red:       #ff8373;
+#   green:     #00c172;
+#   yellow:    #d2a700;
+#   blue:      #0071cf;
+#   magenta:   #ff90fe;
+#   cyan:      #6bffdd;
+#   white:     #f1f1f1;
+#
+#   brblack:   #2e2e2e;
+#   brred:     #ffc4be;
+#   brgreen:   #d6fcba;
+#   bryellow:  #fffed5;
+#   brblue:    #c2e3ff;
+#   brmagenta: #ffb2fe;
+#   brcyan:    #e6e7fe;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 0071cf
+fish_color_comment ff8373
+fish_color_cwd 00c172
+fish_color_cwd_root ff8373
+fish_color_end 00c172
+fish_color_error ffc4be
+fish_color_escape e6e7fe
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote d2a700
+fish_color_keyword 0071cf
+fish_color_match --background=c2e3ff
+fish_color_normal normal
+fish_color_operator e6e7fe
+fish_color_option 6bffdd
+fish_color_param 6bffdd
+fish_color_quote d2a700
+fish_color_redirection 6bffdd --bold
+fish_color_search_match fffed5 --background=2e2e2e
+fish_color_selection f1f1f1 --bold --background=2e2e2e
+fish_color_status ff8373
+fish_color_user d6fcba
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fffed5 d2a700 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=6bffdd
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

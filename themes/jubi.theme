@@ -1,0 +1,66 @@
+# name: "jubi"
+# preferred_background: 262b33
+
+# color-palette {
+#  background: #262b33;
+#  foreground: #c3d3de;
+#  selection:  #5b5184;
+#  cursor:     #c3d3de;
+#
+#   black:     #3b3750;
+#   red:       #cf7b98;
+#   green:     #90a94b;
+#   yellow:    #6ebfc0;
+#   blue:      #576ea6;
+#   magenta:   #bc4f68;
+#   cyan:      #75a7d2;
+#   white:     #c3d3de;
+#
+#   brblack:   #a874ce;
+#   brred:     #de90ab;
+#   brgreen:   #bcdd61;
+#   bryellow:  #87e9ea;
+#   brblue:    #8c9fcd;
+#   brmagenta: #e16c87;
+#   brcyan:    #b7c9ef;
+#   brwhite:   #d5e5f1;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 576ea6
+fish_color_comment cf7b98
+fish_color_cwd 90a94b
+fish_color_cwd_root cf7b98
+fish_color_end 90a94b
+fish_color_error de90ab
+fish_color_escape b7c9ef
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote 6ebfc0
+fish_color_keyword 576ea6
+fish_color_match --background=8c9fcd
+fish_color_normal normal
+fish_color_operator b7c9ef
+fish_color_option 75a7d2
+fish_color_param 75a7d2
+fish_color_quote 6ebfc0
+fish_color_redirection 75a7d2 --bold
+fish_color_search_match 87e9ea --background=a874ce
+fish_color_selection c3d3de --bold --background=a874ce
+fish_color_status cf7b98
+fish_color_user bcdd61
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description 87e9ea 6ebfc0 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress d5e5f1 --background=75a7d2
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

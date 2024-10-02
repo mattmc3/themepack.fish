@@ -1,0 +1,66 @@
+# name: "Fairyfloss"
+# preferred_background: 5a5475
+
+# color-palette {
+#  background: #5a5475;
+#  foreground: #f8f8f2;
+#  selection:  #8077a8;
+#  cursor:     #f8f8f0;
+#
+#   black:     #040303;
+#   red:       #f92672;
+#   green:     #c2ffdf;
+#   yellow:    #e6c000;
+#   blue:      #c2ffdf;
+#   magenta:   #ffb8d1;
+#   cyan:      #c5a3ff;
+#   white:     #f8f8f0;
+#
+#   brblack:   #6090cb;
+#   brred:     #ff857f;
+#   brgreen:   #c2ffdf;
+#   bryellow:  #ffea00;
+#   brblue:    #c2ffdf;
+#   brmagenta: #ffb8d1;
+#   brcyan:    #c5a3ff;
+#   brwhite:   #f8f8f0;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command c2ffdf
+fish_color_comment f92672
+fish_color_cwd c2ffdf
+fish_color_cwd_root f92672
+fish_color_end c2ffdf
+fish_color_error ff857f
+fish_color_escape c5a3ff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e6c000
+fish_color_keyword c2ffdf
+fish_color_match --background=c2ffdf
+fish_color_normal normal
+fish_color_operator c5a3ff
+fish_color_option c5a3ff
+fish_color_param c5a3ff
+fish_color_quote e6c000
+fish_color_redirection c5a3ff --bold
+fish_color_search_match ffea00 --background=6090cb
+fish_color_selection f8f8f0 --bold --background=6090cb
+fish_color_status f92672
+fish_color_user c2ffdf
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffea00 e6c000 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress f8f8f0 --background=c5a3ff
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

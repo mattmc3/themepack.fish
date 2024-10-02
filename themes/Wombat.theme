@@ -1,0 +1,66 @@
+# name: "Wombat"
+# preferred_background: 171717
+
+# color-palette {
+#  background: #171717;
+#  foreground: #dedacf;
+#  selection:  #453b39;
+#  cursor:     #bbbbbb;
+#
+#   black:     #000000;
+#   red:       #ff615a;
+#   green:     #b1e969;
+#   yellow:    #ebd99c;
+#   blue:      #5da9f6;
+#   magenta:   #e86aff;
+#   cyan:      #82fff7;
+#   white:     #dedacf;
+#
+#   brblack:   #313131;
+#   brred:     #f58c80;
+#   brgreen:   #ddf88f;
+#   bryellow:  #eee5b2;
+#   brblue:    #a5c7ff;
+#   brmagenta: #ddaaff;
+#   brcyan:    #b7fff9;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 5da9f6
+fish_color_comment ff615a
+fish_color_cwd b1e969
+fish_color_cwd_root ff615a
+fish_color_end b1e969
+fish_color_error f58c80
+fish_color_escape b7fff9
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ebd99c
+fish_color_keyword 5da9f6
+fish_color_match --background=a5c7ff
+fish_color_normal normal
+fish_color_operator b7fff9
+fish_color_option 82fff7
+fish_color_param 82fff7
+fish_color_quote ebd99c
+fish_color_redirection 82fff7 --bold
+fish_color_search_match eee5b2 --background=313131
+fish_color_selection dedacf --bold --background=313131
+fish_color_status ff615a
+fish_color_user ddf88f
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description eee5b2 ebd99c -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=82fff7
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

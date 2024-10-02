@@ -1,0 +1,66 @@
+# name: "Obsidian"
+# preferred_background: 283033
+
+# color-palette {
+#  background: #283033;
+#  foreground: #cdcdcd;
+#  selection:  #3e4c4f;
+#  cursor:     #c0cad0;
+#
+#   black:     #000000;
+#   red:       #a60001;
+#   green:     #00bb00;
+#   yellow:    #fecd22;
+#   blue:      #3a9bdb;
+#   magenta:   #bb00bb;
+#   cyan:      #00bbbb;
+#   white:     #bbbbbb;
+#
+#   brblack:   #555555;
+#   brred:     #ff0003;
+#   brgreen:   #93c863;
+#   bryellow:  #fef874;
+#   brblue:    #a1d7ff;
+#   brmagenta: #ff55ff;
+#   brcyan:    #55ffff;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 3a9bdb
+fish_color_comment a60001
+fish_color_cwd 00bb00
+fish_color_cwd_root a60001
+fish_color_end 00bb00
+fish_color_error ff0003
+fish_color_escape 55ffff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote fecd22
+fish_color_keyword 3a9bdb
+fish_color_match --background=a1d7ff
+fish_color_normal normal
+fish_color_operator 55ffff
+fish_color_option 00bbbb
+fish_color_param 00bbbb
+fish_color_quote fecd22
+fish_color_redirection 00bbbb --bold
+fish_color_search_match fef874 --background=555555
+fish_color_selection bbbbbb --bold --background=555555
+fish_color_status a60001
+fish_color_user 93c863
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fef874 fecd22 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=00bbbb
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

@@ -1,0 +1,66 @@
+# name: "Hurtado"
+# preferred_background: 000000
+
+# color-palette {
+#  background: #000000;
+#  foreground: #dbdbdb;
+#  selection:  #b5d5ff;
+#  cursor:     #bbbbbb;
+#
+#   black:     #575757;
+#   red:       #ff1b00;
+#   green:     #a5e055;
+#   yellow:    #fbe74a;
+#   blue:      #496487;
+#   magenta:   #fd5ff1;
+#   cyan:      #86e9fe;
+#   white:     #cbcccb;
+#
+#   brblack:   #262626;
+#   brred:     #d51d00;
+#   brgreen:   #a5df55;
+#   bryellow:  #fbe84a;
+#   brblue:    #89beff;
+#   brmagenta: #c001c1;
+#   brcyan:    #86eafe;
+#   brwhite:   #dbdbdb;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 496487
+fish_color_comment ff1b00
+fish_color_cwd a5e055
+fish_color_cwd_root ff1b00
+fish_color_end a5e055
+fish_color_error d51d00
+fish_color_escape 86eafe
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote fbe74a
+fish_color_keyword 496487
+fish_color_match --background=89beff
+fish_color_normal normal
+fish_color_operator 86eafe
+fish_color_option 86e9fe
+fish_color_param 86e9fe
+fish_color_quote fbe74a
+fish_color_redirection 86e9fe --bold
+fish_color_search_match fbe84a --background=262626
+fish_color_selection cbcccb --bold --background=262626
+fish_color_status ff1b00
+fish_color_user a5df55
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fbe84a fbe74a -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress dbdbdb --background=86e9fe
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

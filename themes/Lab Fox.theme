@@ -1,0 +1,66 @@
+# name: "Lab Fox"
+# preferred_background: 2e2e2e
+
+# color-palette {
+#  background: #2e2e2e;
+#  foreground: #ffffff;
+#  selection:  #cb392e;
+#  cursor:     #7f7f7f;
+#
+#   black:     #2e2e2e;
+#   red:       #fc6d26;
+#   green:     #3eb383;
+#   yellow:    #fca121;
+#   blue:      #db3b21;
+#   magenta:   #380d75;
+#   cyan:      #6e49cb;
+#   white:     #ffffff;
+#
+#   brblack:   #464646;
+#   brred:     #ff6517;
+#   brgreen:   #53eaa8;
+#   bryellow:  #fca013;
+#   brblue:    #db501f;
+#   brmagenta: #441090;
+#   brcyan:    #7d53e7;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command db3b21
+fish_color_comment fc6d26
+fish_color_cwd 3eb383
+fish_color_cwd_root fc6d26
+fish_color_end 3eb383
+fish_color_error ff6517
+fish_color_escape 7d53e7
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote fca121
+fish_color_keyword db3b21
+fish_color_match --background=db501f
+fish_color_normal normal
+fish_color_operator 7d53e7
+fish_color_option 6e49cb
+fish_color_param 6e49cb
+fish_color_quote fca121
+fish_color_redirection 6e49cb --bold
+fish_color_search_match fca013 --background=464646
+fish_color_selection ffffff --bold --background=464646
+fish_color_status fc6d26
+fish_color_user 53eaa8
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fca013 fca121 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=6e49cb
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

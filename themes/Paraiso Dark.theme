@@ -1,0 +1,66 @@
+# name: "Paraiso Dark"
+# preferred_background: 2f1e2e
+
+# color-palette {
+#  background: #2f1e2e;
+#  foreground: #a39e9b;
+#  selection:  #4f424c;
+#  cursor:     #a39e9b;
+#
+#   black:     #2f1e2e;
+#   red:       #ef6155;
+#   green:     #48b685;
+#   yellow:    #fec418;
+#   blue:      #06b6ef;
+#   magenta:   #815ba4;
+#   cyan:      #5bc4bf;
+#   white:     #a39e9b;
+#
+#   brblack:   #776e71;
+#   brred:     #ef6155;
+#   brgreen:   #48b685;
+#   bryellow:  #fec418;
+#   brblue:    #06b6ef;
+#   brmagenta: #815ba4;
+#   brcyan:    #5bc4bf;
+#   brwhite:   #e7e9db;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 06b6ef
+fish_color_comment ef6155
+fish_color_cwd 48b685
+fish_color_cwd_root ef6155
+fish_color_end 48b685
+fish_color_error ef6155
+fish_color_escape 5bc4bf
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote fec418
+fish_color_keyword 06b6ef
+fish_color_match --background=06b6ef
+fish_color_normal normal
+fish_color_operator 5bc4bf
+fish_color_option 5bc4bf
+fish_color_param 5bc4bf
+fish_color_quote fec418
+fish_color_redirection 5bc4bf --bold
+fish_color_search_match fec418 --background=776e71
+fish_color_selection a39e9b --bold --background=776e71
+fish_color_status ef6155
+fish_color_user 48b685
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fec418 fec418 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress e7e9db --background=5bc4bf
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

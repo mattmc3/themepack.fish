@@ -1,0 +1,66 @@
+# name: "Red Planet"
+# preferred_background: 222222
+
+# color-palette {
+#  background: #222222;
+#  foreground: #c2b790;
+#  selection:  #1b324a;
+#  cursor:     #c2b790;
+#
+#   black:     #202020;
+#   red:       #8c3432;
+#   green:     #728271;
+#   yellow:    #e8bf6a;
+#   blue:      #69819e;
+#   magenta:   #896492;
+#   cyan:      #5b8390;
+#   white:     #b9aa99;
+#
+#   brblack:   #676767;
+#   brred:     #b55242;
+#   brgreen:   #869985;
+#   bryellow:  #ebeb91;
+#   brblue:    #60827e;
+#   brmagenta: #de4974;
+#   brcyan:    #38add8;
+#   brwhite:   #d6bfb8;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 69819e
+fish_color_comment 8c3432
+fish_color_cwd 728271
+fish_color_cwd_root 8c3432
+fish_color_end 728271
+fish_color_error b55242
+fish_color_escape 38add8
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e8bf6a
+fish_color_keyword 69819e
+fish_color_match --background=60827e
+fish_color_normal normal
+fish_color_operator 38add8
+fish_color_option 5b8390
+fish_color_param 5b8390
+fish_color_quote e8bf6a
+fish_color_redirection 5b8390 --bold
+fish_color_search_match ebeb91 --background=676767
+fish_color_selection b9aa99 --bold --background=676767
+fish_color_status 8c3432
+fish_color_user 869985
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ebeb91 e8bf6a -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress d6bfb8 --background=5b8390
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

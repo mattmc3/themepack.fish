@@ -1,0 +1,66 @@
+# name: "Ciapre"
+# preferred_background: 191c27
+
+# color-palette {
+#  background: #191c27;
+#  foreground: #aea47a;
+#  selection:  #172539;
+#  cursor:     #92805b;
+#
+#   black:     #181818;
+#   red:       #810009;
+#   green:     #48513b;
+#   yellow:    #cc8b3f;
+#   blue:      #576d8c;
+#   magenta:   #724d7c;
+#   cyan:      #5c4f4b;
+#   white:     #aea47f;
+#
+#   brblack:   #555555;
+#   brred:     #ac3835;
+#   brgreen:   #a6a75d;
+#   bryellow:  #dcdf7c;
+#   brblue:    #3097c6;
+#   brmagenta: #d33061;
+#   brcyan:    #f3dbb2;
+#   brwhite:   #f4f4f4;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 576d8c
+fish_color_comment 810009
+fish_color_cwd 48513b
+fish_color_cwd_root 810009
+fish_color_end 48513b
+fish_color_error ac3835
+fish_color_escape f3dbb2
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote cc8b3f
+fish_color_keyword 576d8c
+fish_color_match --background=3097c6
+fish_color_normal normal
+fish_color_operator f3dbb2
+fish_color_option 5c4f4b
+fish_color_param 5c4f4b
+fish_color_quote cc8b3f
+fish_color_redirection 5c4f4b --bold
+fish_color_search_match dcdf7c --background=555555
+fish_color_selection aea47f --bold --background=555555
+fish_color_status 810009
+fish_color_user a6a75d
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description dcdf7c cc8b3f -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress f4f4f4 --background=5c4f4b
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

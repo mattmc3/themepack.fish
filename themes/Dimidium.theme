@@ -1,0 +1,66 @@
+# name: "Dimidium"
+# preferred_background: 141414
+
+# color-palette {
+#  background: #141414;
+#  foreground: #bab7b6;
+#  selection:  #8db8e5;
+#  cursor:     #37e57b;
+#
+#   black:     #000000;
+#   red:       #cf494c;
+#   green:     #60b442;
+#   yellow:    #db9c11;
+#   blue:      #0575d8;
+#   magenta:   #af5ed2;
+#   cyan:      #1db6bb;
+#   white:     #bab7b6;
+#
+#   brblack:   #817e7e;
+#   brred:     #ff643b;
+#   brgreen:   #37e57b;
+#   bryellow:  #fccd1a;
+#   brblue:    #688dfd;
+#   brmagenta: #ed6fe9;
+#   brcyan:    #32e0fb;
+#   brwhite:   #d3d8d9;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 0575d8
+fish_color_comment cf494c
+fish_color_cwd 60b442
+fish_color_cwd_root cf494c
+fish_color_end 60b442
+fish_color_error ff643b
+fish_color_escape 32e0fb
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote db9c11
+fish_color_keyword 0575d8
+fish_color_match --background=688dfd
+fish_color_normal normal
+fish_color_operator 32e0fb
+fish_color_option 1db6bb
+fish_color_param 1db6bb
+fish_color_quote db9c11
+fish_color_redirection 1db6bb --bold
+fish_color_search_match fccd1a --background=817e7e
+fish_color_selection bab7b6 --bold --background=817e7e
+fish_color_status cf494c
+fish_color_user 37e57b
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fccd1a db9c11 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress d3d8d9 --background=1db6bb
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

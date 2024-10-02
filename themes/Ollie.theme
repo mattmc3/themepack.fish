@@ -1,0 +1,66 @@
+# name: "Ollie"
+# preferred_background: 222125
+
+# color-palette {
+#  background: #222125;
+#  foreground: #8a8dae;
+#  selection:  #1e3a66;
+#  cursor:     #5b6ea7;
+#
+#   black:     #000000;
+#   red:       #ac2e31;
+#   green:     #31ac61;
+#   yellow:    #ac4300;
+#   blue:      #2d57ac;
+#   magenta:   #b08528;
+#   cyan:      #1fa6ac;
+#   white:     #8a8eac;
+#
+#   brblack:   #5b3725;
+#   brred:     #ff3d48;
+#   brgreen:   #3bff99;
+#   bryellow:  #ff5e1e;
+#   brblue:    #4488ff;
+#   brmagenta: #ffc21d;
+#   brcyan:    #1ffaff;
+#   brwhite:   #5b6ea7;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2d57ac
+fish_color_comment ac2e31
+fish_color_cwd 31ac61
+fish_color_cwd_root ac2e31
+fish_color_end 31ac61
+fish_color_error ff3d48
+fish_color_escape 1ffaff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ac4300
+fish_color_keyword 2d57ac
+fish_color_match --background=4488ff
+fish_color_normal normal
+fish_color_operator 1ffaff
+fish_color_option 1fa6ac
+fish_color_param 1fa6ac
+fish_color_quote ac4300
+fish_color_redirection 1fa6ac --bold
+fish_color_search_match ff5e1e --background=5b3725
+fish_color_selection 8a8eac --bold --background=5b3725
+fish_color_status ac2e31
+fish_color_user 3bff99
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ff5e1e ac4300 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress 5b6ea7 --background=1fa6ac
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

@@ -1,0 +1,66 @@
+# name: "kanagawabones"
+# preferred_background: 1f1f28
+
+# color-palette {
+#  background: #1f1f28;
+#  foreground: #ddd8bb;
+#  selection:  #49473e;
+#  cursor:     #e6e0c2;
+#
+#   black:     #1f1f28;
+#   red:       #e46a78;
+#   green:     #98bc6d;
+#   yellow:    #e5c283;
+#   blue:      #7eb3c9;
+#   magenta:   #957fb8;
+#   cyan:      #7eb3c9;
+#   white:     #ddd8bb;
+#
+#   brblack:   #3c3c51;
+#   brred:     #ec818c;
+#   brgreen:   #9ec967;
+#   bryellow:  #f1c982;
+#   brblue:    #7bc2df;
+#   brmagenta: #a98fd2;
+#   brcyan:    #7bc2df;
+#   brwhite:   #a8a48d;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 7eb3c9
+fish_color_comment e46a78
+fish_color_cwd 98bc6d
+fish_color_cwd_root e46a78
+fish_color_end 98bc6d
+fish_color_error ec818c
+fish_color_escape 7bc2df
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e5c283
+fish_color_keyword 7eb3c9
+fish_color_match --background=7bc2df
+fish_color_normal normal
+fish_color_operator 7bc2df
+fish_color_option 7eb3c9
+fish_color_param 7eb3c9
+fish_color_quote e5c283
+fish_color_redirection 7eb3c9 --bold
+fish_color_search_match f1c982 --background=3c3c51
+fish_color_selection ddd8bb --bold --background=3c3c51
+fish_color_status e46a78
+fish_color_user 9ec967
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description f1c982 e5c283 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress a8a48d --background=7eb3c9
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

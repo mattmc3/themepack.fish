@@ -1,0 +1,66 @@
+# name: "FirefoxDev"
+# preferred_background: 0e1011
+
+# color-palette {
+#  background: #0e1011;
+#  foreground: #7c8fa4;
+#  selection:  #163c61;
+#  cursor:     #708284;
+#
+#   black:     #002831;
+#   red:       #e63853;
+#   green:     #5eb83c;
+#   yellow:    #a57706;
+#   blue:      #359ddf;
+#   magenta:   #d75cff;
+#   cyan:      #4b73a2;
+#   white:     #dcdcdc;
+#
+#   brblack:   #001e27;
+#   brred:     #e1003f;
+#   brgreen:   #1d9000;
+#   bryellow:  #cd9409;
+#   brblue:    #006fc0;
+#   brmagenta: #a200da;
+#   brcyan:    #005794;
+#   brwhite:   #e2e2e2;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 359ddf
+fish_color_comment e63853
+fish_color_cwd 5eb83c
+fish_color_cwd_root e63853
+fish_color_end 5eb83c
+fish_color_error e1003f
+fish_color_escape 005794
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote a57706
+fish_color_keyword 359ddf
+fish_color_match --background=006fc0
+fish_color_normal normal
+fish_color_operator 005794
+fish_color_option 4b73a2
+fish_color_param 4b73a2
+fish_color_quote a57706
+fish_color_redirection 4b73a2 --bold
+fish_color_search_match cd9409 --background=001e27
+fish_color_selection dcdcdc --bold --background=001e27
+fish_color_status e63853
+fish_color_user 1d9000
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description cd9409 a57706 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress e2e2e2 --background=4b73a2
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

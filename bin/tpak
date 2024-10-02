@@ -1,0 +1,154 @@
+#!/usr/bin/env fish
+
+# tpak - tool for generating color palette json files
+
+set -g PRJDIR (path resolve (status dirname)/..)
+
+function json2theme --argument-names jsonfile
+    eval (jq -r 'to_entries[] | "set --local theme_\(.key) '\''\(.value)'\''"' $jsonfile | string collect)
+    set colors
+
+    echo "# name: \"$theme_name\""
+    echo "# preferred_background: $theme_background"
+    echo
+    echo "# color-palette {"
+    echo "#  background: #$theme_background;"
+    echo "#  foreground: #$theme_foreground;"
+    echo "#  selection:  #$theme_selection;"
+    echo "#  cursor:     #$theme_cursor;"
+    echo "#"
+    echo "#   black:     #$theme_black;"
+    echo "#   red:       #$theme_red;"
+    echo "#   green:     #$theme_green;"
+    echo "#   yellow:    #$theme_yellow;"
+    echo "#   blue:      #$theme_blue;"
+    echo "#   magenta:   #$theme_magenta;"
+    echo "#   cyan:      #$theme_cyan;"
+    echo "#   white:     #$theme_white;"
+    echo "#"
+    echo "#   brblack:   #$theme_brightBlack;"
+    echo "#   brred:     #$theme_brightRed;"
+    echo "#   brgreen:   #$theme_brightGreen;"
+    echo "#   bryellow:  #$theme_brightYellow;"
+    echo "#   brblue:    #$theme_brightBlue;"
+    echo "#   brmagenta: #$theme_brightMagenta;"
+    echo "#   brcyan:    #$theme_brightCyan;"
+    echo "#   brwhite:   #$theme_brightWhite;"
+    echo "# }"
+    echo
+    echo "fish_color_autosuggestion 555"
+    echo "fish_color_cancel -r"
+    echo "fish_color_command $theme_blue"
+    echo "fish_color_comment $theme_red"
+    echo "fish_color_cwd $theme_green"
+    echo "fish_color_cwd_root $theme_red"
+    echo "fish_color_end $theme_green"
+    echo "fish_color_error $theme_brightRed"
+    echo "fish_color_escape $theme_brightCyan"
+    echo "fish_color_history_current --bold"
+    echo "fish_color_host normal"
+    echo "fish_color_host_remote $theme_yellow"
+    echo "fish_color_keyword $theme_blue"
+    echo "fish_color_match --background=$theme_brightBlue"
+    echo "fish_color_normal normal"
+    echo "fish_color_operator $theme_brightCyan"
+    echo "fish_color_option $theme_cyan"
+    echo "fish_color_param $theme_cyan"
+    echo "fish_color_quote $theme_yellow"
+    echo "fish_color_redirection $theme_cyan --bold"
+    echo "fish_color_search_match $theme_brightYellow --background=$theme_brightBlack"
+    echo "fish_color_selection $theme_white --bold --background=$theme_brightBlack"
+    echo "fish_color_status $theme_red"
+    echo "fish_color_user $theme_brightGreen"
+    echo "fish_color_valid_path --underline"
+    echo "fish_pager_color_background"
+    echo "fish_pager_color_completion normal"
+    echo "fish_pager_color_description $theme_brightYellow $theme_yellow -i"
+    echo "fish_pager_color_prefix normal --bold --underline"
+    echo "fish_pager_color_progress $theme_brightWhite --background=$theme_cyan"
+    echo "fish_pager_color_secondary_background"
+    echo "fish_pager_color_secondary_completion"
+    echo "fish_pager_color_secondary_description"
+    echo "fish_pager_color_secondary_prefix"
+    echo "fish_pager_color_selected_background -r"
+    echo "fish_pager_color_selected_completion"
+    echo "fish_pager_color_selected_description"
+    echo "fish_pager_color_selected_prefix"
+end
+
+# kebab-casing
+function slugify
+  string lower $argv | string replace -ra '\s+' '-'
+end
+
+function is_dark_theme --argument-names color
+    # https://github.com/mbadolato/iTerm2-Color-Schemes/blob/a914b8aaada2e66b28647d82f937cb807b5dab6f/tools/converter.py#L94-L99\
+    set --local hex (string replace '#' '' $color)
+
+    # Extract and convert each color component
+    set --local r (math "0x"(string sub -l 2 $hex))
+    set --local g (math "0x"(string sub -s 3 -l 2 $hex))
+    set --local b (math "0x"(string sub -s 5 -l 2 $hex))
+
+    test (math "0.2126 x $r + 0.7152 x $g + 0.0722 x $b") -lt 40.0
+end
+
+function build_json_files
+    # get iterm2 color scheme repo (it has a bunch of themes in json format)
+    set --local repo mbadolato/iTerm2-Color-Schemes
+    set --local repodir
+    if set -q XDG_CACHE_HOME
+        set repodir $XDG_CACHE_HOME/themepack.fish/colorschemes
+    else
+        set repodir $HOME/.cache/themepack.fish/colorschemes
+    end
+
+    # Clone or update
+    if test -d $repodir
+        git -C $repodir pull --quiet
+    else
+        git clone --depth 1 --quiet https://github.com/$repo $repodir 2>/dev/null
+    end
+
+    set --local jqfilter \
+        'map_values(if startswith("#") then ltrimstr("#") else . end)'
+    for jsonfile in $repodir/vhs/*.json
+        set --local background (jq -r '.background' $jsonfile)
+        set --local type (is_dark_theme $background && echo dark || echo light )
+        jq '. + {"type": "'$type'"} | '(string join ' | ' $jqfilter) $jsonfile |
+          string replace 'purple' 'magenta' |
+          string replace 'brightPurple' 'brightMagenta' \
+          > $PRJDIR/colorschemes/(path basename $jsonfile)
+    end
+end
+
+function build_theme_files
+    for jsonfile in $PRJDIR/colorschemes/*.json
+        json2theme $jsonfile > $PRJDIR/themes/(path change-extension '.theme' (path basename $jsonfile))
+    end
+end
+
+function tpak_main
+    switch $argv[1]
+        case '' help
+            echo "tpak - themepack.fish project build utility"
+            echo ""
+            echo "Commands:"
+            echo "  help               Show this message"
+            echo "  build              Build project files"
+            return
+        case build
+            build_json_files
+            build_theme_files
+        case *
+            echo >&2 "Unrecognized command '$argv[1]'" && return 1
+    end
+end
+
+# pre-reqs
+if not type jq &>/dev/null
+    echo >&2 "tpak: Required tool not found 'jq'."
+    return 1
+end
+
+tpak_main $argv

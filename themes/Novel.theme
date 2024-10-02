@@ -1,0 +1,66 @@
+# name: "Novel"
+# preferred_background: dfdbc3
+
+# color-palette {
+#  background: #dfdbc3;
+#  foreground: #3b2322;
+#  selection:  #a4a390;
+#  cursor:     #73635a;
+#
+#   black:     #000000;
+#   red:       #cc0000;
+#   green:     #009600;
+#   yellow:    #d06b00;
+#   blue:      #0000cc;
+#   magenta:   #cc00cc;
+#   cyan:      #0087cc;
+#   white:     #cccccc;
+#
+#   brblack:   #808080;
+#   brred:     #cc0000;
+#   brgreen:   #009600;
+#   bryellow:  #d06b00;
+#   brblue:    #0000cc;
+#   brmagenta: #cc00cc;
+#   brcyan:    #0087cc;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 0000cc
+fish_color_comment cc0000
+fish_color_cwd 009600
+fish_color_cwd_root cc0000
+fish_color_end 009600
+fish_color_error cc0000
+fish_color_escape 0087cc
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote d06b00
+fish_color_keyword 0000cc
+fish_color_match --background=0000cc
+fish_color_normal normal
+fish_color_operator 0087cc
+fish_color_option 0087cc
+fish_color_param 0087cc
+fish_color_quote d06b00
+fish_color_redirection 0087cc --bold
+fish_color_search_match d06b00 --background=808080
+fish_color_selection cccccc --bold --background=808080
+fish_color_status cc0000
+fish_color_user 009600
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description d06b00 d06b00 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=0087cc
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

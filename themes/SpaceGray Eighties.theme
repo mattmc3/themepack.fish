@@ -1,0 +1,66 @@
+# name: "SpaceGray Eighties"
+# preferred_background: 222222
+
+# color-palette {
+#  background: #222222;
+#  foreground: #bdbaae;
+#  selection:  #272e35;
+#  cursor:     #bbbbbb;
+#
+#   black:     #15171c;
+#   red:       #ec5f67;
+#   green:     #81a764;
+#   yellow:    #fec254;
+#   blue:      #5486c0;
+#   magenta:   #bf83c1;
+#   cyan:      #57c2c1;
+#   white:     #efece7;
+#
+#   brblack:   #555555;
+#   brred:     #ff6973;
+#   brgreen:   #93d493;
+#   bryellow:  #ffd256;
+#   brblue:    #4d84d1;
+#   brmagenta: #ff55ff;
+#   brcyan:    #83e9e4;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 5486c0
+fish_color_comment ec5f67
+fish_color_cwd 81a764
+fish_color_cwd_root ec5f67
+fish_color_end 81a764
+fish_color_error ff6973
+fish_color_escape 83e9e4
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote fec254
+fish_color_keyword 5486c0
+fish_color_match --background=4d84d1
+fish_color_normal normal
+fish_color_operator 83e9e4
+fish_color_option 57c2c1
+fish_color_param 57c2c1
+fish_color_quote fec254
+fish_color_redirection 57c2c1 --bold
+fish_color_search_match ffd256 --background=555555
+fish_color_selection efece7 --bold --background=555555
+fish_color_status ec5f67
+fish_color_user 93d493
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffd256 fec254 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=57c2c1
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

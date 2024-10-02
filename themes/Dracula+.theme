@@ -1,0 +1,66 @@
+# name: "Dracula+"
+# preferred_background: 212121
+
+# color-palette {
+#  background: #212121;
+#  foreground: #f8f8f2;
+#  selection:  #f8f8f2;
+#  cursor:     #eceff4;
+#
+#   black:     #21222c;
+#   red:       #ff5555;
+#   green:     #50fa7b;
+#   yellow:    #ffcb6b;
+#   blue:      #82aaff;
+#   magenta:   #c792ea;
+#   cyan:      #8be9fd;
+#   white:     #f8f8f2;
+#
+#   brblack:   #545454;
+#   brred:     #ff6e6e;
+#   brgreen:   #69ff94;
+#   bryellow:  #ffcb6b;
+#   brblue:    #d6acff;
+#   brmagenta: #ff92df;
+#   brcyan:    #a4ffff;
+#   brwhite:   #f8f8f2;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 82aaff
+fish_color_comment ff5555
+fish_color_cwd 50fa7b
+fish_color_cwd_root ff5555
+fish_color_end 50fa7b
+fish_color_error ff6e6e
+fish_color_escape a4ffff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ffcb6b
+fish_color_keyword 82aaff
+fish_color_match --background=d6acff
+fish_color_normal normal
+fish_color_operator a4ffff
+fish_color_option 8be9fd
+fish_color_param 8be9fd
+fish_color_quote ffcb6b
+fish_color_redirection 8be9fd --bold
+fish_color_search_match ffcb6b --background=545454
+fish_color_selection f8f8f2 --bold --background=545454
+fish_color_status ff5555
+fish_color_user 69ff94
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffcb6b ffcb6b -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress f8f8f2 --background=8be9fd
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

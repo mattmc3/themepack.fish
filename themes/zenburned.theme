@@ -1,0 +1,66 @@
+# name: "zenburned"
+# preferred_background: 404040
+
+# color-palette {
+#  background: #404040;
+#  foreground: #f0e4cf;
+#  selection:  #746956;
+#  cursor:     #f3eadb;
+#
+#   black:     #404040;
+#   red:       #e3716e;
+#   green:     #819b69;
+#   yellow:    #b77e64;
+#   blue:      #6099c0;
+#   magenta:   #b279a7;
+#   cyan:      #66a5ad;
+#   white:     #f0e4cf;
+#
+#   brblack:   #625a5b;
+#   brred:     #ec8685;
+#   brgreen:   #8bae68;
+#   bryellow:  #d68c67;
+#   brblue:    #61abda;
+#   brmagenta: #cf86c1;
+#   brcyan:    #65b8c1;
+#   brwhite:   #c0ab86;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 6099c0
+fish_color_comment e3716e
+fish_color_cwd 819b69
+fish_color_cwd_root e3716e
+fish_color_end 819b69
+fish_color_error ec8685
+fish_color_escape 65b8c1
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote b77e64
+fish_color_keyword 6099c0
+fish_color_match --background=61abda
+fish_color_normal normal
+fish_color_operator 65b8c1
+fish_color_option 66a5ad
+fish_color_param 66a5ad
+fish_color_quote b77e64
+fish_color_redirection 66a5ad --bold
+fish_color_search_match d68c67 --background=625a5b
+fish_color_selection f0e4cf --bold --background=625a5b
+fish_color_status e3716e
+fish_color_user 8bae68
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description d68c67 b77e64 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress c0ab86 --background=66a5ad
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

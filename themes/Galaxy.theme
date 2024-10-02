@@ -1,0 +1,66 @@
+# name: "Galaxy"
+# preferred_background: 1d2837
+
+# color-palette {
+#  background: #1d2837;
+#  foreground: #ffffff;
+#  selection:  #b5d5ff;
+#  cursor:     #bbbbbb;
+#
+#   black:     #000000;
+#   red:       #f9555f;
+#   green:     #21b089;
+#   yellow:    #fef02a;
+#   blue:      #589df6;
+#   magenta:   #944d95;
+#   cyan:      #1f9ee7;
+#   white:     #bbbbbb;
+#
+#   brblack:   #555555;
+#   brred:     #fa8c8f;
+#   brgreen:   #35bb9a;
+#   bryellow:  #ffff55;
+#   brblue:    #589df6;
+#   brmagenta: #e75699;
+#   brcyan:    #3979bc;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 589df6
+fish_color_comment f9555f
+fish_color_cwd 21b089
+fish_color_cwd_root f9555f
+fish_color_end 21b089
+fish_color_error fa8c8f
+fish_color_escape 3979bc
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote fef02a
+fish_color_keyword 589df6
+fish_color_match --background=589df6
+fish_color_normal normal
+fish_color_operator 3979bc
+fish_color_option 1f9ee7
+fish_color_param 1f9ee7
+fish_color_quote fef02a
+fish_color_redirection 1f9ee7 --bold
+fish_color_search_match ffff55 --background=555555
+fish_color_selection bbbbbb --bold --background=555555
+fish_color_status f9555f
+fish_color_user 35bb9a
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffff55 fef02a -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=1f9ee7
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

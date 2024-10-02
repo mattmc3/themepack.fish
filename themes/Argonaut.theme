@@ -1,0 +1,66 @@
+# name: "Argonaut"
+# preferred_background: 0e1019
+
+# color-palette {
+#  background: #0e1019;
+#  foreground: #fffaf4;
+#  selection:  #002a3b;
+#  cursor:     #ff0018;
+#
+#   black:     #232323;
+#   red:       #ff000f;
+#   green:     #8ce10b;
+#   yellow:    #ffb900;
+#   blue:      #008df8;
+#   magenta:   #6d43a6;
+#   cyan:      #00d8eb;
+#   white:     #ffffff;
+#
+#   brblack:   #444444;
+#   brred:     #ff2740;
+#   brgreen:   #abe15b;
+#   bryellow:  #ffd242;
+#   brblue:    #0092ff;
+#   brmagenta: #9a5feb;
+#   brcyan:    #67fff0;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 008df8
+fish_color_comment ff000f
+fish_color_cwd 8ce10b
+fish_color_cwd_root ff000f
+fish_color_end 8ce10b
+fish_color_error ff2740
+fish_color_escape 67fff0
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ffb900
+fish_color_keyword 008df8
+fish_color_match --background=0092ff
+fish_color_normal normal
+fish_color_operator 67fff0
+fish_color_option 00d8eb
+fish_color_param 00d8eb
+fish_color_quote ffb900
+fish_color_redirection 00d8eb --bold
+fish_color_search_match ffd242 --background=444444
+fish_color_selection ffffff --bold --background=444444
+fish_color_status ff000f
+fish_color_user abe15b
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffd242 ffb900 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=00d8eb
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

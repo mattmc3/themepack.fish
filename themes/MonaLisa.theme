@@ -1,0 +1,66 @@
+# name: "MonaLisa"
+# preferred_background: 120b0d
+
+# color-palette {
+#  background: #120b0d;
+#  foreground: #f7d66a;
+#  selection:  #f7d66a;
+#  cursor:     #c46c32;
+#
+#   black:     #351b0e;
+#   red:       #9b291c;
+#   green:     #636232;
+#   yellow:    #c36e28;
+#   blue:      #515c5d;
+#   magenta:   #9b1d29;
+#   cyan:      #588056;
+#   white:     #f7d75c;
+#
+#   brblack:   #874228;
+#   brred:     #ff4331;
+#   brgreen:   #b4b264;
+#   bryellow:  #ff9566;
+#   brblue:    #9eb2b4;
+#   brmagenta: #ff5b6a;
+#   brcyan:    #8acd8f;
+#   brwhite:   #ffe598;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 515c5d
+fish_color_comment 9b291c
+fish_color_cwd 636232
+fish_color_cwd_root 9b291c
+fish_color_end 636232
+fish_color_error ff4331
+fish_color_escape 8acd8f
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote c36e28
+fish_color_keyword 515c5d
+fish_color_match --background=9eb2b4
+fish_color_normal normal
+fish_color_operator 8acd8f
+fish_color_option 588056
+fish_color_param 588056
+fish_color_quote c36e28
+fish_color_redirection 588056 --bold
+fish_color_search_match ff9566 --background=874228
+fish_color_selection f7d75c --bold --background=874228
+fish_color_status 9b291c
+fish_color_user b4b264
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ff9566 c36e28 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffe598 --background=588056
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

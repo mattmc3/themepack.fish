@@ -1,0 +1,66 @@
+# name: "Oxocarbon"
+# preferred_background: 161616
+
+# color-palette {
+#  background: #161616;
+#  foreground: #f2f4f8;
+#  selection:  #393939;
+#  cursor:     #ffffff;
+#
+#   black:     #161616;
+#   red:       #3ddbd9;
+#   green:     #33b1ff;
+#   yellow:    #ee5396;
+#   blue:      #42be65;
+#   magenta:   #be95ff;
+#   cyan:      #ff7eb6;
+#   white:     #f2f4f8;
+#
+#   brblack:   #585858;
+#   brred:     #3ddbd9;
+#   brgreen:   #33b1ff;
+#   bryellow:  #ee5396;
+#   brblue:    #42be65;
+#   brmagenta: #be95ff;
+#   brcyan:    #ff7eb6;
+#   brwhite:   #f2f4f8;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 42be65
+fish_color_comment 3ddbd9
+fish_color_cwd 33b1ff
+fish_color_cwd_root 3ddbd9
+fish_color_end 33b1ff
+fish_color_error 3ddbd9
+fish_color_escape ff7eb6
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ee5396
+fish_color_keyword 42be65
+fish_color_match --background=42be65
+fish_color_normal normal
+fish_color_operator ff7eb6
+fish_color_option ff7eb6
+fish_color_param ff7eb6
+fish_color_quote ee5396
+fish_color_redirection ff7eb6 --bold
+fish_color_search_match ee5396 --background=585858
+fish_color_selection f2f4f8 --bold --background=585858
+fish_color_status 3ddbd9
+fish_color_user 33b1ff
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ee5396 ee5396 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress f2f4f8 --background=ff7eb6
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

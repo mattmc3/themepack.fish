@@ -1,0 +1,66 @@
+# name: "WildCherry"
+# preferred_background: 1f1726
+
+# color-palette {
+#  background: #1f1726;
+#  foreground: #dafaff;
+#  selection:  #002831;
+#  cursor:     #dd00ff;
+#
+#   black:     #000507;
+#   red:       #d94085;
+#   green:     #2ab250;
+#   yellow:    #ffd16f;
+#   blue:      #883cdc;
+#   magenta:   #ececec;
+#   cyan:      #c1b8b7;
+#   white:     #fff8de;
+#
+#   brblack:   #009cc9;
+#   brred:     #da6bac;
+#   brgreen:   #f4dca5;
+#   bryellow:  #eac066;
+#   brblue:    #308cba;
+#   brmagenta: #ae636b;
+#   brcyan:    #ff919d;
+#   brwhite:   #e4838d;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 883cdc
+fish_color_comment d94085
+fish_color_cwd 2ab250
+fish_color_cwd_root d94085
+fish_color_end 2ab250
+fish_color_error da6bac
+fish_color_escape ff919d
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ffd16f
+fish_color_keyword 883cdc
+fish_color_match --background=308cba
+fish_color_normal normal
+fish_color_operator ff919d
+fish_color_option c1b8b7
+fish_color_param c1b8b7
+fish_color_quote ffd16f
+fish_color_redirection c1b8b7 --bold
+fish_color_search_match eac066 --background=009cc9
+fish_color_selection fff8de --bold --background=009cc9
+fish_color_status d94085
+fish_color_user f4dca5
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description eac066 ffd16f -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress e4838d --background=c1b8b7
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

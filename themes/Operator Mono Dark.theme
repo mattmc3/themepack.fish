@@ -1,0 +1,66 @@
+# name: "Operator Mono Dark"
+# preferred_background: 191919
+
+# color-palette {
+#  background: #191919;
+#  foreground: #c3cac2;
+#  selection:  #19273b;
+#  cursor:     #fcdc08;
+#
+#   black:     #5a5a5a;
+#   red:       #ca372d;
+#   green:     #4d7b3a;
+#   yellow:    #d4d697;
+#   blue:      #4387cf;
+#   magenta:   #b86cb4;
+#   cyan:      #72d5c6;
+#   white:     #ced4cd;
+#
+#   brblack:   #9a9b99;
+#   brred:     #c37d62;
+#   brgreen:   #83d0a2;
+#   bryellow:  #fdfdc5;
+#   brblue:    #89d3f6;
+#   brmagenta: #ff2c7a;
+#   brcyan:    #82eada;
+#   brwhite:   #fdfdf6;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 4387cf
+fish_color_comment ca372d
+fish_color_cwd 4d7b3a
+fish_color_cwd_root ca372d
+fish_color_end 4d7b3a
+fish_color_error c37d62
+fish_color_escape 82eada
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote d4d697
+fish_color_keyword 4387cf
+fish_color_match --background=89d3f6
+fish_color_normal normal
+fish_color_operator 82eada
+fish_color_option 72d5c6
+fish_color_param 72d5c6
+fish_color_quote d4d697
+fish_color_redirection 72d5c6 --bold
+fish_color_search_match fdfdc5 --background=9a9b99
+fish_color_selection ced4cd --bold --background=9a9b99
+fish_color_status ca372d
+fish_color_user 83d0a2
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fdfdc5 d4d697 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress fdfdf6 --background=72d5c6
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

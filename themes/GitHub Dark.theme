@@ -1,0 +1,66 @@
+# name: "GitHub Dark"
+# preferred_background: 101216
+
+# color-palette {
+#  background: #101216;
+#  foreground: #8b949e;
+#  selection:  #3b5070;
+#  cursor:     #c9d1d9;
+#
+#   black:     #000000;
+#   red:       #f78166;
+#   green:     #56d364;
+#   yellow:    #e3b341;
+#   blue:      #6ca4f8;
+#   magenta:   #db61a2;
+#   cyan:      #2b7489;
+#   white:     #ffffff;
+#
+#   brblack:   #4d4d4d;
+#   brred:     #f78166;
+#   brgreen:   #56d364;
+#   bryellow:  #e3b341;
+#   brblue:    #6ca4f8;
+#   brmagenta: #db61a2;
+#   brcyan:    #2b7489;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 6ca4f8
+fish_color_comment f78166
+fish_color_cwd 56d364
+fish_color_cwd_root f78166
+fish_color_end 56d364
+fish_color_error f78166
+fish_color_escape 2b7489
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e3b341
+fish_color_keyword 6ca4f8
+fish_color_match --background=6ca4f8
+fish_color_normal normal
+fish_color_operator 2b7489
+fish_color_option 2b7489
+fish_color_param 2b7489
+fish_color_quote e3b341
+fish_color_redirection 2b7489 --bold
+fish_color_search_match e3b341 --background=4d4d4d
+fish_color_selection ffffff --bold --background=4d4d4d
+fish_color_status f78166
+fish_color_user 56d364
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e3b341 e3b341 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=2b7489
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

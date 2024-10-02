@@ -1,0 +1,66 @@
+# name: "Espresso Libre"
+# preferred_background: 2a211c
+
+# color-palette {
+#  background: #2a211c;
+#  foreground: #b8a898;
+#  selection:  #c3dcff;
+#  cursor:     #ffffff;
+#
+#   black:     #000000;
+#   red:       #cc0000;
+#   green:     #1a921c;
+#   yellow:    #f0e53a;
+#   blue:      #0066ff;
+#   magenta:   #c5656b;
+#   cyan:      #06989a;
+#   white:     #d3d7cf;
+#
+#   brblack:   #555753;
+#   brred:     #ef2929;
+#   brgreen:   #9aff87;
+#   bryellow:  #fffb5c;
+#   brblue:    #43a8ed;
+#   brmagenta: #ff818a;
+#   brcyan:    #34e2e2;
+#   brwhite:   #eeeeec;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 0066ff
+fish_color_comment cc0000
+fish_color_cwd 1a921c
+fish_color_cwd_root cc0000
+fish_color_end 1a921c
+fish_color_error ef2929
+fish_color_escape 34e2e2
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote f0e53a
+fish_color_keyword 0066ff
+fish_color_match --background=43a8ed
+fish_color_normal normal
+fish_color_operator 34e2e2
+fish_color_option 06989a
+fish_color_param 06989a
+fish_color_quote f0e53a
+fish_color_redirection 06989a --bold
+fish_color_search_match fffb5c --background=555753
+fish_color_selection d3d7cf --bold --background=555753
+fish_color_status cc0000
+fish_color_user 9aff87
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fffb5c f0e53a -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress eeeeec --background=06989a
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

@@ -1,0 +1,66 @@
+# name: "Belafonte Night"
+# preferred_background: 20111b
+
+# color-palette {
+#  background: #20111b;
+#  foreground: #968c83;
+#  selection:  #45373c;
+#  cursor:     #968c83;
+#
+#   black:     #20111b;
+#   red:       #be100e;
+#   green:     #858162;
+#   yellow:    #eaa549;
+#   blue:      #426a79;
+#   magenta:   #97522c;
+#   cyan:      #989a9c;
+#   white:     #968c83;
+#
+#   brblack:   #5e5252;
+#   brred:     #be100e;
+#   brgreen:   #858162;
+#   bryellow:  #eaa549;
+#   brblue:    #426a79;
+#   brmagenta: #97522c;
+#   brcyan:    #989a9c;
+#   brwhite:   #d5ccba;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 426a79
+fish_color_comment be100e
+fish_color_cwd 858162
+fish_color_cwd_root be100e
+fish_color_end 858162
+fish_color_error be100e
+fish_color_escape 989a9c
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote eaa549
+fish_color_keyword 426a79
+fish_color_match --background=426a79
+fish_color_normal normal
+fish_color_operator 989a9c
+fish_color_option 989a9c
+fish_color_param 989a9c
+fish_color_quote eaa549
+fish_color_redirection 989a9c --bold
+fish_color_search_match eaa549 --background=5e5252
+fish_color_selection 968c83 --bold --background=5e5252
+fish_color_status be100e
+fish_color_user 858162
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description eaa549 eaa549 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress d5ccba --background=989a9c
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

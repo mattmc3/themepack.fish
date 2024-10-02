@@ -1,0 +1,66 @@
+# name: "Spiderman"
+# preferred_background: 1b1d1e
+
+# color-palette {
+#  background: #1b1d1e;
+#  foreground: #e3e3e3;
+#  selection:  #070e50;
+#  cursor:     #2c3fff;
+#
+#   black:     #1b1d1e;
+#   red:       #e60813;
+#   green:     #e22928;
+#   yellow:    #e24756;
+#   blue:      #2c3fff;
+#   magenta:   #2435db;
+#   cyan:      #3256ff;
+#   white:     #fffef6;
+#
+#   brblack:   #505354;
+#   brred:     #ff0325;
+#   brgreen:   #ff3338;
+#   bryellow:  #fe3a35;
+#   brblue:    #1d50ff;
+#   brmagenta: #747cff;
+#   brcyan:    #6184ff;
+#   brwhite:   #fffff9;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2c3fff
+fish_color_comment e60813
+fish_color_cwd e22928
+fish_color_cwd_root e60813
+fish_color_end e22928
+fish_color_error ff0325
+fish_color_escape 6184ff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e24756
+fish_color_keyword 2c3fff
+fish_color_match --background=1d50ff
+fish_color_normal normal
+fish_color_operator 6184ff
+fish_color_option 3256ff
+fish_color_param 3256ff
+fish_color_quote e24756
+fish_color_redirection 3256ff --bold
+fish_color_search_match fe3a35 --background=505354
+fish_color_selection fffef6 --bold --background=505354
+fish_color_status e60813
+fish_color_user ff3338
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fe3a35 e24756 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress fffff9 --background=3256ff
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

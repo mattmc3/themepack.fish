@@ -1,0 +1,66 @@
+# name: "Teerb"
+# preferred_background: 262626
+
+# color-palette {
+#  background: #262626;
+#  foreground: #d0d0d0;
+#  selection:  #4d4d4d;
+#  cursor:     #e4c9af;
+#
+#   black:     #1c1c1c;
+#   red:       #d68686;
+#   green:     #aed686;
+#   yellow:    #d7af87;
+#   blue:      #86aed6;
+#   magenta:   #d6aed6;
+#   cyan:      #8adbb4;
+#   white:     #d0d0d0;
+#
+#   brblack:   #1c1c1c;
+#   brred:     #d68686;
+#   brgreen:   #aed686;
+#   bryellow:  #e4c9af;
+#   brblue:    #86aed6;
+#   brmagenta: #d6aed6;
+#   brcyan:    #b1e7dd;
+#   brwhite:   #efefef;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 86aed6
+fish_color_comment d68686
+fish_color_cwd aed686
+fish_color_cwd_root d68686
+fish_color_end aed686
+fish_color_error d68686
+fish_color_escape b1e7dd
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote d7af87
+fish_color_keyword 86aed6
+fish_color_match --background=86aed6
+fish_color_normal normal
+fish_color_operator b1e7dd
+fish_color_option 8adbb4
+fish_color_param 8adbb4
+fish_color_quote d7af87
+fish_color_redirection 8adbb4 --bold
+fish_color_search_match e4c9af --background=1c1c1c
+fish_color_selection d0d0d0 --bold --background=1c1c1c
+fish_color_status d68686
+fish_color_user aed686
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e4c9af d7af87 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress efefef --background=8adbb4
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

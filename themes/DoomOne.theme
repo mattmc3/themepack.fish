@@ -1,0 +1,66 @@
+# name: "DoomOne"
+# preferred_background: 282c34
+
+# color-palette {
+#  background: #282c34;
+#  foreground: #bbc2cf;
+#  selection:  #42444b;
+#  cursor:     #51afef;
+#
+#   black:     #000000;
+#   red:       #ff6c6b;
+#   green:     #98be65;
+#   yellow:    #ecbe7b;
+#   blue:      #a9a1e1;
+#   magenta:   #c678dd;
+#   cyan:      #51afef;
+#   white:     #bbc2cf;
+#
+#   brblack:   #000000;
+#   brred:     #ff6655;
+#   brgreen:   #99bb66;
+#   bryellow:  #ecbe7b;
+#   brblue:    #a9a1e1;
+#   brmagenta: #c678dd;
+#   brcyan:    #51afef;
+#   brwhite:   #bfbfbf;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command a9a1e1
+fish_color_comment ff6c6b
+fish_color_cwd 98be65
+fish_color_cwd_root ff6c6b
+fish_color_end 98be65
+fish_color_error ff6655
+fish_color_escape 51afef
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote ecbe7b
+fish_color_keyword a9a1e1
+fish_color_match --background=a9a1e1
+fish_color_normal normal
+fish_color_operator 51afef
+fish_color_option 51afef
+fish_color_param 51afef
+fish_color_quote ecbe7b
+fish_color_redirection 51afef --bold
+fish_color_search_match ecbe7b --background=000000
+fish_color_selection bbc2cf --bold --background=000000
+fish_color_status ff6c6b
+fish_color_user 99bb66
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ecbe7b ecbe7b -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress bfbfbf --background=51afef
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

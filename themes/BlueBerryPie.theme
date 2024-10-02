@@ -1,0 +1,66 @@
+# name: "BlueBerryPie"
+# preferred_background: 1c0c28
+
+# color-palette {
+#  background: #1c0c28;
+#  foreground: #babab9;
+#  selection:  #606060;
+#  cursor:     #fcfad6;
+#
+#   black:     #0a4c62;
+#   red:       #99246e;
+#   green:     #5cb1b3;
+#   yellow:    #eab9a8;
+#   blue:      #90a5bd;
+#   magenta:   #9d54a7;
+#   cyan:      #7e83cc;
+#   white:     #f0e8d6;
+#
+#   brblack:   #201637;
+#   brred:     #c87272;
+#   brgreen:   #0a6c7e;
+#   bryellow:  #7a3188;
+#   brblue:    #39173d;
+#   brmagenta: #bc94b7;
+#   brcyan:    #5e6071;
+#   brwhite:   #0a6c7e;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 90a5bd
+fish_color_comment 99246e
+fish_color_cwd 5cb1b3
+fish_color_cwd_root 99246e
+fish_color_end 5cb1b3
+fish_color_error c87272
+fish_color_escape 5e6071
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote eab9a8
+fish_color_keyword 90a5bd
+fish_color_match --background=39173d
+fish_color_normal normal
+fish_color_operator 5e6071
+fish_color_option 7e83cc
+fish_color_param 7e83cc
+fish_color_quote eab9a8
+fish_color_redirection 7e83cc --bold
+fish_color_search_match 7a3188 --background=201637
+fish_color_selection f0e8d6 --bold --background=201637
+fish_color_status 99246e
+fish_color_user 0a6c7e
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description 7a3188 eab9a8 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress 0a6c7e --background=7e83cc
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

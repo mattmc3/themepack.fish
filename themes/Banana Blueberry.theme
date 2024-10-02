@@ -1,0 +1,66 @@
+# name: "Banana Blueberry"
+# preferred_background: 191323
+
+# color-palette {
+#  background: #191323;
+#  foreground: #cccccc;
+#  selection:  #220525;
+#  cursor:     #e07d13;
+#
+#   black:     #17141f;
+#   red:       #ff6b7f;
+#   green:     #00bd9c;
+#   yellow:    #e6c62f;
+#   blue:      #22e8df;
+#   magenta:   #dc396a;
+#   cyan:      #56b6c2;
+#   white:     #f1f1f1;
+#
+#   brblack:   #495162;
+#   brred:     #fe9ea1;
+#   brgreen:   #98c379;
+#   bryellow:  #f9e46b;
+#   brblue:    #91fff4;
+#   brmagenta: #da70d6;
+#   brcyan:    #bcf3ff;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 22e8df
+fish_color_comment ff6b7f
+fish_color_cwd 00bd9c
+fish_color_cwd_root ff6b7f
+fish_color_end 00bd9c
+fish_color_error fe9ea1
+fish_color_escape bcf3ff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e6c62f
+fish_color_keyword 22e8df
+fish_color_match --background=91fff4
+fish_color_normal normal
+fish_color_operator bcf3ff
+fish_color_option 56b6c2
+fish_color_param 56b6c2
+fish_color_quote e6c62f
+fish_color_redirection 56b6c2 --bold
+fish_color_search_match f9e46b --background=495162
+fish_color_selection f1f1f1 --bold --background=495162
+fish_color_status ff6b7f
+fish_color_user 98c379
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description f9e46b e6c62f -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=56b6c2
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

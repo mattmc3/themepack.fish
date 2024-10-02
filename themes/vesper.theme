@@ -1,0 +1,66 @@
+# name: "Vesper"
+# preferred_background: 101010
+
+# color-palette {
+#  background: #101010;
+#  foreground: #ffffff;
+#  selection:  #988049;
+#  cursor:     #acb1ab;
+#
+#   black:     #101010;
+#   red:       #f5a191;
+#   green:     #90b99f;
+#   yellow:    #e6b99d;
+#   blue:      #aca1cf;
+#   magenta:   #e29eca;
+#   cyan:      #ea83a5;
+#   white:     #a0a0a0;
+#
+#   brblack:   #7e7e7e;
+#   brred:     #ff8080;
+#   brgreen:   #99ffe4;
+#   bryellow:  #ffc799;
+#   brblue:    #b9aeda;
+#   brmagenta: #ecaad6;
+#   brcyan:    #f591b2;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command aca1cf
+fish_color_comment f5a191
+fish_color_cwd 90b99f
+fish_color_cwd_root f5a191
+fish_color_end 90b99f
+fish_color_error ff8080
+fish_color_escape f591b2
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote e6b99d
+fish_color_keyword aca1cf
+fish_color_match --background=b9aeda
+fish_color_normal normal
+fish_color_operator f591b2
+fish_color_option ea83a5
+fish_color_param ea83a5
+fish_color_quote e6b99d
+fish_color_redirection ea83a5 --bold
+fish_color_search_match ffc799 --background=7e7e7e
+fish_color_selection a0a0a0 --bold --background=7e7e7e
+fish_color_status f5a191
+fish_color_user 99ffe4
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffc799 e6b99d -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=ea83a5
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

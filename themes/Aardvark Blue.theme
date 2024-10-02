@@ -1,0 +1,66 @@
+# name: "Aardvark Blue"
+# preferred_background: 102040
+
+# color-palette {
+#  background: #102040;
+#  foreground: #dddddd;
+#  selection:  #bfdbfe;
+#  cursor:     #007acc;
+#
+#   black:     #191919;
+#   red:       #aa342e;
+#   green:     #4b8c0f;
+#   yellow:    #dbba00;
+#   blue:      #1370d3;
+#   magenta:   #c43ac3;
+#   cyan:      #008eb0;
+#   white:     #bebebe;
+#
+#   brblack:   #454545;
+#   brred:     #f05b50;
+#   brgreen:   #95dc55;
+#   bryellow:  #ffe763;
+#   brblue:    #60a4ec;
+#   brmagenta: #e26be2;
+#   brcyan:    #60b6cb;
+#   brwhite:   #f7f7f7;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 1370d3
+fish_color_comment aa342e
+fish_color_cwd 4b8c0f
+fish_color_cwd_root aa342e
+fish_color_end 4b8c0f
+fish_color_error f05b50
+fish_color_escape 60b6cb
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote dbba00
+fish_color_keyword 1370d3
+fish_color_match --background=60a4ec
+fish_color_normal normal
+fish_color_operator 60b6cb
+fish_color_option 008eb0
+fish_color_param 008eb0
+fish_color_quote dbba00
+fish_color_redirection 008eb0 --bold
+fish_color_search_match ffe763 --background=454545
+fish_color_selection bebebe --bold --background=454545
+fish_color_status aa342e
+fish_color_user 95dc55
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffe763 dbba00 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress f7f7f7 --background=008eb0
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

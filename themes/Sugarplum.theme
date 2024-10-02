@@ -1,0 +1,66 @@
+# name: "Sugarplum"
+# preferred_background: 111147
+
+# color-palette {
+#  background: #111147;
+#  foreground: #db7ddd;
+#  selection:  #5ca8dc;
+#  cursor:     #53b397;
+#
+#   black:     #111147;
+#   red:       #5ca8dc;
+#   green:     #53b397;
+#   yellow:    #249a84;
+#   blue:      #db7ddd;
+#   magenta:   #d0beee;
+#   cyan:      #f9f3f9;
+#   white:     #a175d4;
+#
+#   brblack:   #111147;
+#   brred:     #5cb5dc;
+#   brgreen:   #52deb5;
+#   bryellow:  #01f5c7;
+#   brblue:    #fa5dfd;
+#   brmagenta: #c6a5fd;
+#   brcyan:    #ffffff;
+#   brwhite:   #b577fd;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command db7ddd
+fish_color_comment 5ca8dc
+fish_color_cwd 53b397
+fish_color_cwd_root 5ca8dc
+fish_color_end 53b397
+fish_color_error 5cb5dc
+fish_color_escape ffffff
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote 249a84
+fish_color_keyword db7ddd
+fish_color_match --background=fa5dfd
+fish_color_normal normal
+fish_color_operator ffffff
+fish_color_option f9f3f9
+fish_color_param f9f3f9
+fish_color_quote 249a84
+fish_color_redirection f9f3f9 --bold
+fish_color_search_match 01f5c7 --background=111147
+fish_color_selection a175d4 --bold --background=111147
+fish_color_status 5ca8dc
+fish_color_user 52deb5
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description 01f5c7 249a84 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress b577fd --background=f9f3f9
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

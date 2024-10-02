@@ -1,0 +1,66 @@
+# name: "Kibble"
+# preferred_background: 0e100a
+
+# color-palette {
+#  background: #0e100a;
+#  foreground: #f7f7f7;
+#  selection:  #9ba787;
+#  cursor:     #9fda9c;
+#
+#   black:     #4d4d4d;
+#   red:       #c70031;
+#   green:     #29cf13;
+#   yellow:    #d8e30e;
+#   blue:      #3449d1;
+#   magenta:   #8400ff;
+#   cyan:      #0798ab;
+#   white:     #e2d1e3;
+#
+#   brblack:   #5a5a5a;
+#   brred:     #f01578;
+#   brgreen:   #6ce05c;
+#   bryellow:  #f3f79e;
+#   brblue:    #97a4f7;
+#   brmagenta: #c495f0;
+#   brcyan:    #68f2e0;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 3449d1
+fish_color_comment c70031
+fish_color_cwd 29cf13
+fish_color_cwd_root c70031
+fish_color_end 29cf13
+fish_color_error f01578
+fish_color_escape 68f2e0
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote d8e30e
+fish_color_keyword 3449d1
+fish_color_match --background=97a4f7
+fish_color_normal normal
+fish_color_operator 68f2e0
+fish_color_option 0798ab
+fish_color_param 0798ab
+fish_color_quote d8e30e
+fish_color_redirection 0798ab --bold
+fish_color_search_match f3f79e --background=5a5a5a
+fish_color_selection e2d1e3 --bold --background=5a5a5a
+fish_color_status c70031
+fish_color_user 6ce05c
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description f3f79e d8e30e -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=0798ab
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

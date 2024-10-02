@@ -1,0 +1,66 @@
+# name: "Chalk"
+# preferred_background: 2b2d2e
+
+# color-palette {
+#  background: #2b2d2e;
+#  foreground: #d2d8d9;
+#  selection:  #e4e8ed;
+#  cursor:     #708284;
+#
+#   black:     #7d8b8f;
+#   red:       #b23a52;
+#   green:     #789b6a;
+#   yellow:    #b9ac4a;
+#   blue:      #2a7fac;
+#   magenta:   #bd4f5a;
+#   cyan:      #44a799;
+#   white:     #d2d8d9;
+#
+#   brblack:   #888888;
+#   brred:     #f24840;
+#   brgreen:   #80c470;
+#   bryellow:  #ffeb62;
+#   brblue:    #4196ff;
+#   brmagenta: #fc5275;
+#   brcyan:    #53cdbd;
+#   brwhite:   #d2d8d9;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2a7fac
+fish_color_comment b23a52
+fish_color_cwd 789b6a
+fish_color_cwd_root b23a52
+fish_color_end 789b6a
+fish_color_error f24840
+fish_color_escape 53cdbd
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote b9ac4a
+fish_color_keyword 2a7fac
+fish_color_match --background=4196ff
+fish_color_normal normal
+fish_color_operator 53cdbd
+fish_color_option 44a799
+fish_color_param 44a799
+fish_color_quote b9ac4a
+fish_color_redirection 44a799 --bold
+fish_color_search_match ffeb62 --background=888888
+fish_color_selection d2d8d9 --bold --background=888888
+fish_color_status b23a52
+fish_color_user 80c470
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ffeb62 b9ac4a -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress d2d8d9 --background=44a799
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

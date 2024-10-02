@@ -1,0 +1,66 @@
+# name: "Firefly Traditional"
+# preferred_background: 000000
+
+# color-palette {
+#  background: #000000;
+#  foreground: #f5f5f5;
+#  selection:  #cfeac6;
+#  cursor:     #00f900;
+#
+#   black:     #000000;
+#   red:       #c23720;
+#   green:     #33bc26;
+#   yellow:    #afad24;
+#   blue:      #5a63ff;
+#   magenta:   #d53ad2;
+#   cyan:      #33bbc7;
+#   white:     #cccccc;
+#
+#   brblack:   #828282;
+#   brred:     #ff3b1e;
+#   brgreen:   #2ee720;
+#   bryellow:  #ecec16;
+#   brblue:    #838dff;
+#   brmagenta: #ff5cfe;
+#   brcyan:    #29f0f0;
+#   brwhite:   #ebebeb;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 5a63ff
+fish_color_comment c23720
+fish_color_cwd 33bc26
+fish_color_cwd_root c23720
+fish_color_end 33bc26
+fish_color_error ff3b1e
+fish_color_escape 29f0f0
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote afad24
+fish_color_keyword 5a63ff
+fish_color_match --background=838dff
+fish_color_normal normal
+fish_color_operator 29f0f0
+fish_color_option 33bbc7
+fish_color_param 33bbc7
+fish_color_quote afad24
+fish_color_redirection 33bbc7 --bold
+fish_color_search_match ecec16 --background=828282
+fish_color_selection cccccc --bold --background=828282
+fish_color_status c23720
+fish_color_user 2ee720
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description ecec16 afad24 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ebebeb --background=33bbc7
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

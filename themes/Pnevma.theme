@@ -1,0 +1,66 @@
+# name: "Pnevma"
+# preferred_background: 1c1c1c
+
+# color-palette {
+#  background: #1c1c1c;
+#  foreground: #d0d0d0;
+#  selection:  #4d4d4d;
+#  cursor:     #e4c9af;
+#
+#   black:     #2f2e2d;
+#   red:       #a36666;
+#   green:     #90a57d;
+#   yellow:    #d7af87;
+#   blue:      #7fa5bd;
+#   magenta:   #c79ec4;
+#   cyan:      #8adbb4;
+#   white:     #d0d0d0;
+#
+#   brblack:   #4a4845;
+#   brred:     #d78787;
+#   brgreen:   #afbea2;
+#   bryellow:  #e4c9af;
+#   brblue:    #a1bdce;
+#   brmagenta: #d7beda;
+#   brcyan:    #b1e7dd;
+#   brwhite:   #efefef;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 7fa5bd
+fish_color_comment a36666
+fish_color_cwd 90a57d
+fish_color_cwd_root a36666
+fish_color_end 90a57d
+fish_color_error d78787
+fish_color_escape b1e7dd
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote d7af87
+fish_color_keyword 7fa5bd
+fish_color_match --background=a1bdce
+fish_color_normal normal
+fish_color_operator b1e7dd
+fish_color_option 8adbb4
+fish_color_param 8adbb4
+fish_color_quote d7af87
+fish_color_redirection 8adbb4 --bold
+fish_color_search_match e4c9af --background=4a4845
+fish_color_selection d0d0d0 --bold --background=4a4845
+fish_color_status a36666
+fish_color_user afbea2
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description e4c9af d7af87 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress efefef --background=8adbb4
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

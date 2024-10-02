@@ -1,0 +1,66 @@
+# name: "Smyck"
+# preferred_background: 1b1b1b
+
+# color-palette {
+#  background: #1b1b1b;
+#  foreground: #f7f7f7;
+#  selection:  #207483;
+#  cursor:     #bbbbbb;
+#
+#   black:     #000000;
+#   red:       #b84131;
+#   green:     #7da900;
+#   yellow:    #c4a500;
+#   blue:      #62a3c4;
+#   magenta:   #ba8acc;
+#   cyan:      #207383;
+#   white:     #a1a1a1;
+#
+#   brblack:   #7a7a7a;
+#   brred:     #d6837c;
+#   brgreen:   #c4f137;
+#   bryellow:  #fee14d;
+#   brblue:    #8dcff0;
+#   brmagenta: #f79aff;
+#   brcyan:    #6ad9cf;
+#   brwhite:   #f7f7f7;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 62a3c4
+fish_color_comment b84131
+fish_color_cwd 7da900
+fish_color_cwd_root b84131
+fish_color_end 7da900
+fish_color_error d6837c
+fish_color_escape 6ad9cf
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote c4a500
+fish_color_keyword 62a3c4
+fish_color_match --background=8dcff0
+fish_color_normal normal
+fish_color_operator 6ad9cf
+fish_color_option 207383
+fish_color_param 207383
+fish_color_quote c4a500
+fish_color_redirection 207383 --bold
+fish_color_search_match fee14d --background=7a7a7a
+fish_color_selection a1a1a1 --bold --background=7a7a7a
+fish_color_status b84131
+fish_color_user c4f137
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fee14d c4a500 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress f7f7f7 --background=207383
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

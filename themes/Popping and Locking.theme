@@ -1,0 +1,66 @@
+# name: "Popping and Locking"
+# preferred_background: 181921
+
+# color-palette {
+#  background: #181921;
+#  foreground: #ebdbb2;
+#  selection:  #ebdbb2;
+#  cursor:     #c7c7c7;
+#
+#   black:     #1d2021;
+#   red:       #cc241d;
+#   green:     #98971a;
+#   yellow:    #d79921;
+#   blue:      #458588;
+#   magenta:   #b16286;
+#   cyan:      #689d6a;
+#   white:     #a89984;
+#
+#   brblack:   #928374;
+#   brred:     #f42c3e;
+#   brgreen:   #b8bb26;
+#   bryellow:  #fabd2f;
+#   brblue:    #99c6ca;
+#   brmagenta: #d3869b;
+#   brcyan:    #7ec16e;
+#   brwhite:   #ebdbb2;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 458588
+fish_color_comment cc241d
+fish_color_cwd 98971a
+fish_color_cwd_root cc241d
+fish_color_end 98971a
+fish_color_error f42c3e
+fish_color_escape 7ec16e
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote d79921
+fish_color_keyword 458588
+fish_color_match --background=99c6ca
+fish_color_normal normal
+fish_color_operator 7ec16e
+fish_color_option 689d6a
+fish_color_param 689d6a
+fish_color_quote d79921
+fish_color_redirection 689d6a --bold
+fish_color_search_match fabd2f --background=928374
+fish_color_selection a89984 --bold --background=928374
+fish_color_status cc241d
+fish_color_user b8bb26
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fabd2f d79921 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ebdbb2 --background=689d6a
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

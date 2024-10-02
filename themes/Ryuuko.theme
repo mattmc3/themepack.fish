@@ -1,0 +1,66 @@
+# name: "Ryuuko"
+# preferred_background: 2c3941
+
+# color-palette {
+#  background: #2c3941;
+#  foreground: #ececec;
+#  selection:  #002831;
+#  cursor:     #ececec;
+#
+#   black:     #2c3941;
+#   red:       #865f5b;
+#   green:     #66907d;
+#   yellow:    #b1a990;
+#   blue:      #6a8e95;
+#   magenta:   #b18a73;
+#   cyan:      #88b2ac;
+#   white:     #ececec;
+#
+#   brblack:   #5d7079;
+#   brred:     #865f5b;
+#   brgreen:   #66907d;
+#   bryellow:  #b1a990;
+#   brblue:    #6a8e95;
+#   brmagenta: #b18a73;
+#   brcyan:    #88b2ac;
+#   brwhite:   #ececec;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 6a8e95
+fish_color_comment 865f5b
+fish_color_cwd 66907d
+fish_color_cwd_root 865f5b
+fish_color_end 66907d
+fish_color_error 865f5b
+fish_color_escape 88b2ac
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote b1a990
+fish_color_keyword 6a8e95
+fish_color_match --background=6a8e95
+fish_color_normal normal
+fish_color_operator 88b2ac
+fish_color_option 88b2ac
+fish_color_param 88b2ac
+fish_color_quote b1a990
+fish_color_redirection 88b2ac --bold
+fish_color_search_match b1a990 --background=5d7079
+fish_color_selection ececec --bold --background=5d7079
+fish_color_status 865f5b
+fish_color_user 66907d
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description b1a990 b1a990 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ececec --background=88b2ac
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

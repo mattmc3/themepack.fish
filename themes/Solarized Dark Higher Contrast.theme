@@ -1,0 +1,66 @@
+# name: "Solarized Dark Higher Contrast"
+# preferred_background: 001e27
+
+# color-palette {
+#  background: #001e27;
+#  foreground: #9cc2c3;
+#  selection:  #003748;
+#  cursor:     #f34b00;
+#
+#   black:     #002831;
+#   red:       #d11c24;
+#   green:     #6cbe6c;
+#   yellow:    #a57706;
+#   blue:      #2176c7;
+#   magenta:   #c61c6f;
+#   cyan:      #259286;
+#   white:     #eae3cb;
+#
+#   brblack:   #006488;
+#   brred:     #f5163b;
+#   brgreen:   #51ef84;
+#   bryellow:  #b27e28;
+#   brblue:    #178ec8;
+#   brmagenta: #e24d8e;
+#   brcyan:    #00b39e;
+#   brwhite:   #fcf4dc;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 2176c7
+fish_color_comment d11c24
+fish_color_cwd 6cbe6c
+fish_color_cwd_root d11c24
+fish_color_end 6cbe6c
+fish_color_error f5163b
+fish_color_escape 00b39e
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote a57706
+fish_color_keyword 2176c7
+fish_color_match --background=178ec8
+fish_color_normal normal
+fish_color_operator 00b39e
+fish_color_option 259286
+fish_color_param 259286
+fish_color_quote a57706
+fish_color_redirection 259286 --bold
+fish_color_search_match b27e28 --background=006488
+fish_color_selection eae3cb --bold --background=006488
+fish_color_status d11c24
+fish_color_user 51ef84
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description b27e28 a57706 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress fcf4dc --background=259286
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

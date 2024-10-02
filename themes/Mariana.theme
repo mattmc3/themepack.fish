@@ -1,0 +1,66 @@
+# name: "Mariana"
+# preferred_background: 343d46
+
+# color-palette {
+#  background: #343d46;
+#  foreground: #d8dee9;
+#  selection:  #4e5a65;
+#  cursor:     #fcbb6a;
+#
+#   black:     #000000;
+#   red:       #ec5f66;
+#   green:     #99c794;
+#   yellow:    #f9ae58;
+#   blue:      #6699cc;
+#   magenta:   #c695c6;
+#   cyan:      #5fb4b4;
+#   white:     #f7f7f7;
+#
+#   brblack:   #333333;
+#   brred:     #f97b58;
+#   brgreen:   #acd1a8;
+#   bryellow:  #fac761;
+#   brblue:    #85add6;
+#   brmagenta: #d8b6d8;
+#   brcyan:    #82c4c4;
+#   brwhite:   #ffffff;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 6699cc
+fish_color_comment ec5f66
+fish_color_cwd 99c794
+fish_color_cwd_root ec5f66
+fish_color_end 99c794
+fish_color_error f97b58
+fish_color_escape 82c4c4
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote f9ae58
+fish_color_keyword 6699cc
+fish_color_match --background=85add6
+fish_color_normal normal
+fish_color_operator 82c4c4
+fish_color_option 5fb4b4
+fish_color_param 5fb4b4
+fish_color_quote f9ae58
+fish_color_redirection 5fb4b4 --bold
+fish_color_search_match fac761 --background=333333
+fish_color_selection f7f7f7 --bold --background=333333
+fish_color_status ec5f66
+fish_color_user acd1a8
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description fac761 f9ae58 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ffffff --background=5fb4b4
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix

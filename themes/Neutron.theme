@@ -1,0 +1,66 @@
+# name: "Neutron"
+# preferred_background: 1c1e22
+
+# color-palette {
+#  background: #1c1e22;
+#  foreground: #e6e8ef;
+#  selection:  #2f363e;
+#  cursor:     #f6f7ec;
+#
+#   black:     #23252b;
+#   red:       #b54036;
+#   green:     #5ab977;
+#   yellow:    #deb566;
+#   blue:      #6a7c93;
+#   magenta:   #a4799d;
+#   cyan:      #3f94a8;
+#   white:     #e6e8ef;
+#
+#   brblack:   #23252b;
+#   brred:     #b54036;
+#   brgreen:   #5ab977;
+#   bryellow:  #deb566;
+#   brblue:    #6a7c93;
+#   brmagenta: #a4799d;
+#   brcyan:    #3f94a8;
+#   brwhite:   #ebedf2;
+# }
+
+fish_color_autosuggestion 555
+fish_color_cancel -r
+fish_color_command 6a7c93
+fish_color_comment b54036
+fish_color_cwd 5ab977
+fish_color_cwd_root b54036
+fish_color_end 5ab977
+fish_color_error b54036
+fish_color_escape 3f94a8
+fish_color_history_current --bold
+fish_color_host normal
+fish_color_host_remote deb566
+fish_color_keyword 6a7c93
+fish_color_match --background=6a7c93
+fish_color_normal normal
+fish_color_operator 3f94a8
+fish_color_option 3f94a8
+fish_color_param 3f94a8
+fish_color_quote deb566
+fish_color_redirection 3f94a8 --bold
+fish_color_search_match deb566 --background=23252b
+fish_color_selection e6e8ef --bold --background=23252b
+fish_color_status b54036
+fish_color_user 5ab977
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description deb566 deb566 -i
+fish_pager_color_prefix normal --bold --underline
+fish_pager_color_progress ebedf2 --background=3f94a8
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background -r
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix
